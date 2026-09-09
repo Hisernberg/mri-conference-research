@@ -156,6 +156,6 @@ An audited repeated-seed evaluation did not support the implemented quality-cond
 
 ## Reproducibility and author declarations
 
-The private GitHub repository contains the two research notebooks, the supporting visualization notebook, executed figure outputs, plotted-data CSVs, result tables and exact Kaggle version/source records. Full data and checkpoints remain accessible through their documented Kaggle sources. The original v1.0.0 experiment release is preserved, and the writing package is a subsequent version. Figure 19 and its source montage retain [the required attribution](../results/conference_figures/ATTRIBUTION.md).
+The public GitHub repository contains the two research notebooks, the supporting visualization notebook, executed figure outputs, plotted-data CSVs, result tables and exact Kaggle version/source records. Full data and checkpoints remain accessible through their documented Kaggle sources. The original v1.0.0 experiment release is preserved, and the writing package is a subsequent version. Figure 19 and its source montage retain [the required attribution](../results/conference_figures/ATTRIBUTION.md).
 
 Authors must supply their identities, affiliations, contributions, funding/conflicts, source-code licensing decision and institutional determination for secondary-data use. No ethics approval, consent status, exemption or submission acceptance is inferred from the supplied notebooks. The [writing guide](WRITING_GUIDE.md) lists the remaining author decisions. These are draft declarations, not completed submission statements.

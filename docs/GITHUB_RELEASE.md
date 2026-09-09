@@ -1,6 +1,6 @@
 # GitHub release guide
 
-Project repository: [Hisernberg/mri-conference-research](https://github.com/Hisernberg/mri-conference-research), with private visibility. The [v1.2.0 architecture and research release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.2.0) adds explicit novelty/contribution positioning, research questions, complete README ablation/evaluation tables, original architecture plates and a methods guide. The manuscript incorporates the same architecture and component findings. The [v1.1.0 writing release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.1.0), with its 20 verified Kaggle visualizations and executed gallery, and the original [v1.0.0 experiment release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.0.0) are preserved. Each release identifies its tagged source and downloadable asset checksums. Repository access requires the owner's GitHub account or an explicit collaborator invitation.
+Project repository: [Hisernberg/mri-conference-research](https://github.com/Hisernberg/mri-conference-research), with public visibility. The [v1.2.0 architecture and research release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.2.0) adds explicit novelty/contribution positioning, research questions, complete README ablation/evaluation tables, original architecture plates and a methods guide. The manuscript incorporates the same architecture and component findings. The [v1.1.0 writing release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.1.0), with its 20 verified Kaggle visualizations and executed gallery, and the original [v1.0.0 experiment release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.0.0) are preserved. Each release identifies its tagged source and downloadable asset checksums. Public source and release downloads do not require collaborator access; pushing changes requires an authorized GitHub account.
 
 Start with the root README, [notebook index](../notebooks/README.md), [Kaggle run index](../kaggle/README.md) and [results index](../results/README.md). Kaggle runs remain private under `dasshovon`; their access is separate from GitHub repository access. The publication preserves the reported experiments and frozen source snapshots.
 
@@ -39,11 +39,10 @@ The dataset documentation records current metadata licenses. Source-code authors
 
 ## Clone and reproduce the release
 
-With Git and the GitHub CLI installed, authenticate using your own account and clone the private repository:
+Clone the public repository with Git:
 
 ```bash
-gh auth login
-gh repo clone Hisernberg/mri-conference-research
+git clone https://github.com/Hisernberg/mri-conference-research.git
 cd mri-conference-research
 git checkout v1.2.0
 ```
@@ -69,7 +68,7 @@ Authenticate Kaggle with an environment variable or external token file. Never p
 
 ## Prepare later updates
 
-Preserve the released tag and its exact experiment snapshots. Prepare later changes on a branch, inspect the staged contents and push that branch to the same private repository. Publishing a later result requires its own completed evidence and updated release notes.
+Preserve the released tag and its exact experiment snapshots. Prepare later changes on a branch, inspect the staged contents and push that branch to the same GitHub repository. Publishing a later result requires its own completed evidence and updated release notes.
 
 ```bash
 git switch main
@@ -102,3 +101,5 @@ Add author names, affiliations, contact information, chosen code license and pap
 The 20-figure outputs were downloaded from completed Kaggle notebook version 1 and independently checked. The executed gallery preserves every image output; it is retained under `results/conference_figures/`. Individual charts, plotted data, the atlas and caption catalog are indexed by the root README. The eight table sets are generated from frozen evidence with source/output hashes. The manuscript remains a venue-neutral draft requiring real author and institutional declarations.
 
 The experiment completion record and original publication receipt describe their dated snapshots. The new visualization verification and Git history identify the subsequent writing extension. Documentation may evolve without rewriting the frozen scientific source, metrics, protocols or v1.0.0 tag.
+
+GitHub reported public visibility during the v1.2.0 publication check. This update preserves that current setting; it does not change repository visibility. Earlier private-visibility receipts describe the setting when those records were created. Kaggle run and dataset access remains separate and private.

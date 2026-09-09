@@ -1,5 +1,11 @@
 {
-  "recorded_utc": "2026-09-09T14:55:06.137004+00:00",
+  "repository_access": {
+    "repository": "https://github.com/Hisernberg/mri-conference-research",
+    "observed_visibility": "public",
+    "visibility_changed_by_this_update": false,
+    "kaggle_access": "private; separate credentials/permissions"
+  },
+  "recorded_utc": "2026-09-09T15:00:52.829226+00:00",
   "stage": "Prepared and locally verified before publication; the GitHub tag and release checksums identify the published version.",
   "intended_release": "v1.2.0",
   "base_commit": "977e11df62504df83493cdfac66a8fedc9268378",
@@ -244,15 +250,15 @@
         "artifacts": [
           {
             "path": "docs/MANUSCRIPT_DRAFT.md",
-            "sha256": "402a56c86d8e8fc52283476198bbe1991c03cb8bdee698ac1fb0602aca871a29"
+            "sha256": "df364596cb3b04ff54bb0b8ec934c313a2f0dc4563abec907c50b9a4f4128e8e"
           },
           {
             "path": "docs/docx/MANUSCRIPT_DRAFT.docx",
-            "sha256": "511712558b726763d62c5e0aae416036882e85e43f78b7945867f55b29f9cebe"
+            "sha256": "2d47d533af94fc1a30ad9a2154eeda7c2dbf4489706dc7ccd87c56b18e539e22"
           },
           {
             "path": "docs/pdf/MANUSCRIPT_DRAFT.pdf",
-            "sha256": "88c609c05856fc195d3419b28dbd6a93c55d81bd9df0d271a872752475a02fe8"
+            "sha256": "63f5cdfef2ca300be1a49a1cfbd4568a334ef8c433923919923b35e44fdbe501"
           }
         ]
       },
@@ -282,15 +288,15 @@
         "artifacts": [
           {
             "path": "docs/GITHUB_RELEASE.md",
-            "sha256": "2ecb986dd3e0d3c90aa56e8faaab42abe28a0e7d24419efad68f9751c1ae7691"
+            "sha256": "7e1e9bdf2a88032c145346b91258eb6196542a1604ae4e9847e4f9e8c9fcca11"
           },
           {
             "path": "docs/docx/GITHUB_RELEASE.docx",
-            "sha256": "6b6c0643476609f95e003dad9ec308e58be6c1f29c44f1e55291c4203787ebe4"
+            "sha256": "36252b694dba5eae017223813a2c5d27cdc2fef4ce83c3b80726d59311e1cc70"
           },
           {
             "path": "docs/pdf/GITHUB_RELEASE.pdf",
-            "sha256": "0067257d0ad6d34199da68174fca928045309cf6a5accf25ec318eab52083e02"
+            "sha256": "e3897552038b6aebd94a4d8212c6546c8b6e462ec6b07c7eae3270d5e18e1e34"
           }
         ]
       }
