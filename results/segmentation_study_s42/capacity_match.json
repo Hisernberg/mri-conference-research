@@ -1,0 +1,14 @@
+{
+  "channel_multiple": 8,
+  "parameters": 1227977,
+  "ratio": 1.0053313029845308,
+  "reference_parameters": 1221465,
+  "tolerance": 0.02,
+  "widths": [
+    24,
+    48,
+    96,
+    168
+  ],
+  "within_tolerance": true
+}

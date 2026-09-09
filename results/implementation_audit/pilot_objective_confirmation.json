@@ -1,0 +1,24 @@
+{
+  "history_sha256": "d2e715f60bae69a6a20d28316d44675a66912e3bc5ea937722d31846fe7c3ca3",
+  "not_a_new_training_experiment": true,
+  "observations": [
+    {
+      "epochs_with_deep_supervision_term": 0,
+      "mean_deep_supervision_term": null,
+      "recorded_epochs": 8,
+      "variant": "hemis"
+    },
+    {
+      "epochs_with_deep_supervision_term": 8,
+      "mean_deep_supervision_term": 0.46712541030719873,
+      "recorded_epochs": 8,
+      "variant": "no_quality"
+    },
+    {
+      "epochs_with_deep_supervision_term": 8,
+      "mean_deep_supervision_term": 0.4604971749708056,
+      "recorded_epochs": 8,
+      "variant": "qmmf"
+    }
+  ]
+}

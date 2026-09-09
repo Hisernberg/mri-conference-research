@@ -1,0 +1,68 @@
+{
+  "all_planned_completed": true,
+  "bootstrap_draws": 10000,
+  "bootstrap_unit": "image group with all fixed seeds retained",
+  "checks": [
+    "frozen cohort and representatives",
+    "all parent fits completed",
+    "training-only normalization",
+    "checkpoint/config identity",
+    "case/regional/group Dice",
+    "15 subsets",
+    "repeated full inference",
+    "Shapley efficiency",
+    "paired group and seed alignment",
+    "prespecified qualitative panels and Dice captions"
+  ],
+  "completed_checkpoint_evaluations": 12,
+  "full_cases": 66,
+  "full_groups": 51,
+  "interpretation": "internal reserved image groups; recorded historical validation overlap; restricted eligibility; unverified patient identity",
+  "locked_test_opened": true,
+  "main_source_sha256": "037bc0a99fab8f294bc710274b67b96b190ef4c4dbab6303fa64238040ec4d0a",
+  "models": [
+    "qmmf",
+    "hemis",
+    "no_quality",
+    "unet25d"
+  ],
+  "multiplicity": "Bonferroni intervals for three QMMF-control comparisons per endpoint",
+  "qualitative": {
+    "cases": [
+      "BRATS_143",
+      "BRATS_119",
+      "BRATS_023"
+    ],
+    "checks": [
+      "frozen case/seed rule",
+      "checkpoint identity",
+      "reference-area slice rule",
+      "common input/reference",
+      "whole-volume Dice captions",
+      "PNG geometry and checksums",
+      "rendered region areas"
+    ],
+    "groups": 3,
+    "interpretation": "Three prespecified examples; whole-cohort quantitative results determine population conclusions.",
+    "models": [
+      "qmmf",
+      "hemis",
+      "no_quality",
+      "unet25d"
+    ],
+    "prediction_panels": 12,
+    "qualitative_protocol_sha256": "b145f47c7cffa19e77e54fb2545449e4d19fe2a6e172af566826d38bee72d7b5",
+    "seed": 42,
+    "synthetic_fixture": false,
+    "verified": true
+  },
+  "robustness_groups": 51,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "split_hash": "b92f9c7c0fb4c116",
+  "subsets_per_group": 15,
+  "training_performed": false
+}

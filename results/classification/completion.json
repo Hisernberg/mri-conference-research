@@ -1,0 +1,6 @@
+{
+  "completed": true,
+  "expected_runs": 105,
+  "runs": 105,
+  "scope": "repeated-seed image benchmark; conference/clinical validation not established"
+}

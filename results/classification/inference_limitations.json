@@ -1,0 +1,5 @@
+{
+  "bootstrap": "paired similarity groups; seeds averaged within each draw",
+  "limitation": "unknown patients and dependent cross-validation fits; intervals are descriptive, not clinical or confirmatory significance",
+  "scope": "image-level exploratory benchmark"
+}

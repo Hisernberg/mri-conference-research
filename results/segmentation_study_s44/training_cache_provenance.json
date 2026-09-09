@@ -1,0 +1,14 @@
+{
+  "case_inventory_sha256": "4ad32c8069ddb4d30ed71fc4c6925dc8f66659a91654d052a5702394d85c5921",
+  "completed": true,
+  "manifest_hash": "2553ba21125ecb05",
+  "n_cases": 484,
+  "purpose": "lossless selective decompression; no training, tuning or model evaluation",
+  "slab_bytes": 3948265469,
+  "slab_depth": 8,
+  "source_bytes": 4094151697,
+  "source_cache_version": 2,
+  "training_slab_format_version": 1,
+  "voxel_equality_verified_for_all_cases": true,
+  "wall_seconds": 536.45208761
+}

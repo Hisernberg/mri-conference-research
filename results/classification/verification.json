@@ -1,0 +1,30 @@
+{
+  "completed_runs": 105,
+  "oof_rows": 4788,
+  "models": 7,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": 5,
+  "similarity_groups": 209,
+  "sum_training_seconds": 405.30347986199973,
+  "median_epochs": 35.0,
+  "median_selected_epoch": 23.0,
+  "runtime_seconds_by_model": {
+    "full": 73.17833261900012,
+    "narrow_resnet_gn": 41.09351494399999,
+    "no_attention": 56.5337981520002,
+    "no_attention_no_multiscale": 54.73771990399996,
+    "no_augmentation": 58.482224839999844,
+    "no_multiscale": 74.33232187499965,
+    "plain_cnn": 46.94556752799997
+  },
+  "metric_recomputation": "passed",
+  "oof_fold_alignment": "passed",
+  "no_duplicate_oof_keys": true,
+  "kaggle_ref": "dasshovon/mri-classification-ablation-v2",
+  "kaggle_version": 2,
+  "unique_images": 228
+}

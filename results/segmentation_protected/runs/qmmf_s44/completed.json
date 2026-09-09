@@ -1,0 +1,20 @@
+{
+  "attempt_wall_seconds": 2253.4940876400005,
+  "checkpoint_sha256": "67313122c0cafff7a657bcc96bf08e28be272b25a7878450d858cf3b0493b4e5",
+  "completed": true,
+  "full_cases": 66,
+  "full_group_macro_dice": 0.7738618919487797,
+  "full_groups": 51,
+  "locked_test_opened": true,
+  "mean_subset_macro_dice": 0.6390566277568767,
+  "name": "qmmf",
+  "parent_config_hash": "f2728147d4ddf8a5",
+  "peak_gpu_gb": 0.5974617004394531,
+  "qualitative_cases": 0,
+  "qualitative_wall_seconds": 0.00018624699987412896,
+  "robustness_groups": 51,
+  "scope": "protected_image_groups",
+  "seed": 44,
+  "subsets_per_group": 15,
+  "worst_subset_macro_dice": 0.37908282073174954
+}

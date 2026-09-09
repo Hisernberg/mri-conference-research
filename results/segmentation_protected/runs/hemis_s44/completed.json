@@ -1,0 +1,20 @@
+{
+  "attempt_wall_seconds": 1803.4619982469994,
+  "checkpoint_sha256": "c789703f108cd79c16d7416a4186f610090aa51ec7f0533ee9459b0adf4ac88f",
+  "completed": true,
+  "full_cases": 66,
+  "full_group_macro_dice": 0.6842272041942752,
+  "full_groups": 51,
+  "locked_test_opened": true,
+  "mean_subset_macro_dice": 0.5458537092412447,
+  "name": "hemis",
+  "parent_config_hash": "3c2a7f0654e96984",
+  "peak_gpu_gb": 0.43553590774536133,
+  "qualitative_cases": 0,
+  "qualitative_wall_seconds": 0.00021110200032126158,
+  "robustness_groups": 51,
+  "scope": "protected_image_groups",
+  "seed": 44,
+  "subsets_per_group": 15,
+  "worst_subset_macro_dice": 0.26593296527435856
+}

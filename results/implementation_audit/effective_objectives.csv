@@ -1,0 +1,10 @@
+variant,model,ablation,parameters,configured_deep_supervision_flag,effective_training_auxiliary_heads,auxiliary_head_shapes_on_synthetic_input,effective_deep_supervision_weights,consistency_coefficient,interpretation
+qmmf,qmmf_net,A0,1221465,True,2,"[[2, 3, 16, 16], [2, 3, 32, 32]]","[0.5, 0.25]",0.2,reference model
+hemis,hemis25d,A0,881395,True,0,[],[],0.2,cross-family system comparator
+unet25d,unet25d,A0,884299,True,0,[],[],0.2,cross-family system comparator
+no_quality,qmmf_net,A5,1220569,True,2,"[[2, 3, 16, 16], [2, 3, 32, 32]]","[0.5, 0.25]",0.2,same-family component control
+no_variance,qmmf_net,A6,1183769,True,2,"[[2, 3, 16, 16], [2, 3, 32, 32]]","[0.5, 0.25]",0.2,same-family component control
+no_max,qmmf_net,A7,1183769,True,2,"[[2, 3, 16, 16], [2, 3, 32, 32]]","[0.5, 0.25]",0.2,same-family component control
+no_consistency,qmmf_net,A10,1221465,True,2,"[[2, 3, 16, 16], [2, 3, 32, 32]]","[0.5, 0.25]",0.0,same-family component control
+shuffled_quality,qmmf_net,A17,1221465,True,2,"[[2, 3, 16, 16], [2, 3, 32, 32]]","[0.5, 0.25]",0.2,same-family component control
+matched_moment_fusion,qmmf_net,A16,1227977,True,2,"[[2, 3, 16, 16], [2, 3, 32, 32]]","[0.5, 0.25]",0.2,same-family component control

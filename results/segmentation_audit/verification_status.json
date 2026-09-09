@@ -1,0 +1,22 @@
+{
+  "structural_audit": "passed",
+  "independence_audit": "failed: case-ID split crosses confirmed intensity-rescaled image copies",
+  "n_cases": 484,
+  "n_identical_annotation_pairs": 6,
+  "n_identical_annotation_pairs_crossing_fold0_roles": 5,
+  "n_coarse_similarity_candidates": 610,
+  "n_zero_distance_candidates": 395,
+  "initial_split_hash": "a392d0e39514f976",
+  "new_split_status": "frozen; complete group isolation and pilot-exposure exclusion checks passed",
+  "pilot_status": "CANCEL_ACKNOWLEDGED",
+  "pilot_session_id": 348299981,
+  "completed_segmentation_model_fits": 0,
+  "held_out_segmentation_results_observed": false,
+  "new_split_hash": "b92f9c7c0fb4c116",
+  "n_conservative_image_groups": 262,
+  "protected_test_groups": 51,
+  "protected_test_cases": 66,
+  "latest_pilot_kernel_version": 2,
+  "latest_pilot_status": "RUNNING",
+  "latest_pilot_source_sha256": "23d48096fc8ea9e3ecc0546e979509accf2ca4f60d0eafdb25c3324ae7a017e8"
+}

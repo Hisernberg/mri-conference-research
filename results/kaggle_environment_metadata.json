@@ -1,0 +1,59 @@
+{
+  "note": "Docker references and server last_run_time values are preserved exactly as returned. The last_run_time dates differ from the local orchestration clock; they are not used for experiment durations or event ordering. Use runtime ledgers and monotonic timings.",
+  "kernels": [
+    {
+      "kernel": "mri-classification-ablation-v2",
+      "version": 2,
+      "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+      "machine_shape": "NvidiaTeslaT4",
+      "enable_gpu": true,
+      "is_private": true,
+      "last_run_time": "2026-09-05T18:11:32.777000"
+    },
+    {
+      "kernel": "mri-segmentation-preparation-v2",
+      "version": 1,
+      "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+      "machine_shape": "None",
+      "enable_gpu": false,
+      "is_private": true,
+      "last_run_time": "2026-09-05T18:11:33.435000"
+    },
+    {
+      "kernel": "mri-segmentation-similarity-audit",
+      "version": 2,
+      "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+      "machine_shape": "None",
+      "enable_gpu": false,
+      "is_private": true,
+      "last_run_time": "2026-09-05T18:11:34.282000"
+    },
+    {
+      "kernel": "mri-segmentation-training-cache",
+      "version": 1,
+      "docker_image": "gcr.io/kaggle-images/python@sha256:dafd4ce5668bbf1ad422e4c109e0f18c9623c3a7c7f48b0235f13142755c40b9",
+      "machine_shape": "None",
+      "enable_gpu": false,
+      "is_private": true,
+      "last_run_time": "2026-09-05T18:11:35.302000"
+    },
+    {
+      "kernel": "mri-segmentation-qmmf-v2",
+      "version": 2,
+      "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+      "machine_shape": "NvidiaTeslaT4",
+      "enable_gpu": true,
+      "is_private": true,
+      "last_run_time": "2026-09-05T18:11:36.019000"
+    },
+    {
+      "kernel": "mri-segmentation-io-benchmark",
+      "version": 1,
+      "docker_image": "gcr.io/kaggle-private-byod/python@sha256:37c64f7dd9c54116ecd1bcc88817c5469b88387388fade02bfa8bf3fc647d461",
+      "machine_shape": "NvidiaTeslaT4",
+      "enable_gpu": true,
+      "is_private": true,
+      "last_run_time": "2026-09-05T18:11:36.777000"
+    }
+  ]
+}

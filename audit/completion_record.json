@@ -1,0 +1,160 @@
+{
+  "recorded_utc": "2026-09-09T11:26:18.726626+00:00",
+  "all_planned_experiments_and_analyses_complete": true,
+  "classification_fits": 105,
+  "corrected_segmentation_pilot_fits": 3,
+  "main_segmentation_fits": 27,
+  "main_development_folds": [
+    0
+  ],
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "reserved_checkpoint_evaluations": 12,
+  "reserved_full_cases": 66,
+  "reserved_groups": 51,
+  "modality_subsets": 15,
+  "real_qualitative_prediction_panels": 12,
+  "historical_sensitivity_groups": 15,
+  "historical_sensitivity_full_cases": 18,
+  "synthetic_test_suite": {
+    "passed": 186,
+    "wall_seconds": 7.06,
+    "note": "Code correctness tests; no synthetic results used as MRI outcomes."
+  },
+  "verification_receipts": {
+    "classification": {
+      "path": "results/classification/verification.json",
+      "sha256": "d1c7ef9bfd1214f82cbe695511c4b9f6d30462a4fe8c26d5d19b4037e8e8a419"
+    },
+    "corrected_pilot": {
+      "path": "results/segmentation_grouped_pilot/verification.json",
+      "sha256": "cb0bc5fdb88a5973937ba8d07ae5ae553adc6fb4a77357b5b30e4283b432224a"
+    },
+    "main": {
+      "path": "results/segmentation_main/combination_verification.json",
+      "sha256": "5c8cfc115a56c2fb7583c2687a7ac44b8063f9712e1e0c08382b0815704c9023"
+    },
+    "reserved": {
+      "path": "results/segmentation_protected/verification.json",
+      "sha256": "5055ade1cacb1994c725698240264918c8bbf86255a24ece720a89497c68425b"
+    },
+    "sensitivity": {
+      "path": "results/segmentation_historical_sensitivity/verification.json",
+      "sha256": "54aef2025cfbec94b4a56e386b5807e91f7dd68c63ae29a0f31c46ad540357e2"
+    },
+    "descriptive_reporting": {
+      "path": "results/segmentation_protected/reporting/verification.json",
+      "sha256": "95edfb40fa711af83d49cf1f640afc7635261d65d1863e6f4718b1e6a83a66e3"
+    }
+  },
+  "source_snapshots": {
+    "audit/source_snapshots/segmentation_study_s42_v1.json": "318d4a6eb6b9d488e21a1850d780ec65d6ce2104495abd4ff976ab74a6614888",
+    "audit/source_snapshots/segmentation_study_s43_v1.json": "3ef3e84d4b76443c5fec9897bf380abeaa91bdc082d6dcee73cd2eac5c450cc4",
+    "audit/source_snapshots/segmentation_study_s44_v1.json": "182c7d594965522a3d4cbaf4eb3d376c5134c0843a290e6b56689740e1babf8a",
+    "audit/source_snapshots/protected_evaluation_v1.json": "e1858d447f4ff3b359deb42a7f8a6a921d278a273b7cde4453fa2e5bc8eb6f59"
+  },
+  "frozen_protocol_hashes": {
+    "audit/historical_exposure_sensitivity_protocol.json": "d9de307c680fe7a50183cf3f6ab0752b465b9753be2f33222e2a9d17e355aaf1",
+    "audit/qualitative_protocol.json": "b145f47c7cffa19e77e54fb2545449e4d19fe2a6e172af566826d38bee72d7b5",
+    "segmentation/configs/grouped_v2/locked_evaluation_protocol.json": "f249258c606e9e456010c0a6b70d7ce8d6a09d0c43a9392013ab472200b52a2b"
+  },
+  "documents_and_figures": {
+    "README.md": "c8f13cc22b8c8361034621b001fac930371210ccc7a5a72e92ec13711ebd5aa0",
+    "EXPERIMENT_PLAN.md": "5780de0ae74c0f94583ed036c85263e1769b433122a350aa76279b1359e78f7d",
+    "docs/DATASETS.md": "caebec017dd3205d442e1191bc9729b98a8b7e5b3f04a26dd51d3ec29ba76286",
+    "docs/GITHUB_RELEASE.md": "34d574936fba636de90a1eb17a2b512336582f10c7e92489b54b583528133aec",
+    "docs/NOTEBOOKS.md": "8469b917dbec57413f2abd6ebf9ab4a30bf8645042c01e4aabb894999f14aae1",
+    "docs/NOTEBOOK_AUDIT.md": "6eb02765fc7f79ee06d0aa7eb9713f0c291352b9a33ea70684f563eafb8d207d",
+    "docs/RELATED_WORK.md": "ebaad4752c67620dbbc7d678c069350908071126d73cccaa6e519f83d406afb3",
+    "docs/RESULTS.md": "985d8a9d5675ba6af4fbb4bb41e8b3ea1c5fc74ba9064223433a574ac395d943",
+    "docs/pdf/DATASETS.pdf": "2572d4a17e2bd0730a6ed4d414de44e89e46a1bfd95ffe4f3d0ba23c35bff24d",
+    "docs/pdf/EXPERIMENT_PLAN.pdf": "d4bd8e78401f026d906e7ec4e457d9cc3d9f3a1daf7abb42826beac7082ba455",
+    "docs/pdf/GITHUB_RELEASE.pdf": "7c06f268ad61418ef6eedf7698ea91bae0970127138ac89d470be6b150889887",
+    "docs/pdf/NOTEBOOKS.pdf": "258d571d81607916585737e17d9bd10f29fb7229bbc54177740b62b0d51142ab",
+    "docs/pdf/NOTEBOOK_AUDIT.pdf": "44f09fe9817cf40b122150eb4b0260136d2bb2677cb8d50f4ff6da3a28620ae7",
+    "docs/pdf/RELATED_WORK.pdf": "08c40cdcb60b6ddd032fcb85e9f80734d2a2f4a607e33e3c401040c347c926d8",
+    "docs/pdf/RESULTS.pdf": "05721171e30940b743158203936f8470d9f52b307cd7000c7622e9bcb88be068",
+    "results/segmentation_protected/qualitative/prespecified_examples.png": "7bf80735640a714fc9ad4b84453f5dc5fc25211e435d9b1aeaf293f23e79f314",
+    "results/segmentation_protected/qualitative/prespecified_examples.pdf": "d4a3444cf4a1842036438844773a7d2673f9a49f04ca6c562b53fd3e59f1d151",
+    "results/segmentation_historical_sensitivity/historical_cohort_sensitivity.png": "18a513f76ffe1600e74259b5cac8470ec77e2c80b36a0bca6c9a6ff603347cd4"
+  },
+  "pdf_checks": {
+    "EXPERIMENT_PLAN.md": {
+      "pages": 7,
+      "tables": 1,
+      "numeric_table_values": 0,
+      "relative_links_verified": 1,
+      "headers_footers": true
+    },
+    "DATASETS.md": {
+      "pages": 4,
+      "tables": 3,
+      "numeric_table_values": 1,
+      "relative_links_verified": 0,
+      "headers_footers": true
+    },
+    "GITHUB_RELEASE.md": {
+      "pages": 3,
+      "tables": 1,
+      "numeric_table_values": 0,
+      "relative_links_verified": 0,
+      "headers_footers": true
+    },
+    "NOTEBOOKS.md": {
+      "pages": 5,
+      "tables": 1,
+      "numeric_table_values": 0,
+      "relative_links_verified": 0,
+      "headers_footers": true
+    },
+    "NOTEBOOK_AUDIT.md": {
+      "pages": 4,
+      "tables": 4,
+      "numeric_table_values": 29,
+      "relative_links_verified": 0,
+      "headers_footers": true
+    },
+    "RELATED_WORK.md": {
+      "pages": 2,
+      "tables": 1,
+      "numeric_table_values": 1,
+      "relative_links_verified": 0,
+      "headers_footers": true
+    },
+    "RESULTS.md": {
+      "pages": 15,
+      "tables": 20,
+      "numeric_table_values": 499,
+      "relative_links_verified": 1,
+      "headers_footers": true
+    }
+  },
+  "analysis_source_hashes": {
+    "scripts/analyze_locked_segmentation.py": "7cd3a60e59f316ab7a016772a105df3919fb44d8a3cc45cd208d571e230462f0",
+    "scripts/analyze_historical_sensitivity.py": "f9fef6a57ea2cb4f47905d038a82760dcafe1b5e02e0b790b943d18818d0b449",
+    "scripts/report_reserved_results.py": "42b50d5df7d1a215008ec1848150fe4def559ced8a4747aab8d50701332fc536",
+    "scripts/analyze_qualitative.py": "282c916733fb523e333369ccaa6e0d3f4478751cbac64e2916303e5196dea087",
+    "scripts/render_documents.py": "4d0a6aadbf6b2116026bcb6071c51f55ab9fa84d237117454ef9cfdeff27358b"
+  },
+  "original_inputs_unchanged_at_final_check": true,
+  "original_hash_record_timing": "See audit/original_hashes.json; raw whole-file hashes were first recorded retrospectively, with initial extracted snapshots checked.",
+  "findings": "Reserved adjusted paired comparisons favor no quality on all three endpoints. The 15-group historical sensitivity leaves full and mean-subset differences uncertain and favors no quality on worst-subset Dice.",
+  "limitations": [
+    "Historical validation overlap in seven reserved groups",
+    "Unverified patient identities and conservative image grouping",
+    "Restricted reserved-cohort eligibility",
+    "Three main seeds on one development fold",
+    "Complete-volume preprocessing before missing-channel masking",
+    "ET-empty false positives for all reserved models and seeds",
+    "Cross-family auxiliary-objective differences",
+    "No external-cohort or unreproduced modern-method superiority claim"
+  ],
+  "github_publication_performed": false,
+  "github_status": "Authorized private publication; prepared for initial push.",
+  "documentation_finalized_utc": "2026-09-09T13:03:27.964913+00:00",
+  "github_publication_requested": true,
+  "github_repository": "https://github.com/Hisernberg/mri-conference-research"
+}

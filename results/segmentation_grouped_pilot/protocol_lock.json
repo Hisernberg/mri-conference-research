@@ -1,0 +1,394 @@
+{
+  "budget_seconds": 6000,
+  "claim_status": "single-fold single-seed development evidence; not a completed conference study",
+  "configs": {
+    "hemis": {
+      "ablation": "A0",
+      "data": {
+        "aug_elastic": false,
+        "aug_flip_lr": true,
+        "aug_intensity": true,
+        "aug_rotation_deg": 10.0,
+        "aug_scale": 0.1,
+        "clip_sigma": 5.0,
+        "context_slices": 5,
+        "crop_size": [
+          192,
+          192
+        ],
+        "label_fraction": 1.0,
+        "manifest_hash": "2553ba21125ecb05",
+        "modalities": [
+          "t1",
+          "t1ce",
+          "t2",
+          "flair"
+        ],
+        "normalization": "robust_zscore_nonzero_brain",
+        "outputs": [
+          "wt",
+          "tc",
+          "et"
+        ],
+        "p_boundary_window": 0.25,
+        "p_random_window": 0.25,
+        "p_tumor_window": 0.5,
+        "root": "/kaggle/input/notebooks/dasshovon/mri-segmentation-preparation-v2/prepared",
+        "split_hash": "b92f9c7c0fb4c116"
+      },
+      "evaluation": {
+        "alpha": 0.05,
+        "bootstrap_replicates": 10000,
+        "calibration_bins": 20,
+        "empty_reference_rule": "exclude_from_dice_report_separately",
+        "mc_seeds": [
+          42,
+          43,
+          44
+        ],
+        "non_inferiority_margin_pp": 1.5,
+        "nsd_tolerance_mm": 1.0,
+        "selective_coverages": [
+          1.0,
+          0.9,
+          0.8
+        ]
+      },
+      "fold": 0,
+      "label_fraction": 1.0,
+      "loss": {
+        "bce": 0.4,
+        "boundary": 0.1,
+        "calibration": 0.0,
+        "consistency": 0.2,
+        "consistency_conf_threshold": 0.9,
+        "consistency_warmup_frac": 0.15,
+        "deep_supervision_weights": [
+          0.5,
+          0.25
+        ],
+        "dice": 0.6,
+        "nested": 0.05,
+        "seg": 1.0
+      },
+      "model": "hemis25d",
+      "net": {
+        "context_block": "factorized_large_kernel",
+        "context_depth": 2,
+        "context_kernel": 7,
+        "deep_supervision": true,
+        "dropout": 0.0,
+        "gate_hidden": 32,
+        "modality_embed_dim": 16,
+        "moment_fusion": [
+          "mean",
+          "variance",
+          "max"
+        ],
+        "name": "qmmf_net",
+        "quality_dim": 7,
+        "use_availability_gate": true,
+        "use_film": true,
+        "use_quality": true,
+        "widths": [
+          24,
+          48,
+          96,
+          160
+        ]
+      },
+      "notes": "grouped_v2 pilot; fresh weights; group-weighted sampling and primary metrics",
+      "out_dir": "/kaggle/working/segmentation_results/qmmf_runs",
+      "protocol_version": "qmmf-v2.0-corrected",
+      "seed": 42,
+      "stage": "development",
+      "train": {
+        "accumulation_steps": 2,
+        "amp": true,
+        "batch_size": 4,
+        "early_stopping_patience": 8,
+        "ema_decay_end": 0.999,
+        "ema_decay_start": 0.99,
+        "grad_checkpointing": false,
+        "grad_clip": 1.0,
+        "lr": 0.0003,
+        "max_epochs": 8,
+        "modality_curriculum": "v1",
+        "num_workers": 1,
+        "optimizer": "adamw",
+        "persistent_workers": false,
+        "seed": 42,
+        "steps_per_epoch": 40,
+        "val_every": 4,
+        "warmup_frac": 0.05,
+        "weight_decay": 0.001
+      }
+    },
+    "no_quality": {
+      "ablation": "A5",
+      "data": {
+        "aug_elastic": false,
+        "aug_flip_lr": true,
+        "aug_intensity": true,
+        "aug_rotation_deg": 10.0,
+        "aug_scale": 0.1,
+        "clip_sigma": 5.0,
+        "context_slices": 5,
+        "crop_size": [
+          192,
+          192
+        ],
+        "label_fraction": 1.0,
+        "manifest_hash": "2553ba21125ecb05",
+        "modalities": [
+          "t1",
+          "t1ce",
+          "t2",
+          "flair"
+        ],
+        "normalization": "robust_zscore_nonzero_brain",
+        "outputs": [
+          "wt",
+          "tc",
+          "et"
+        ],
+        "p_boundary_window": 0.25,
+        "p_random_window": 0.25,
+        "p_tumor_window": 0.5,
+        "root": "/kaggle/input/notebooks/dasshovon/mri-segmentation-preparation-v2/prepared",
+        "split_hash": "b92f9c7c0fb4c116"
+      },
+      "evaluation": {
+        "alpha": 0.05,
+        "bootstrap_replicates": 10000,
+        "calibration_bins": 20,
+        "empty_reference_rule": "exclude_from_dice_report_separately",
+        "mc_seeds": [
+          42,
+          43,
+          44
+        ],
+        "non_inferiority_margin_pp": 1.5,
+        "nsd_tolerance_mm": 1.0,
+        "selective_coverages": [
+          1.0,
+          0.9,
+          0.8
+        ]
+      },
+      "fold": 0,
+      "label_fraction": 1.0,
+      "loss": {
+        "bce": 0.4,
+        "boundary": 0.1,
+        "calibration": 0.0,
+        "consistency": 0.2,
+        "consistency_conf_threshold": 0.9,
+        "consistency_warmup_frac": 0.15,
+        "deep_supervision_weights": [
+          0.5,
+          0.25
+        ],
+        "dice": 0.6,
+        "nested": 0.05,
+        "seg": 1.0
+      },
+      "model": "qmmf_net",
+      "net": {
+        "context_block": "factorized_large_kernel",
+        "context_depth": 2,
+        "context_kernel": 7,
+        "deep_supervision": true,
+        "dropout": 0.0,
+        "gate_hidden": 32,
+        "modality_embed_dim": 16,
+        "moment_fusion": [
+          "mean",
+          "variance",
+          "max"
+        ],
+        "name": "qmmf_net",
+        "quality_dim": 7,
+        "use_availability_gate": true,
+        "use_film": true,
+        "use_quality": false,
+        "widths": [
+          24,
+          48,
+          96,
+          160
+        ]
+      },
+      "notes": "grouped_v2 pilot; fresh weights; group-weighted sampling and primary metrics",
+      "out_dir": "/kaggle/working/segmentation_results/qmmf_runs",
+      "protocol_version": "qmmf-v2.0-corrected",
+      "seed": 42,
+      "stage": "development",
+      "train": {
+        "accumulation_steps": 2,
+        "amp": true,
+        "batch_size": 4,
+        "early_stopping_patience": 8,
+        "ema_decay_end": 0.999,
+        "ema_decay_start": 0.99,
+        "grad_checkpointing": false,
+        "grad_clip": 1.0,
+        "lr": 0.0003,
+        "max_epochs": 8,
+        "modality_curriculum": "v1",
+        "num_workers": 1,
+        "optimizer": "adamw",
+        "persistent_workers": false,
+        "seed": 42,
+        "steps_per_epoch": 40,
+        "val_every": 4,
+        "warmup_frac": 0.05,
+        "weight_decay": 0.001
+      }
+    },
+    "qmmf": {
+      "ablation": "A0",
+      "data": {
+        "aug_elastic": false,
+        "aug_flip_lr": true,
+        "aug_intensity": true,
+        "aug_rotation_deg": 10.0,
+        "aug_scale": 0.1,
+        "clip_sigma": 5.0,
+        "context_slices": 5,
+        "crop_size": [
+          192,
+          192
+        ],
+        "label_fraction": 1.0,
+        "manifest_hash": "2553ba21125ecb05",
+        "modalities": [
+          "t1",
+          "t1ce",
+          "t2",
+          "flair"
+        ],
+        "normalization": "robust_zscore_nonzero_brain",
+        "outputs": [
+          "wt",
+          "tc",
+          "et"
+        ],
+        "p_boundary_window": 0.25,
+        "p_random_window": 0.25,
+        "p_tumor_window": 0.5,
+        "root": "/kaggle/input/notebooks/dasshovon/mri-segmentation-preparation-v2/prepared",
+        "split_hash": "b92f9c7c0fb4c116"
+      },
+      "evaluation": {
+        "alpha": 0.05,
+        "bootstrap_replicates": 10000,
+        "calibration_bins": 20,
+        "empty_reference_rule": "exclude_from_dice_report_separately",
+        "mc_seeds": [
+          42,
+          43,
+          44
+        ],
+        "non_inferiority_margin_pp": 1.5,
+        "nsd_tolerance_mm": 1.0,
+        "selective_coverages": [
+          1.0,
+          0.9,
+          0.8
+        ]
+      },
+      "fold": 0,
+      "label_fraction": 1.0,
+      "loss": {
+        "bce": 0.4,
+        "boundary": 0.1,
+        "calibration": 0.0,
+        "consistency": 0.2,
+        "consistency_conf_threshold": 0.9,
+        "consistency_warmup_frac": 0.15,
+        "deep_supervision_weights": [
+          0.5,
+          0.25
+        ],
+        "dice": 0.6,
+        "nested": 0.05,
+        "seg": 1.0
+      },
+      "model": "qmmf_net",
+      "net": {
+        "context_block": "factorized_large_kernel",
+        "context_depth": 2,
+        "context_kernel": 7,
+        "deep_supervision": true,
+        "dropout": 0.0,
+        "gate_hidden": 32,
+        "modality_embed_dim": 16,
+        "moment_fusion": [
+          "mean",
+          "variance",
+          "max"
+        ],
+        "name": "qmmf_net",
+        "quality_dim": 7,
+        "use_availability_gate": true,
+        "use_film": true,
+        "use_quality": true,
+        "widths": [
+          24,
+          48,
+          96,
+          160
+        ]
+      },
+      "notes": "grouped_v2 pilot; fresh weights; group-weighted sampling and primary metrics",
+      "out_dir": "/kaggle/working/segmentation_results/qmmf_runs",
+      "protocol_version": "qmmf-v2.0-corrected",
+      "seed": 42,
+      "stage": "development",
+      "train": {
+        "accumulation_steps": 2,
+        "amp": true,
+        "batch_size": 4,
+        "early_stopping_patience": 8,
+        "ema_decay_end": 0.999,
+        "ema_decay_start": 0.99,
+        "grad_checkpointing": false,
+        "grad_clip": 1.0,
+        "lr": 0.0003,
+        "max_epochs": 8,
+        "modality_curriculum": "v1",
+        "num_workers": 1,
+        "optimizer": "adamw",
+        "persistent_workers": false,
+        "seed": 42,
+        "steps_per_epoch": 40,
+        "val_every": 4,
+        "warmup_frac": 0.05,
+        "weight_decay": 0.001
+      }
+    }
+  },
+  "fold": 0,
+  "names": [
+    "qmmf",
+    "hemis",
+    "no_quality"
+  ],
+  "primary_metric_unit": "conservative_image_similarity_group",
+  "robustness_case_ids": [
+    "BRATS_172",
+    "BRATS_367",
+    "BRATS_021",
+    "BRATS_369",
+    "BRATS_441",
+    "BRATS_338",
+    "BRATS_413",
+    "BRATS_111"
+  ],
+  "sampling_unit": "uniform group then uniform case",
+  "scope": "pilot",
+  "seed": 42,
+  "split_hash": "b92f9c7c0fb4c116",
+  "test_access": "locked_test_closed"
+}

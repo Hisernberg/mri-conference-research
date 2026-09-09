@@ -1,0 +1,20 @@
+{
+  "attempt_wall_seconds": 1654.4947988130007,
+  "checkpoint_sha256": "4fd61fc71067e51d03f288bf28115f4e7eddc05bbcf78136804cf2611eac45b4",
+  "completed": true,
+  "full_cases": 66,
+  "full_group_macro_dice": 0.7689375596478206,
+  "full_groups": 51,
+  "locked_test_opened": true,
+  "mean_subset_macro_dice": 0.6100002969917763,
+  "name": "unet25d",
+  "parent_config_hash": "2c05c3d0bc0c4aec",
+  "peak_gpu_gb": 0.3122568130493164,
+  "qualitative_cases": 0,
+  "qualitative_wall_seconds": 0.0002790360003928072,
+  "robustness_groups": 51,
+  "scope": "protected_image_groups",
+  "seed": 43,
+  "subsets_per_group": 15,
+  "worst_subset_macro_dice": 0.3026857755630653
+}

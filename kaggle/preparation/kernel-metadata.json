@@ -1,0 +1,16 @@
+{
+  "id": "dasshovon/mri-segmentation-preparation-v2",
+  "title": "MRI Segmentation Preparation v2",
+  "code_file": "prepare.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "machine_shape": "None",
+  "dataset_sources": [
+    "thisisrick25/medical-segmentation-decathlon-brain-tumour"
+  ],
+  "kernel_sources": [],
+  "competition_sources": []
+}

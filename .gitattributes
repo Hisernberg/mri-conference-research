@@ -1,0 +1,13 @@
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.ipynb text eol=lf
+*.csv text eol=lf
+*.pdf binary
+*.png binary
+*.docx binary
+
+# Generated snapshots and numerical artifacts should not dominate the source view.
+kaggle/** linguist-generated=true
+audit/source_snapshots/** linguist-generated=true
+results/** linguist-generated=true

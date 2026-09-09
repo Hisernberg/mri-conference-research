@@ -1,0 +1,69 @@
+{
+  "scope": "pilot",
+  "seeds": [
+    42
+  ],
+  "models": [
+    "qmmf",
+    "hemis",
+    "no_quality"
+  ],
+  "split_hash": "b92f9c7c0fb4c116",
+  "completed_fits": 3,
+  "source_artifacts": [
+    {
+      "path": "results/segmentation_grouped_pilot/runs/qmmf/history.csv",
+      "sha256": "f200c0bf3e500b831230beaf1179cfcd505bfe02fd4cd037397e321067cdd6a7"
+    },
+    {
+      "path": "results/segmentation_grouped_pilot/runs/qmmf/completed.json",
+      "sha256": "7f9e4c05ae345ffc0e9c9bd3ce589c1ca3def9c8569a9b0baf49e7b0a335948e"
+    },
+    {
+      "path": "results/segmentation_grouped_pilot/protocol_lock.json",
+      "sha256": "e539ff5e4c0bdfd76b7a042919f1dbbc6a55c4762dc9cad2605229d8532ad894"
+    },
+    {
+      "path": "results/segmentation_grouped_pilot/verification.json",
+      "sha256": "cb0bc5fdb88a5973937ba8d07ae5ae553adc6fb4a77357b5b30e4283b432224a"
+    },
+    {
+      "path": "results/segmentation_grouped_pilot/runs/hemis/history.csv",
+      "sha256": "abfae397f553a61a43401c40f7cbb437ba09776d1db0a767bcbe3fdf7b4ab29e"
+    },
+    {
+      "path": "results/segmentation_grouped_pilot/runs/hemis/completed.json",
+      "sha256": "194ac99e17cdeaa86f24d66b1e30a8ec470ad26aeefbfa74ce17c119ca4d5766"
+    },
+    {
+      "path": "results/segmentation_grouped_pilot/protocol_lock.json",
+      "sha256": "e539ff5e4c0bdfd76b7a042919f1dbbc6a55c4762dc9cad2605229d8532ad894"
+    },
+    {
+      "path": "results/segmentation_grouped_pilot/verification.json",
+      "sha256": "cb0bc5fdb88a5973937ba8d07ae5ae553adc6fb4a77357b5b30e4283b432224a"
+    },
+    {
+      "path": "results/segmentation_grouped_pilot/runs/no_quality/history.csv",
+      "sha256": "4dd36d5781b4d06b36a3089379869bf390085d9439aa9f8c523fa4abcc088f1c"
+    },
+    {
+      "path": "results/segmentation_grouped_pilot/runs/no_quality/completed.json",
+      "sha256": "80ec80bf955d336b120c4a3ef85c6fbc746b68df6327afd268b74b7e38fb6377"
+    },
+    {
+      "path": "results/segmentation_grouped_pilot/protocol_lock.json",
+      "sha256": "e539ff5e4c0bdfd76b7a042919f1dbbc6a55c4762dc9cad2605229d8532ad894"
+    },
+    {
+      "path": "results/segmentation_grouped_pilot/verification.json",
+      "sha256": "cb0bc5fdb88a5973937ba8d07ae5ae553adc6fb4a77357b5b30e4283b432224a"
+    }
+  ],
+  "report_source_sha256": "155b7d8e55a8b5c1d365b87800ec637ad997383f1e47a883174168693e062eb7",
+  "diagnostic_source_sha256": "4fa5bde2d2ccb6a02d362b2c54d69bdc579d67e636c149460c29b8423be420a3",
+  "convergence": "Describe budget/early stopping and recent validation changes; no automatic convergence claim.",
+  "cost_scope": "Recorded fit/validation/evaluation; excludes preparation and pre-fit quality-normalizer fitting. Runs can overlap in wall time.",
+  "optimizer_counts": "Scheduled opportunities; AMP can skip a non-finite-gradient update, so these are not measured successful updates.",
+  "locked_test_opened": false
+}

@@ -1,0 +1,3089 @@
+{
+  "dataset_json_present": true,
+  "duplicates": {
+    "exact_duplicate_groups": [],
+    "near_duplicate_pairs": [
+      {
+        "a": "BRATS_001",
+        "b": "BRATS_275",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_002",
+        "b": "BRATS_293",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_003",
+        "b": "BRATS_281",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_004",
+        "b": "BRATS_284",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_005",
+        "b": "BRATS_282",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_006",
+        "b": "BRATS_283",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_007",
+        "b": "BRATS_290",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_008",
+        "b": "BRATS_279",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_009",
+        "b": "BRATS_277",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_010",
+        "b": "BRATS_278",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_011",
+        "b": "BRATS_294",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_012",
+        "b": "BRATS_287",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_013",
+        "b": "BRATS_288",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_014",
+        "b": "BRATS_286",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_015",
+        "b": "BRATS_280",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_016",
+        "b": "BRATS_289",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_017",
+        "b": "BRATS_291",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_018",
+        "b": "BRATS_276",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_019",
+        "b": "BRATS_145",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_019",
+        "b": "BRATS_292",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_019",
+        "b": "BRATS_301",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_019",
+        "b": "BRATS_433",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_020",
+        "b": "BRATS_285",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_033",
+        "b": "BRATS_383",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_035",
+        "b": "BRATS_384",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_036",
+        "b": "BRATS_385",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_037",
+        "b": "BRATS_232",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_037",
+        "b": "BRATS_386",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_037",
+        "b": "BRATS_462",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_038",
+        "b": "BRATS_387",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_040",
+        "b": "BRATS_388",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_043",
+        "b": "BRATS_389",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_044",
+        "b": "BRATS_390",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_045",
+        "b": "BRATS_391",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_046",
+        "b": "BRATS_392",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_048",
+        "b": "BRATS_393",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_049",
+        "b": "BRATS_394",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_050",
+        "b": "BRATS_395",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_051",
+        "b": "BRATS_396",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_052",
+        "b": "BRATS_222",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_052",
+        "b": "BRATS_458",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_053",
+        "b": "BRATS_054",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_053",
+        "b": "BRATS_055",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_053",
+        "b": "BRATS_056",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_053",
+        "b": "BRATS_057",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_053",
+        "b": "BRATS_058",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_054",
+        "b": "BRATS_055",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_054",
+        "b": "BRATS_056",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_054",
+        "b": "BRATS_057",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_054",
+        "b": "BRATS_058",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_055",
+        "b": "BRATS_056",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_055",
+        "b": "BRATS_057",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_055",
+        "b": "BRATS_058",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_056",
+        "b": "BRATS_057",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_056",
+        "b": "BRATS_058",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_057",
+        "b": "BRATS_058",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_061",
+        "b": "BRATS_397",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_063",
+        "b": "BRATS_398",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_064",
+        "b": "BRATS_232",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_064",
+        "b": "BRATS_262",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_064",
+        "b": "BRATS_399",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_064",
+        "b": "BRATS_462",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_065",
+        "b": "BRATS_400",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_067",
+        "b": "BRATS_068",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_067",
+        "b": "BRATS_069",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_067",
+        "b": "BRATS_070",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_067",
+        "b": "BRATS_071",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_067",
+        "b": "BRATS_072",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_067",
+        "b": "BRATS_073",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_067",
+        "b": "BRATS_074",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_067",
+        "b": "BRATS_401",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_068",
+        "b": "BRATS_069",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_068",
+        "b": "BRATS_070",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_068",
+        "b": "BRATS_071",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_068",
+        "b": "BRATS_072",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_068",
+        "b": "BRATS_073",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_068",
+        "b": "BRATS_074",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_068",
+        "b": "BRATS_401",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_069",
+        "b": "BRATS_070",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_069",
+        "b": "BRATS_071",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_069",
+        "b": "BRATS_072",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_069",
+        "b": "BRATS_073",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_069",
+        "b": "BRATS_074",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_069",
+        "b": "BRATS_401",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_070",
+        "b": "BRATS_071",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_070",
+        "b": "BRATS_072",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_070",
+        "b": "BRATS_073",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_070",
+        "b": "BRATS_074",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_070",
+        "b": "BRATS_401",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_071",
+        "b": "BRATS_072",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_071",
+        "b": "BRATS_073",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_071",
+        "b": "BRATS_074",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_071",
+        "b": "BRATS_401",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_072",
+        "b": "BRATS_073",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_072",
+        "b": "BRATS_074",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_072",
+        "b": "BRATS_401",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_073",
+        "b": "BRATS_074",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_073",
+        "b": "BRATS_401",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_074",
+        "b": "BRATS_401",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_079",
+        "b": "BRATS_402",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_080",
+        "b": "BRATS_403",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_082",
+        "b": "BRATS_404",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_083",
+        "b": "BRATS_405",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_084",
+        "b": "BRATS_406",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_085",
+        "b": "BRATS_407",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_087",
+        "b": "BRATS_088",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_087",
+        "b": "BRATS_408",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_088",
+        "b": "BRATS_408",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_089",
+        "b": "BRATS_409",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_091",
+        "b": "BRATS_410",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_093",
+        "b": "BRATS_411",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_094",
+        "b": "BRATS_412",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_095",
+        "b": "BRATS_413",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_096",
+        "b": "BRATS_414",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_120",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_122",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_123",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_124",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_125",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_182",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_183",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_184",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_185",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_186",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_187",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_188",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_189",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_415",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_098",
+        "b": "BRATS_449",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_099",
+        "b": "BRATS_416",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_100",
+        "b": "BRATS_101",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_102",
+        "b": "BRATS_103",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_102",
+        "b": "BRATS_418",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_103",
+        "b": "BRATS_418",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_104",
+        "b": "BRATS_105",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_104",
+        "b": "BRATS_106",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_104",
+        "b": "BRATS_107",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_104",
+        "b": "BRATS_108",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_105",
+        "b": "BRATS_106",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_105",
+        "b": "BRATS_107",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_105",
+        "b": "BRATS_108",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_106",
+        "b": "BRATS_107",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_106",
+        "b": "BRATS_108",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_107",
+        "b": "BRATS_108",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_109",
+        "b": "BRATS_419",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_110",
+        "b": "BRATS_420",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_111",
+        "b": "BRATS_421",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_113",
+        "b": "BRATS_114",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_113",
+        "b": "BRATS_422",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_113",
+        "b": "BRATS_423",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_114",
+        "b": "BRATS_422",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_114",
+        "b": "BRATS_423",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_118",
+        "b": "BRATS_424",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_121",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_122",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_123",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_124",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_125",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_133",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_134",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_162",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_174",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_175",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_176",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_177",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_178",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_179",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_180",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_236",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_238",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_267",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_429",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_439",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_447",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_466",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_120",
+        "b": "BRATS_476",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_121",
+        "b": "BRATS_122",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_121",
+        "b": "BRATS_123",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_121",
+        "b": "BRATS_124",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_121",
+        "b": "BRATS_125",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_123",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_124",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_125",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_133",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_134",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_162",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_174",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_175",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_176",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_177",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_178",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_179",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_180",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_236",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_238",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_267",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_429",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_439",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_447",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_466",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_122",
+        "b": "BRATS_476",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_124",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_125",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_133",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_134",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_162",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_174",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_175",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_176",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_177",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_178",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_179",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_180",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_236",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_238",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_267",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_429",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_439",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_447",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_466",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_123",
+        "b": "BRATS_476",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_125",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_133",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_134",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_162",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_174",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_175",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_176",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_177",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_178",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_179",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_180",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_236",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_238",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_267",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_429",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_439",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_447",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_466",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_124",
+        "b": "BRATS_476",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_133",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_134",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_162",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_174",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_175",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_176",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_177",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_178",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_179",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_180",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_236",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_238",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_267",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_429",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_439",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_447",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_466",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_125",
+        "b": "BRATS_476",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_127",
+        "b": "BRATS_425",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_129",
+        "b": "BRATS_426",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_130",
+        "b": "BRATS_372",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_131",
+        "b": "BRATS_427",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_132",
+        "b": "BRATS_428",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_133",
+        "b": "BRATS_134",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_133",
+        "b": "BRATS_236",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_133",
+        "b": "BRATS_429",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_134",
+        "b": "BRATS_236",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_134",
+        "b": "BRATS_429",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_136",
+        "b": "BRATS_430",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_137",
+        "b": "BRATS_138",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_137",
+        "b": "BRATS_139",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_137",
+        "b": "BRATS_140",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_137",
+        "b": "BRATS_141",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_137",
+        "b": "BRATS_431",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_138",
+        "b": "BRATS_139",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_138",
+        "b": "BRATS_140",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_138",
+        "b": "BRATS_141",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_138",
+        "b": "BRATS_431",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_139",
+        "b": "BRATS_140",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_139",
+        "b": "BRATS_141",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_139",
+        "b": "BRATS_431",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_140",
+        "b": "BRATS_141",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_140",
+        "b": "BRATS_431",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_141",
+        "b": "BRATS_431",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_142",
+        "b": "BRATS_432",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_145",
+        "b": "BRATS_253",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_145",
+        "b": "BRATS_271",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_145",
+        "b": "BRATS_292",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_145",
+        "b": "BRATS_301",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_145",
+        "b": "BRATS_433",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_145",
+        "b": "BRATS_477",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_147",
+        "b": "BRATS_148",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_147",
+        "b": "BRATS_149",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_147",
+        "b": "BRATS_150",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_147",
+        "b": "BRATS_151",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_147",
+        "b": "BRATS_152",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_147",
+        "b": "BRATS_434",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_148",
+        "b": "BRATS_149",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_148",
+        "b": "BRATS_150",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_148",
+        "b": "BRATS_151",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_148",
+        "b": "BRATS_152",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_148",
+        "b": "BRATS_434",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_149",
+        "b": "BRATS_150",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_149",
+        "b": "BRATS_151",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_149",
+        "b": "BRATS_152",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_149",
+        "b": "BRATS_434",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_150",
+        "b": "BRATS_151",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_150",
+        "b": "BRATS_152",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_150",
+        "b": "BRATS_434",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_151",
+        "b": "BRATS_152",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_151",
+        "b": "BRATS_434",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_152",
+        "b": "BRATS_434",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_154",
+        "b": "BRATS_155",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_154",
+        "b": "BRATS_156",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_154",
+        "b": "BRATS_157",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_154",
+        "b": "BRATS_435",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_155",
+        "b": "BRATS_156",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_155",
+        "b": "BRATS_157",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_155",
+        "b": "BRATS_435",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_156",
+        "b": "BRATS_157",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_156",
+        "b": "BRATS_435",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_157",
+        "b": "BRATS_435",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_158",
+        "b": "BRATS_436",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_159",
+        "b": "BRATS_437",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_160",
+        "b": "BRATS_438",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_162",
+        "b": "BRATS_171",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_162",
+        "b": "BRATS_236",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_162",
+        "b": "BRATS_267",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_162",
+        "b": "BRATS_439",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_162",
+        "b": "BRATS_476",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_164",
+        "b": "BRATS_440",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_165",
+        "b": "BRATS_441",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_166",
+        "b": "BRATS_442",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_167",
+        "b": "BRATS_443",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_168",
+        "b": "BRATS_444",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_171",
+        "b": "BRATS_267",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_171",
+        "b": "BRATS_439",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_171",
+        "b": "BRATS_476",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_172",
+        "b": "BRATS_445",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_173",
+        "b": "BRATS_446",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_174",
+        "b": "BRATS_175",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_174",
+        "b": "BRATS_176",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_174",
+        "b": "BRATS_177",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_174",
+        "b": "BRATS_178",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_174",
+        "b": "BRATS_179",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_174",
+        "b": "BRATS_180",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_174",
+        "b": "BRATS_236",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_174",
+        "b": "BRATS_238",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_174",
+        "b": "BRATS_447",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_174",
+        "b": "BRATS_466",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_175",
+        "b": "BRATS_176",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_175",
+        "b": "BRATS_177",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_175",
+        "b": "BRATS_178",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_175",
+        "b": "BRATS_179",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_175",
+        "b": "BRATS_180",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_175",
+        "b": "BRATS_236",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_175",
+        "b": "BRATS_238",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_175",
+        "b": "BRATS_447",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_175",
+        "b": "BRATS_466",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_176",
+        "b": "BRATS_177",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_176",
+        "b": "BRATS_178",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_176",
+        "b": "BRATS_179",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_176",
+        "b": "BRATS_180",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_176",
+        "b": "BRATS_236",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_176",
+        "b": "BRATS_238",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_176",
+        "b": "BRATS_447",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_176",
+        "b": "BRATS_466",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_177",
+        "b": "BRATS_178",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_177",
+        "b": "BRATS_179",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_177",
+        "b": "BRATS_180",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_177",
+        "b": "BRATS_236",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_177",
+        "b": "BRATS_238",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_177",
+        "b": "BRATS_447",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_177",
+        "b": "BRATS_466",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_178",
+        "b": "BRATS_179",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_178",
+        "b": "BRATS_180",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_178",
+        "b": "BRATS_236",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_178",
+        "b": "BRATS_238",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_178",
+        "b": "BRATS_447",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_178",
+        "b": "BRATS_466",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_179",
+        "b": "BRATS_180",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_179",
+        "b": "BRATS_236",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_179",
+        "b": "BRATS_238",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_179",
+        "b": "BRATS_447",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_179",
+        "b": "BRATS_466",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_180",
+        "b": "BRATS_236",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_180",
+        "b": "BRATS_238",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_180",
+        "b": "BRATS_447",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_180",
+        "b": "BRATS_466",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_181",
+        "b": "BRATS_448",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_182",
+        "b": "BRATS_183",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_182",
+        "b": "BRATS_184",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_182",
+        "b": "BRATS_185",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_182",
+        "b": "BRATS_186",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_182",
+        "b": "BRATS_187",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_182",
+        "b": "BRATS_188",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_182",
+        "b": "BRATS_189",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_182",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_182",
+        "b": "BRATS_449",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_183",
+        "b": "BRATS_184",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_183",
+        "b": "BRATS_185",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_183",
+        "b": "BRATS_186",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_183",
+        "b": "BRATS_187",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_183",
+        "b": "BRATS_188",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_183",
+        "b": "BRATS_189",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_183",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_183",
+        "b": "BRATS_449",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_184",
+        "b": "BRATS_185",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_184",
+        "b": "BRATS_186",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_184",
+        "b": "BRATS_187",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_184",
+        "b": "BRATS_188",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_184",
+        "b": "BRATS_189",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_184",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_184",
+        "b": "BRATS_449",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_185",
+        "b": "BRATS_186",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_185",
+        "b": "BRATS_187",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_185",
+        "b": "BRATS_188",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_185",
+        "b": "BRATS_189",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_185",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_185",
+        "b": "BRATS_449",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_186",
+        "b": "BRATS_187",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_186",
+        "b": "BRATS_188",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_186",
+        "b": "BRATS_189",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_186",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_186",
+        "b": "BRATS_449",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_187",
+        "b": "BRATS_188",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_187",
+        "b": "BRATS_189",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_187",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_187",
+        "b": "BRATS_449",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_188",
+        "b": "BRATS_189",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_188",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_188",
+        "b": "BRATS_449",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_189",
+        "b": "BRATS_415",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_189",
+        "b": "BRATS_449",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_190",
+        "b": "BRATS_450",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_191",
+        "b": "BRATS_192",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_191",
+        "b": "BRATS_451",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_192",
+        "b": "BRATS_451",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_193",
+        "b": "BRATS_269",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_193",
+        "b": "BRATS_452",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_195",
+        "b": "BRATS_453",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_199",
+        "b": "BRATS_454",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_200",
+        "b": "BRATS_201",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_200",
+        "b": "BRATS_202",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_200",
+        "b": "BRATS_203",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_200",
+        "b": "BRATS_204",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_200",
+        "b": "BRATS_205",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_200",
+        "b": "BRATS_206",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_200",
+        "b": "BRATS_455",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_201",
+        "b": "BRATS_202",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_201",
+        "b": "BRATS_203",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_201",
+        "b": "BRATS_204",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_201",
+        "b": "BRATS_205",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_201",
+        "b": "BRATS_206",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_201",
+        "b": "BRATS_455",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_202",
+        "b": "BRATS_203",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_202",
+        "b": "BRATS_204",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_202",
+        "b": "BRATS_205",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_202",
+        "b": "BRATS_206",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_202",
+        "b": "BRATS_455",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_203",
+        "b": "BRATS_204",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_203",
+        "b": "BRATS_205",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_203",
+        "b": "BRATS_206",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_203",
+        "b": "BRATS_455",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_204",
+        "b": "BRATS_205",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_204",
+        "b": "BRATS_206",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_204",
+        "b": "BRATS_455",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_205",
+        "b": "BRATS_206",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_205",
+        "b": "BRATS_455",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_206",
+        "b": "BRATS_455",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_207",
+        "b": "BRATS_208",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_207",
+        "b": "BRATS_209",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_207",
+        "b": "BRATS_210",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_207",
+        "b": "BRATS_211",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_207",
+        "b": "BRATS_212",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_207",
+        "b": "BRATS_213",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_207",
+        "b": "BRATS_214",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_207",
+        "b": "BRATS_215",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_207",
+        "b": "BRATS_216",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_208",
+        "b": "BRATS_209",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_208",
+        "b": "BRATS_210",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_208",
+        "b": "BRATS_211",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_208",
+        "b": "BRATS_212",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_208",
+        "b": "BRATS_213",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_208",
+        "b": "BRATS_214",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_208",
+        "b": "BRATS_215",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_208",
+        "b": "BRATS_216",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_209",
+        "b": "BRATS_210",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_209",
+        "b": "BRATS_211",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_209",
+        "b": "BRATS_212",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_209",
+        "b": "BRATS_213",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_209",
+        "b": "BRATS_214",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_209",
+        "b": "BRATS_215",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_209",
+        "b": "BRATS_216",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_210",
+        "b": "BRATS_211",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_210",
+        "b": "BRATS_212",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_210",
+        "b": "BRATS_213",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_210",
+        "b": "BRATS_214",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_210",
+        "b": "BRATS_215",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_210",
+        "b": "BRATS_216",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_211",
+        "b": "BRATS_212",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_211",
+        "b": "BRATS_213",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_211",
+        "b": "BRATS_214",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_211",
+        "b": "BRATS_215",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_211",
+        "b": "BRATS_216",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_212",
+        "b": "BRATS_213",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_212",
+        "b": "BRATS_214",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_212",
+        "b": "BRATS_215",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_212",
+        "b": "BRATS_216",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_213",
+        "b": "BRATS_214",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_213",
+        "b": "BRATS_215",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_213",
+        "b": "BRATS_216",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_214",
+        "b": "BRATS_215",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_214",
+        "b": "BRATS_216",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_215",
+        "b": "BRATS_216",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_217",
+        "b": "BRATS_456",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_220",
+        "b": "BRATS_457",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_222",
+        "b": "BRATS_458",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_224",
+        "b": "BRATS_459",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_225",
+        "b": "BRATS_460",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_227",
+        "b": "BRATS_228",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_229",
+        "b": "BRATS_461",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_232",
+        "b": "BRATS_262",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_232",
+        "b": "BRATS_386",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_232",
+        "b": "BRATS_399",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_232",
+        "b": "BRATS_462",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_234",
+        "b": "BRATS_463",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_235",
+        "b": "BRATS_464",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_236",
+        "b": "BRATS_429",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_236",
+        "b": "BRATS_439",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_236",
+        "b": "BRATS_447",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_237",
+        "b": "BRATS_465",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_238",
+        "b": "BRATS_267",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_238",
+        "b": "BRATS_447",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_238",
+        "b": "BRATS_466",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_238",
+        "b": "BRATS_476",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_239",
+        "b": "BRATS_240",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_239",
+        "b": "BRATS_241",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_239",
+        "b": "BRATS_242",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_240",
+        "b": "BRATS_241",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_240",
+        "b": "BRATS_242",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_241",
+        "b": "BRATS_242",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_244",
+        "b": "BRATS_245",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_244",
+        "b": "BRATS_246",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_244",
+        "b": "BRATS_247",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_244",
+        "b": "BRATS_248",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_244",
+        "b": "BRATS_467",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_245",
+        "b": "BRATS_246",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_245",
+        "b": "BRATS_247",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_245",
+        "b": "BRATS_248",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_245",
+        "b": "BRATS_467",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_246",
+        "b": "BRATS_247",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_246",
+        "b": "BRATS_248",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_246",
+        "b": "BRATS_467",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_247",
+        "b": "BRATS_248",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_247",
+        "b": "BRATS_467",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_248",
+        "b": "BRATS_467",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_249",
+        "b": "BRATS_250",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_249",
+        "b": "BRATS_251",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_250",
+        "b": "BRATS_251",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_252",
+        "b": "BRATS_468",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_253",
+        "b": "BRATS_271",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_253",
+        "b": "BRATS_301",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_253",
+        "b": "BRATS_433",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_253",
+        "b": "BRATS_477",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_255",
+        "b": "BRATS_469",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_256",
+        "b": "BRATS_470",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_260",
+        "b": "BRATS_373",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_261",
+        "b": "BRATS_471",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_262",
+        "b": "BRATS_399",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_262",
+        "b": "BRATS_462",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_263",
+        "b": "BRATS_472",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_264",
+        "b": "BRATS_473",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_265",
+        "b": "BRATS_474",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_266",
+        "b": "BRATS_475",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_267",
+        "b": "BRATS_439",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_267",
+        "b": "BRATS_466",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_267",
+        "b": "BRATS_476",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_269",
+        "b": "BRATS_452",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_269",
+        "b": "BRATS_484",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_271",
+        "b": "BRATS_301",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_271",
+        "b": "BRATS_433",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_271",
+        "b": "BRATS_477",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_273",
+        "b": "BRATS_478",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_274",
+        "b": "BRATS_479",
+        "hamming": 0
+      },
+      {
+        "a": "BRATS_292",
+        "b": "BRATS_301",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_292",
+        "b": "BRATS_433",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_301",
+        "b": "BRATS_313",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_301",
+        "b": "BRATS_433",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_301",
+        "b": "BRATS_477",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_313",
+        "b": "BRATS_346",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_313",
+        "b": "BRATS_359",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_324",
+        "b": "BRATS_355",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_324",
+        "b": "BRATS_480",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_332",
+        "b": "BRATS_336",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_352",
+        "b": "BRATS_373",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_372",
+        "b": "BRATS_373",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_386",
+        "b": "BRATS_462",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_399",
+        "b": "BRATS_462",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_415",
+        "b": "BRATS_449",
+        "hamming": 4
+      },
+      {
+        "a": "BRATS_422",
+        "b": "BRATS_423",
+        "hamming": 3
+      },
+      {
+        "a": "BRATS_433",
+        "b": "BRATS_477",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_439",
+        "b": "BRATS_476",
+        "hamming": 2
+      },
+      {
+        "a": "BRATS_447",
+        "b": "BRATS_466",
+        "hamming": 1
+      },
+      {
+        "a": "BRATS_466",
+        "b": "BRATS_476",
+        "hamming": 4
+      }
+    ]
+  },
+  "failed_cases": [],
+  "gate_pass": true,
+  "geometry": {
+    "distinct_orientations": {
+      "RAS": 484
+    },
+    "distinct_shapes": {
+      "(240, 240, 155, 4)": 484
+    },
+    "distinct_spacings": {
+      "(1.0, 1.0, 1.0)": 484
+    },
+    "spacing_is_uniform": true
+  },
+  "label_scheme": "from_dataset_json",
+  "label_scheme_mapping": {
+    "background": 0,
+    "edema": 1,
+    "enhancing": 3,
+    "non_enhancing": 2
+  },
+  "manifest_hash": "2553ba21125ecb05",
+  "modality_order_source": {
+    "0": "FLAIR",
+    "1": "T1w",
+    "2": "t1gd",
+    "3": "T2w"
+  },
+  "n_cases": 484,
+  "n_failed_cases": 0,
+  "root": "/kaggle/input/datasets/thisisrick25/medical-segmentation-decathlon-brain-tumour/Task01_BrainTumour"
+}

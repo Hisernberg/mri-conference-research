@@ -1,0 +1,30 @@
+{
+  "all_planned_completed": true,
+  "completed_variants": [
+    "qmmf",
+    "hemis",
+    "unet25d",
+    "no_quality",
+    "no_variance",
+    "no_max",
+    "no_consistency",
+    "shuffled_quality",
+    "matched_moment_fusion"
+  ],
+  "failures": {},
+  "locked_test_opened": false,
+  "pending": [],
+  "planned_variants": [
+    "qmmf",
+    "hemis",
+    "unet25d",
+    "no_quality",
+    "no_variance",
+    "no_max",
+    "no_consistency",
+    "shuffled_quality",
+    "matched_moment_fusion"
+  ],
+  "scope": "study",
+  "wall_seconds": 23831.04821262
+}

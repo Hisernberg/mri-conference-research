@@ -1,0 +1,8 @@
+{
+  "source_sha256": "8d04967ff49387a9225764107687138f8ba1f208067cf1fa050adf0dd8e621a9",
+  "parent_source_sha256": "037bc0a99fab8f294bc710274b67b96b190ef4c4dbab6303fa64238040ec4d0a",
+  "kernel": "dasshovon/mri-segmentation-protected-evaluation",
+  "budget_seconds": 20000,
+  "frozen_protocol_sha256": "f249258c606e9e456010c0a6b70d7ce8d6a09d0c43a9392013ab472200b52a2b",
+  "submission_status_at_build": "not_submitted"
+}

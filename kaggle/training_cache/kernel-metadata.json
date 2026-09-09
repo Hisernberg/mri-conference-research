@@ -1,0 +1,16 @@
+{
+  "id": "dasshovon/mri-segmentation-training-cache",
+  "title": "MRI Segmentation Training Cache",
+  "code_file": "training_cache.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "machine_shape": "None",
+  "dataset_sources": [],
+  "kernel_sources": [
+    "dasshovon/mri-segmentation-preparation-v2"
+  ],
+  "competition_sources": []
+}

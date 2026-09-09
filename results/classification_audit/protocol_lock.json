@@ -1,0 +1,24 @@
+{
+  "dataset_sha256": "75d99ae5e0c343289d1148b892441f714fe97a549baa7c44f9dd3afa484e7415",
+  "epochs": 60,
+  "models": [
+    "full",
+    "no_attention",
+    "no_multiscale",
+    "no_attention_no_multiscale",
+    "no_augmentation",
+    "plain_cnn",
+    "narrow_resnet_gn"
+  ],
+  "patience": 12,
+  "preprocessing": "aspect-preserving letterbox, per-image foreground z-score",
+  "primary_metric": "macro_f1",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "size": 128,
+  "split_sha256": "7da296df722d3f80bc0167481d407c737991abcb1e370f3859d96f950b002075",
+  "unit": "image similarity group; not patient"
+}

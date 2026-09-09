@@ -1,0 +1,86 @@
+[
+  {
+    "axial_index": 77,
+    "case_id": "BRATS_143",
+    "model": "unet25d",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.7595653055209198
+  },
+  {
+    "axial_index": 87,
+    "case_id": "BRATS_119",
+    "model": "unet25d",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.641206488205024
+  },
+  {
+    "axial_index": 77,
+    "case_id": "BRATS_023",
+    "model": "unet25d",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.5172450073436438
+  },
+  {
+    "axial_index": 77,
+    "case_id": "BRATS_143",
+    "model": "qmmf",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.7211128744761773
+  },
+  {
+    "axial_index": 87,
+    "case_id": "BRATS_119",
+    "model": "qmmf",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.6554557196510575
+  },
+  {
+    "axial_index": 77,
+    "case_id": "BRATS_023",
+    "model": "qmmf",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.6109439290536398
+  },
+  {
+    "axial_index": 77,
+    "case_id": "BRATS_143",
+    "model": "no_quality",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.7303096132210657
+  },
+  {
+    "axial_index": 87,
+    "case_id": "BRATS_119",
+    "model": "no_quality",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.6781527875388041
+  },
+  {
+    "axial_index": 77,
+    "case_id": "BRATS_023",
+    "model": "no_quality",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.6241630573736718
+  },
+  {
+    "axial_index": 77,
+    "case_id": "BRATS_143",
+    "model": "hemis",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.6407517044052237
+  },
+  {
+    "axial_index": 87,
+    "case_id": "BRATS_119",
+    "model": "hemis",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.5634982286055662
+  },
+  {
+    "axial_index": 77,
+    "case_id": "BRATS_023",
+    "model": "hemis",
+    "seed": 42,
+    "whole_volume_macro_dice": 0.550634478577857
+  }
+]

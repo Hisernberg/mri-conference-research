@@ -1,0 +1,43 @@
+{
+  "checked_at_utc": "2026-09-08T17:19:31.712930+00:00",
+  "kaggle_version": "2.2.4",
+  "kagglesdk_version": "0.1.37",
+  "sdk_serialized_response": {
+    "quotaRefreshTime": "2026-09-12T00:00:00.000Z",
+    "gpuQuota": {
+      "timeUsed": "500.74.0s",
+      "timeReserved": "0s",
+      "totalTimeAllowed": "21600s",
+      "minimumTimeAllowed": "21600s",
+      "hasEverRun": true
+    },
+    "tpuQuota": {
+      "timeUsed": "0s",
+      "timeReserved": "0s",
+      "totalTimeAllowed": "72000s",
+      "minimumTimeAllowed": "72000s"
+    }
+  },
+  "typed_duration_summary": {
+    "quota_refresh_time": "2026-09-12T00:00:00",
+    "gpu": {
+      "unit": "seconds",
+      "time_used": 500.074,
+      "time_reserved": 0.0,
+      "total_time_allowed": 108000.0,
+      "minimum_time_allowed": 108000.0,
+      "remaining_unreserved": 107499.926
+    },
+    "tpu": {
+      "unit": "seconds",
+      "time_used": 0.0,
+      "time_reserved": 0.0,
+      "total_time_allowed": 72000.0,
+      "minimum_time_allowed": 72000.0,
+      "remaining_unreserved": 72000.0
+    }
+  },
+  "gpu_allowed_duration_repr": "datetime.timedelta(days=1, seconds=21600)",
+  "gpu_used_duration_repr": "datetime.timedelta(seconds=500, microseconds=74000)",
+  "interpretation": "Use typed timedelta.total_seconds(); SDK to_dict omits whole days and misformats fractional seconds."
+}

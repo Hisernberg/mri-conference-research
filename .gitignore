@@ -1,0 +1,32 @@
+# Credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+access_token
+api-token
+github-token
+*.token
+*.pem
+*.key
+
+# Data and generated runtime material
+data/
+cache/
+downloads/
+runtime/
+**/checkpoints/
+**/qmmf_runs/
+*.pt
+*.pth
+*.nii
+*.nii.gz
+*.npz
+*.npy
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# Private notebook runtime outputs; curated aggregate results live in results/
+kaggle_outputs/

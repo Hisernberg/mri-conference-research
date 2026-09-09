@@ -1,0 +1,10 @@
+{
+  "images_correct_in_n_of_3_seeds": {
+    "0": 19,
+    "1": 25,
+    "2": 43,
+    "3": 141
+  },
+  "unit": "unique images, not verified independent patients",
+  "note": "Mean probabilities are diagnostic descriptors; headline scores use individual seeds."
+}

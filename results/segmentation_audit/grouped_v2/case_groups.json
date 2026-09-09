@@ -1,0 +1,1500 @@
+{
+  "case_to_group": {
+    "BRATS_001": "sg_08d2dd819ae3d51e",
+    "BRATS_002": "sg_1aebfcdb85ddeaf3",
+    "BRATS_003": "sg_372033df948883ea",
+    "BRATS_004": "sg_a3e30e935d603843",
+    "BRATS_005": "sg_12a8304c53928db9",
+    "BRATS_006": "sg_16ab3a8404d78681",
+    "BRATS_007": "sg_a640b5e039eb2ad4",
+    "BRATS_008": "sg_60f675257a2fbca7",
+    "BRATS_009": "sg_9256242e6dfa617a",
+    "BRATS_010": "sg_5c0779fb48082fce",
+    "BRATS_011": "sg_d422d07b12bc4ca1",
+    "BRATS_012": "sg_6308de8e20c045c2",
+    "BRATS_013": "sg_31394ae9ed58d32b",
+    "BRATS_014": "sg_f38fa455e91aace1",
+    "BRATS_015": "sg_6e3514450d79f1fa",
+    "BRATS_016": "sg_93ffbaebe6916cd4",
+    "BRATS_017": "sg_39f58dc75d701b45",
+    "BRATS_018": "sg_b53b2277b123cf34",
+    "BRATS_019": "sg_71d6e06c4bb9b39f",
+    "BRATS_020": "sg_3ffd0110fd8c70a1",
+    "BRATS_021": "sg_8a56096263e207fc",
+    "BRATS_022": "sg_79dc27baca42dfd8",
+    "BRATS_023": "sg_a79c24b2ab681a89",
+    "BRATS_024": "sg_2f3955204a0ca3e9",
+    "BRATS_025": "sg_08a7e6aa40ed9717",
+    "BRATS_026": "sg_66af1ccd3d1c543e",
+    "BRATS_027": "sg_4267e6ff34e2e7aa",
+    "BRATS_028": "sg_d569c6a46ca60284",
+    "BRATS_029": "sg_7388a0c070338c97",
+    "BRATS_030": "sg_3dfb23840d2f3673",
+    "BRATS_031": "sg_189c183ed5f23717",
+    "BRATS_032": "sg_3bad852b8c53dadc",
+    "BRATS_033": "sg_09b440c17fa2cb56",
+    "BRATS_034": "sg_9d9491b35b219f3e",
+    "BRATS_035": "sg_6c3b7da86323c267",
+    "BRATS_036": "sg_7d25c05c3a56bc54",
+    "BRATS_037": "sg_00c41e8d5966c1f7",
+    "BRATS_038": "sg_b20e85806c40821b",
+    "BRATS_039": "sg_25e919048f6b0ef1",
+    "BRATS_040": "sg_fbdefc7b01b339f6",
+    "BRATS_041": "sg_0c425c8a33177ee9",
+    "BRATS_042": "sg_443e8f71f1279bfc",
+    "BRATS_043": "sg_eac2be0178572a9e",
+    "BRATS_044": "sg_7f58a5b7e76f4fe0",
+    "BRATS_045": "sg_f68c66cac443ae9a",
+    "BRATS_046": "sg_0c0db9c0f083da26",
+    "BRATS_047": "sg_79abc987bd58058f",
+    "BRATS_048": "sg_33055ac40922cca6",
+    "BRATS_049": "sg_cd7b3022a8e71488",
+    "BRATS_050": "sg_aeec632eb4d4ccdf",
+    "BRATS_051": "sg_76c55b2034ec06a9",
+    "BRATS_052": "sg_7154701b6246d4f8",
+    "BRATS_053": "sg_20a57b6fd840c3eb",
+    "BRATS_054": "sg_20a57b6fd840c3eb",
+    "BRATS_055": "sg_20a57b6fd840c3eb",
+    "BRATS_056": "sg_20a57b6fd840c3eb",
+    "BRATS_057": "sg_20a57b6fd840c3eb",
+    "BRATS_058": "sg_20a57b6fd840c3eb",
+    "BRATS_059": "sg_ba3a8080940b073a",
+    "BRATS_060": "sg_bd01d84da787f1fc",
+    "BRATS_061": "sg_e5e87ec0b47ef065",
+    "BRATS_062": "sg_d94777b27d97ed81",
+    "BRATS_063": "sg_68bdb7a39259fbb9",
+    "BRATS_064": "sg_00c41e8d5966c1f7",
+    "BRATS_065": "sg_9c65d63b0dd50533",
+    "BRATS_066": "sg_b22b67d112cc5d1a",
+    "BRATS_067": "sg_cfb4d1384f4ae4f8",
+    "BRATS_068": "sg_cfb4d1384f4ae4f8",
+    "BRATS_069": "sg_cfb4d1384f4ae4f8",
+    "BRATS_070": "sg_cfb4d1384f4ae4f8",
+    "BRATS_071": "sg_cfb4d1384f4ae4f8",
+    "BRATS_072": "sg_cfb4d1384f4ae4f8",
+    "BRATS_073": "sg_cfb4d1384f4ae4f8",
+    "BRATS_074": "sg_cfb4d1384f4ae4f8",
+    "BRATS_075": "sg_f2ae1107a9ed4b17",
+    "BRATS_076": "sg_307d026dc8f7f6a2",
+    "BRATS_077": "sg_f91ae8dcdf264769",
+    "BRATS_078": "sg_0d0ba3fb62c66b4e",
+    "BRATS_079": "sg_de235d174b32b18b",
+    "BRATS_080": "sg_09e69c148337e6f2",
+    "BRATS_081": "sg_87354867eebd374d",
+    "BRATS_082": "sg_294e1273de6f57c3",
+    "BRATS_083": "sg_10a96640d281618d",
+    "BRATS_084": "sg_372ceb713f6a522a",
+    "BRATS_085": "sg_2df5bd388dbf43d8",
+    "BRATS_086": "sg_c382e7bd94fcd373",
+    "BRATS_087": "sg_3bff8d566fff0d5e",
+    "BRATS_088": "sg_3bff8d566fff0d5e",
+    "BRATS_089": "sg_8fafb32a9081c1ab",
+    "BRATS_090": "sg_ec3b079acfd543b4",
+    "BRATS_091": "sg_a85271745ce8f675",
+    "BRATS_092": "sg_ba92e4f1c3218b3e",
+    "BRATS_093": "sg_d38d332c3ea636b3",
+    "BRATS_094": "sg_c993c44c7820708f",
+    "BRATS_095": "sg_3b44f65ab67602cc",
+    "BRATS_096": "sg_f05f74ccf0cb9cd0",
+    "BRATS_097": "sg_b8270589d730933f",
+    "BRATS_098": "sg_dbc360cbc169c4ae",
+    "BRATS_099": "sg_cd113dc69362bb3b",
+    "BRATS_100": "sg_8b399fcd141dcfdf",
+    "BRATS_101": "sg_8b399fcd141dcfdf",
+    "BRATS_102": "sg_f1ad88ec1c75d9a7",
+    "BRATS_103": "sg_f1ad88ec1c75d9a7",
+    "BRATS_104": "sg_56808505899f20c6",
+    "BRATS_105": "sg_56808505899f20c6",
+    "BRATS_106": "sg_56808505899f20c6",
+    "BRATS_107": "sg_56808505899f20c6",
+    "BRATS_108": "sg_56808505899f20c6",
+    "BRATS_109": "sg_89275a9e1734ba37",
+    "BRATS_110": "sg_34c2f77cb50c5ada",
+    "BRATS_111": "sg_74969a1c98337c11",
+    "BRATS_112": "sg_b543b07cad6610ab",
+    "BRATS_113": "sg_01bc88c7251cbc7f",
+    "BRATS_114": "sg_01bc88c7251cbc7f",
+    "BRATS_115": "sg_f6e39e95ad5fd3ad",
+    "BRATS_116": "sg_208587454a785b38",
+    "BRATS_117": "sg_1b675fb9b7284a16",
+    "BRATS_118": "sg_3aff73a604680c9f",
+    "BRATS_119": "sg_f0dec3098c35e293",
+    "BRATS_120": "sg_dbc360cbc169c4ae",
+    "BRATS_121": "sg_dbc360cbc169c4ae",
+    "BRATS_122": "sg_dbc360cbc169c4ae",
+    "BRATS_123": "sg_dbc360cbc169c4ae",
+    "BRATS_124": "sg_dbc360cbc169c4ae",
+    "BRATS_125": "sg_dbc360cbc169c4ae",
+    "BRATS_126": "sg_e97108e972df71d6",
+    "BRATS_127": "sg_594dc703d793c25d",
+    "BRATS_128": "sg_45320f7d608d2099",
+    "BRATS_129": "sg_4271128070862d7b",
+    "BRATS_130": "sg_8bdcf986f2953952",
+    "BRATS_131": "sg_0feb54eadabb87b6",
+    "BRATS_132": "sg_9674d4325e4c8c8d",
+    "BRATS_133": "sg_dbc360cbc169c4ae",
+    "BRATS_134": "sg_dbc360cbc169c4ae",
+    "BRATS_135": "sg_a17c8025f2884526",
+    "BRATS_136": "sg_a4981b8b123d95c4",
+    "BRATS_137": "sg_b333f0a091b03441",
+    "BRATS_138": "sg_b333f0a091b03441",
+    "BRATS_139": "sg_b333f0a091b03441",
+    "BRATS_140": "sg_b333f0a091b03441",
+    "BRATS_141": "sg_b333f0a091b03441",
+    "BRATS_142": "sg_9b5fafbe5cd26ac2",
+    "BRATS_143": "sg_2765272d3a548d1a",
+    "BRATS_144": "sg_eba0e4eedce19b2a",
+    "BRATS_145": "sg_71d6e06c4bb9b39f",
+    "BRATS_146": "sg_a61588d82ba0c832",
+    "BRATS_147": "sg_e24c74818098107b",
+    "BRATS_148": "sg_e24c74818098107b",
+    "BRATS_149": "sg_e24c74818098107b",
+    "BRATS_150": "sg_e24c74818098107b",
+    "BRATS_151": "sg_e24c74818098107b",
+    "BRATS_152": "sg_e24c74818098107b",
+    "BRATS_153": "sg_a8bfb2d5cd119d15",
+    "BRATS_154": "sg_084d7b5c3efae09c",
+    "BRATS_155": "sg_084d7b5c3efae09c",
+    "BRATS_156": "sg_084d7b5c3efae09c",
+    "BRATS_157": "sg_084d7b5c3efae09c",
+    "BRATS_158": "sg_815d90b3485eec4b",
+    "BRATS_159": "sg_be394b3a8c352f22",
+    "BRATS_160": "sg_01ac2338604cf8bc",
+    "BRATS_161": "sg_71401aa668fe6743",
+    "BRATS_162": "sg_dbc360cbc169c4ae",
+    "BRATS_163": "sg_ac2ad219782acb6d",
+    "BRATS_164": "sg_1fc7131a16dc5bcb",
+    "BRATS_165": "sg_baba356c1735c37c",
+    "BRATS_166": "sg_cf33245fcb420c9d",
+    "BRATS_167": "sg_f31bf9fee7c35a6f",
+    "BRATS_168": "sg_61f02cea8bc187eb",
+    "BRATS_169": "sg_bf1d347214959802",
+    "BRATS_170": "sg_746c61eaf9fad2e3",
+    "BRATS_171": "sg_dbc360cbc169c4ae",
+    "BRATS_172": "sg_cb857fb98a0abf51",
+    "BRATS_173": "sg_c5f178908de8ba36",
+    "BRATS_174": "sg_dbc360cbc169c4ae",
+    "BRATS_175": "sg_dbc360cbc169c4ae",
+    "BRATS_176": "sg_dbc360cbc169c4ae",
+    "BRATS_177": "sg_dbc360cbc169c4ae",
+    "BRATS_178": "sg_dbc360cbc169c4ae",
+    "BRATS_179": "sg_dbc360cbc169c4ae",
+    "BRATS_180": "sg_dbc360cbc169c4ae",
+    "BRATS_181": "sg_a3acd7dc983af57d",
+    "BRATS_182": "sg_dbc360cbc169c4ae",
+    "BRATS_183": "sg_dbc360cbc169c4ae",
+    "BRATS_184": "sg_dbc360cbc169c4ae",
+    "BRATS_185": "sg_dbc360cbc169c4ae",
+    "BRATS_186": "sg_dbc360cbc169c4ae",
+    "BRATS_187": "sg_dbc360cbc169c4ae",
+    "BRATS_188": "sg_dbc360cbc169c4ae",
+    "BRATS_189": "sg_dbc360cbc169c4ae",
+    "BRATS_190": "sg_4f51bee88ad1bdc1",
+    "BRATS_191": "sg_395d89f0808b30ba",
+    "BRATS_192": "sg_395d89f0808b30ba",
+    "BRATS_193": "sg_482440ccbb01f4b6",
+    "BRATS_194": "sg_91c0f97012b3ce95",
+    "BRATS_195": "sg_91a8860282e2edae",
+    "BRATS_196": "sg_9ed06c4832c0b7f7",
+    "BRATS_197": "sg_6980cc12eb6c16ca",
+    "BRATS_198": "sg_882c38c24944028a",
+    "BRATS_199": "sg_3b49ab0f8e14a0a6",
+    "BRATS_200": "sg_1d4ba8532d91fcf2",
+    "BRATS_201": "sg_1d4ba8532d91fcf2",
+    "BRATS_202": "sg_1d4ba8532d91fcf2",
+    "BRATS_203": "sg_1d4ba8532d91fcf2",
+    "BRATS_204": "sg_1d4ba8532d91fcf2",
+    "BRATS_205": "sg_1d4ba8532d91fcf2",
+    "BRATS_206": "sg_1d4ba8532d91fcf2",
+    "BRATS_207": "sg_44cd921b83ca0288",
+    "BRATS_208": "sg_44cd921b83ca0288",
+    "BRATS_209": "sg_44cd921b83ca0288",
+    "BRATS_210": "sg_44cd921b83ca0288",
+    "BRATS_211": "sg_44cd921b83ca0288",
+    "BRATS_212": "sg_44cd921b83ca0288",
+    "BRATS_213": "sg_44cd921b83ca0288",
+    "BRATS_214": "sg_44cd921b83ca0288",
+    "BRATS_215": "sg_44cd921b83ca0288",
+    "BRATS_216": "sg_44cd921b83ca0288",
+    "BRATS_217": "sg_157e19a710ae093a",
+    "BRATS_218": "sg_d0debeeb954cde51",
+    "BRATS_219": "sg_4634c4d061d30852",
+    "BRATS_220": "sg_a7e452cafde4e77a",
+    "BRATS_221": "sg_3deae33bd61113ad",
+    "BRATS_222": "sg_7154701b6246d4f8",
+    "BRATS_223": "sg_8837602acc6e8195",
+    "BRATS_224": "sg_52e71086b9ca9a74",
+    "BRATS_225": "sg_3715d8b5ee3942a2",
+    "BRATS_226": "sg_3844f6c00019a9f6",
+    "BRATS_227": "sg_8937151c38cb28ed",
+    "BRATS_228": "sg_8937151c38cb28ed",
+    "BRATS_229": "sg_59b0ddbe83debbeb",
+    "BRATS_230": "sg_1669c905c2882ce2",
+    "BRATS_231": "sg_706077fe05e0b892",
+    "BRATS_232": "sg_00c41e8d5966c1f7",
+    "BRATS_233": "sg_45c8e659e61218ad",
+    "BRATS_234": "sg_332e12d666debe62",
+    "BRATS_235": "sg_86a3e925b76e2d12",
+    "BRATS_236": "sg_dbc360cbc169c4ae",
+    "BRATS_237": "sg_f86c3662747f3044",
+    "BRATS_238": "sg_dbc360cbc169c4ae",
+    "BRATS_239": "sg_1fd907c1c992eafa",
+    "BRATS_240": "sg_1fd907c1c992eafa",
+    "BRATS_241": "sg_1fd907c1c992eafa",
+    "BRATS_242": "sg_1fd907c1c992eafa",
+    "BRATS_243": "sg_341113092c77300c",
+    "BRATS_244": "sg_0526cc8b6520d0e4",
+    "BRATS_245": "sg_0526cc8b6520d0e4",
+    "BRATS_246": "sg_0526cc8b6520d0e4",
+    "BRATS_247": "sg_0526cc8b6520d0e4",
+    "BRATS_248": "sg_0526cc8b6520d0e4",
+    "BRATS_249": "sg_c54fbd647c000b4d",
+    "BRATS_250": "sg_c54fbd647c000b4d",
+    "BRATS_251": "sg_c54fbd647c000b4d",
+    "BRATS_252": "sg_2165b9fa820e45de",
+    "BRATS_253": "sg_71d6e06c4bb9b39f",
+    "BRATS_254": "sg_868310d40b36b081",
+    "BRATS_255": "sg_563246d474bad972",
+    "BRATS_256": "sg_d8348b61c46d8290",
+    "BRATS_257": "sg_08ab621ad03b2016",
+    "BRATS_258": "sg_9568e8757c7f7a03",
+    "BRATS_259": "sg_c12d4b1240c5accb",
+    "BRATS_260": "sg_8bdcf986f2953952",
+    "BRATS_261": "sg_03722ebea335da91",
+    "BRATS_262": "sg_00c41e8d5966c1f7",
+    "BRATS_263": "sg_f9883bdeacb6a7e0",
+    "BRATS_264": "sg_108b660b16f7eec7",
+    "BRATS_265": "sg_9919c4404ced0d9e",
+    "BRATS_266": "sg_47ad4a78768d946f",
+    "BRATS_267": "sg_dbc360cbc169c4ae",
+    "BRATS_268": "sg_56143f5cb2b81628",
+    "BRATS_269": "sg_482440ccbb01f4b6",
+    "BRATS_270": "sg_f97d65d782868e9a",
+    "BRATS_271": "sg_71d6e06c4bb9b39f",
+    "BRATS_272": "sg_43d9a5f241762075",
+    "BRATS_273": "sg_4c38c49cc72ad103",
+    "BRATS_274": "sg_d7a346c20f448204",
+    "BRATS_275": "sg_08d2dd819ae3d51e",
+    "BRATS_276": "sg_b53b2277b123cf34",
+    "BRATS_277": "sg_9256242e6dfa617a",
+    "BRATS_278": "sg_5c0779fb48082fce",
+    "BRATS_279": "sg_60f675257a2fbca7",
+    "BRATS_280": "sg_6e3514450d79f1fa",
+    "BRATS_281": "sg_372033df948883ea",
+    "BRATS_282": "sg_12a8304c53928db9",
+    "BRATS_283": "sg_16ab3a8404d78681",
+    "BRATS_284": "sg_a3e30e935d603843",
+    "BRATS_285": "sg_3ffd0110fd8c70a1",
+    "BRATS_286": "sg_f38fa455e91aace1",
+    "BRATS_287": "sg_6308de8e20c045c2",
+    "BRATS_288": "sg_31394ae9ed58d32b",
+    "BRATS_289": "sg_93ffbaebe6916cd4",
+    "BRATS_290": "sg_a640b5e039eb2ad4",
+    "BRATS_291": "sg_39f58dc75d701b45",
+    "BRATS_292": "sg_71d6e06c4bb9b39f",
+    "BRATS_293": "sg_1aebfcdb85ddeaf3",
+    "BRATS_294": "sg_d422d07b12bc4ca1",
+    "BRATS_295": "sg_06d8065186ce4ce6",
+    "BRATS_296": "sg_36967d40e970b54e",
+    "BRATS_297": "sg_6df161932716264b",
+    "BRATS_298": "sg_8564c7b4b8bd716c",
+    "BRATS_299": "sg_f3aad28bbacec93e",
+    "BRATS_300": "sg_281030a29bfc9860",
+    "BRATS_301": "sg_71d6e06c4bb9b39f",
+    "BRATS_302": "sg_155b562e5b5b19e2",
+    "BRATS_303": "sg_0986963e6efafce3",
+    "BRATS_304": "sg_d7b9b04ec447b240",
+    "BRATS_305": "sg_a28e1930bc2ca04e",
+    "BRATS_306": "sg_4151cfd07ac3e1b0",
+    "BRATS_307": "sg_b631751e1743212d",
+    "BRATS_308": "sg_27eb46161d62497b",
+    "BRATS_309": "sg_6798b5ca712b6625",
+    "BRATS_310": "sg_db687a7640e419d2",
+    "BRATS_311": "sg_434918dd907220ca",
+    "BRATS_312": "sg_994f503ff2896f58",
+    "BRATS_313": "sg_71d6e06c4bb9b39f",
+    "BRATS_314": "sg_d069d50ba16a1524",
+    "BRATS_315": "sg_c2e66908a213fa06",
+    "BRATS_316": "sg_05284efb46abb582",
+    "BRATS_317": "sg_20c2c116a09cd62f",
+    "BRATS_318": "sg_573aa66b02bed579",
+    "BRATS_319": "sg_9e585e9feb448fcf",
+    "BRATS_320": "sg_c581881a08851b71",
+    "BRATS_321": "sg_9f35beac1ad53ce7",
+    "BRATS_322": "sg_3e3be46d07dde9ba",
+    "BRATS_323": "sg_589ca4f634c24754",
+    "BRATS_324": "sg_dbb5dd7d7605593e",
+    "BRATS_325": "sg_310e9599bf94bf9b",
+    "BRATS_326": "sg_455084cc52da07da",
+    "BRATS_327": "sg_edd8bce225d29352",
+    "BRATS_328": "sg_1dfc2668f188a4c3",
+    "BRATS_329": "sg_e2bd1528b58fbe2e",
+    "BRATS_330": "sg_d159c1f79967aad4",
+    "BRATS_331": "sg_be32ae41203caa3e",
+    "BRATS_332": "sg_7f5e5ea0a85929e0",
+    "BRATS_333": "sg_3732b6749d2fecf0",
+    "BRATS_334": "sg_28c03a4bd638ed34",
+    "BRATS_335": "sg_1dd2f970abd2e8ef",
+    "BRATS_336": "sg_7f5e5ea0a85929e0",
+    "BRATS_337": "sg_88f23206744866ac",
+    "BRATS_338": "sg_602726c0ba192496",
+    "BRATS_339": "sg_bb9168abf0fd30fa",
+    "BRATS_340": "sg_2fdb521a17699212",
+    "BRATS_341": "sg_15efb95b06ebf56b",
+    "BRATS_342": "sg_444c950e61a18f08",
+    "BRATS_343": "sg_bb8c876d95d6fc23",
+    "BRATS_344": "sg_84ae84ccca6f9989",
+    "BRATS_345": "sg_b20994f29ab3cb6a",
+    "BRATS_346": "sg_71d6e06c4bb9b39f",
+    "BRATS_347": "sg_23302ea7747aa805",
+    "BRATS_348": "sg_9e8efd497a898fe7",
+    "BRATS_349": "sg_11cc2b353d365340",
+    "BRATS_350": "sg_6bce249910355141",
+    "BRATS_351": "sg_6660017c84caaaca",
+    "BRATS_352": "sg_8bdcf986f2953952",
+    "BRATS_353": "sg_f679da4cd7747b1e",
+    "BRATS_354": "sg_5a1ac60f33875cd1",
+    "BRATS_355": "sg_dbb5dd7d7605593e",
+    "BRATS_356": "sg_2018a0b2a4c05dc0",
+    "BRATS_357": "sg_2bdeca7ee175354b",
+    "BRATS_358": "sg_60f2b2abbb8756cc",
+    "BRATS_359": "sg_71d6e06c4bb9b39f",
+    "BRATS_360": "sg_95a201f987a173c4",
+    "BRATS_361": "sg_85c6aa90dd01ad18",
+    "BRATS_362": "sg_a707a1d218f0d2b5",
+    "BRATS_363": "sg_b9f24f8d2199c5c9",
+    "BRATS_364": "sg_842c966e8309604f",
+    "BRATS_365": "sg_ae740208d8b992c6",
+    "BRATS_366": "sg_85c10b3b6ba1a11a",
+    "BRATS_367": "sg_a46b5f5bbd1aae60",
+    "BRATS_368": "sg_92729da34b3a3b76",
+    "BRATS_369": "sg_46b6c66765483f24",
+    "BRATS_370": "sg_942299b74a876c25",
+    "BRATS_371": "sg_06f6400288e83d09",
+    "BRATS_372": "sg_8bdcf986f2953952",
+    "BRATS_373": "sg_8bdcf986f2953952",
+    "BRATS_374": "sg_d72cc5be6db7b3ed",
+    "BRATS_375": "sg_83955b8dafa684ca",
+    "BRATS_376": "sg_61fdb4475538a1f5",
+    "BRATS_377": "sg_f6cbb23990816fa4",
+    "BRATS_378": "sg_f4a4f31c95489c20",
+    "BRATS_379": "sg_ba929e2158a74152",
+    "BRATS_380": "sg_ffc17c53ddef8289",
+    "BRATS_381": "sg_f34fbe3fa2cc0d13",
+    "BRATS_382": "sg_2779779a15967756",
+    "BRATS_383": "sg_09b440c17fa2cb56",
+    "BRATS_384": "sg_6c3b7da86323c267",
+    "BRATS_385": "sg_7d25c05c3a56bc54",
+    "BRATS_386": "sg_00c41e8d5966c1f7",
+    "BRATS_387": "sg_b20e85806c40821b",
+    "BRATS_388": "sg_fbdefc7b01b339f6",
+    "BRATS_389": "sg_eac2be0178572a9e",
+    "BRATS_390": "sg_7f58a5b7e76f4fe0",
+    "BRATS_391": "sg_f68c66cac443ae9a",
+    "BRATS_392": "sg_0c0db9c0f083da26",
+    "BRATS_393": "sg_33055ac40922cca6",
+    "BRATS_394": "sg_cd7b3022a8e71488",
+    "BRATS_395": "sg_aeec632eb4d4ccdf",
+    "BRATS_396": "sg_76c55b2034ec06a9",
+    "BRATS_397": "sg_e5e87ec0b47ef065",
+    "BRATS_398": "sg_68bdb7a39259fbb9",
+    "BRATS_399": "sg_00c41e8d5966c1f7",
+    "BRATS_400": "sg_9c65d63b0dd50533",
+    "BRATS_401": "sg_cfb4d1384f4ae4f8",
+    "BRATS_402": "sg_de235d174b32b18b",
+    "BRATS_403": "sg_09e69c148337e6f2",
+    "BRATS_404": "sg_294e1273de6f57c3",
+    "BRATS_405": "sg_10a96640d281618d",
+    "BRATS_406": "sg_372ceb713f6a522a",
+    "BRATS_407": "sg_2df5bd388dbf43d8",
+    "BRATS_408": "sg_3bff8d566fff0d5e",
+    "BRATS_409": "sg_8fafb32a9081c1ab",
+    "BRATS_410": "sg_a85271745ce8f675",
+    "BRATS_411": "sg_d38d332c3ea636b3",
+    "BRATS_412": "sg_c993c44c7820708f",
+    "BRATS_413": "sg_3b44f65ab67602cc",
+    "BRATS_414": "sg_f05f74ccf0cb9cd0",
+    "BRATS_415": "sg_dbc360cbc169c4ae",
+    "BRATS_416": "sg_cd113dc69362bb3b",
+    "BRATS_417": "sg_1a87ec0bf10a5bd4",
+    "BRATS_418": "sg_f1ad88ec1c75d9a7",
+    "BRATS_419": "sg_89275a9e1734ba37",
+    "BRATS_420": "sg_34c2f77cb50c5ada",
+    "BRATS_421": "sg_74969a1c98337c11",
+    "BRATS_422": "sg_01bc88c7251cbc7f",
+    "BRATS_423": "sg_01bc88c7251cbc7f",
+    "BRATS_424": "sg_3aff73a604680c9f",
+    "BRATS_425": "sg_594dc703d793c25d",
+    "BRATS_426": "sg_4271128070862d7b",
+    "BRATS_427": "sg_0feb54eadabb87b6",
+    "BRATS_428": "sg_9674d4325e4c8c8d",
+    "BRATS_429": "sg_dbc360cbc169c4ae",
+    "BRATS_430": "sg_a4981b8b123d95c4",
+    "BRATS_431": "sg_b333f0a091b03441",
+    "BRATS_432": "sg_9b5fafbe5cd26ac2",
+    "BRATS_433": "sg_71d6e06c4bb9b39f",
+    "BRATS_434": "sg_e24c74818098107b",
+    "BRATS_435": "sg_084d7b5c3efae09c",
+    "BRATS_436": "sg_815d90b3485eec4b",
+    "BRATS_437": "sg_be394b3a8c352f22",
+    "BRATS_438": "sg_01ac2338604cf8bc",
+    "BRATS_439": "sg_dbc360cbc169c4ae",
+    "BRATS_440": "sg_1fc7131a16dc5bcb",
+    "BRATS_441": "sg_baba356c1735c37c",
+    "BRATS_442": "sg_cf33245fcb420c9d",
+    "BRATS_443": "sg_f31bf9fee7c35a6f",
+    "BRATS_444": "sg_61f02cea8bc187eb",
+    "BRATS_445": "sg_cb857fb98a0abf51",
+    "BRATS_446": "sg_c5f178908de8ba36",
+    "BRATS_447": "sg_dbc360cbc169c4ae",
+    "BRATS_448": "sg_a3acd7dc983af57d",
+    "BRATS_449": "sg_dbc360cbc169c4ae",
+    "BRATS_450": "sg_4f51bee88ad1bdc1",
+    "BRATS_451": "sg_395d89f0808b30ba",
+    "BRATS_452": "sg_482440ccbb01f4b6",
+    "BRATS_453": "sg_91a8860282e2edae",
+    "BRATS_454": "sg_3b49ab0f8e14a0a6",
+    "BRATS_455": "sg_1d4ba8532d91fcf2",
+    "BRATS_456": "sg_157e19a710ae093a",
+    "BRATS_457": "sg_a7e452cafde4e77a",
+    "BRATS_458": "sg_7154701b6246d4f8",
+    "BRATS_459": "sg_52e71086b9ca9a74",
+    "BRATS_460": "sg_3715d8b5ee3942a2",
+    "BRATS_461": "sg_59b0ddbe83debbeb",
+    "BRATS_462": "sg_00c41e8d5966c1f7",
+    "BRATS_463": "sg_332e12d666debe62",
+    "BRATS_464": "sg_86a3e925b76e2d12",
+    "BRATS_465": "sg_f86c3662747f3044",
+    "BRATS_466": "sg_dbc360cbc169c4ae",
+    "BRATS_467": "sg_0526cc8b6520d0e4",
+    "BRATS_468": "sg_2165b9fa820e45de",
+    "BRATS_469": "sg_563246d474bad972",
+    "BRATS_470": "sg_d8348b61c46d8290",
+    "BRATS_471": "sg_03722ebea335da91",
+    "BRATS_472": "sg_f9883bdeacb6a7e0",
+    "BRATS_473": "sg_108b660b16f7eec7",
+    "BRATS_474": "sg_9919c4404ced0d9e",
+    "BRATS_475": "sg_47ad4a78768d946f",
+    "BRATS_476": "sg_dbc360cbc169c4ae",
+    "BRATS_477": "sg_71d6e06c4bb9b39f",
+    "BRATS_478": "sg_4c38c49cc72ad103",
+    "BRATS_479": "sg_d7a346c20f448204",
+    "BRATS_480": "sg_dbb5dd7d7605593e",
+    "BRATS_481": "sg_6e037dcf2717c090",
+    "BRATS_482": "sg_2ef8f232a1cbdcfe",
+    "BRATS_483": "sg_f93b0ed09e4e1fd3",
+    "BRATS_484": "sg_482440ccbb01f4b6"
+  },
+  "groups": {
+    "sg_00c41e8d5966c1f7": [
+      "BRATS_037",
+      "BRATS_064",
+      "BRATS_232",
+      "BRATS_262",
+      "BRATS_386",
+      "BRATS_399",
+      "BRATS_462"
+    ],
+    "sg_01ac2338604cf8bc": [
+      "BRATS_160",
+      "BRATS_438"
+    ],
+    "sg_01bc88c7251cbc7f": [
+      "BRATS_113",
+      "BRATS_114",
+      "BRATS_422",
+      "BRATS_423"
+    ],
+    "sg_03722ebea335da91": [
+      "BRATS_261",
+      "BRATS_471"
+    ],
+    "sg_0526cc8b6520d0e4": [
+      "BRATS_244",
+      "BRATS_245",
+      "BRATS_246",
+      "BRATS_247",
+      "BRATS_248",
+      "BRATS_467"
+    ],
+    "sg_05284efb46abb582": [
+      "BRATS_316"
+    ],
+    "sg_06d8065186ce4ce6": [
+      "BRATS_295"
+    ],
+    "sg_06f6400288e83d09": [
+      "BRATS_371"
+    ],
+    "sg_084d7b5c3efae09c": [
+      "BRATS_154",
+      "BRATS_155",
+      "BRATS_156",
+      "BRATS_157",
+      "BRATS_435"
+    ],
+    "sg_08a7e6aa40ed9717": [
+      "BRATS_025"
+    ],
+    "sg_08ab621ad03b2016": [
+      "BRATS_257"
+    ],
+    "sg_08d2dd819ae3d51e": [
+      "BRATS_001",
+      "BRATS_275"
+    ],
+    "sg_0986963e6efafce3": [
+      "BRATS_303"
+    ],
+    "sg_09b440c17fa2cb56": [
+      "BRATS_033",
+      "BRATS_383"
+    ],
+    "sg_09e69c148337e6f2": [
+      "BRATS_080",
+      "BRATS_403"
+    ],
+    "sg_0c0db9c0f083da26": [
+      "BRATS_046",
+      "BRATS_392"
+    ],
+    "sg_0c425c8a33177ee9": [
+      "BRATS_041"
+    ],
+    "sg_0d0ba3fb62c66b4e": [
+      "BRATS_078"
+    ],
+    "sg_0feb54eadabb87b6": [
+      "BRATS_131",
+      "BRATS_427"
+    ],
+    "sg_108b660b16f7eec7": [
+      "BRATS_264",
+      "BRATS_473"
+    ],
+    "sg_10a96640d281618d": [
+      "BRATS_083",
+      "BRATS_405"
+    ],
+    "sg_11cc2b353d365340": [
+      "BRATS_349"
+    ],
+    "sg_12a8304c53928db9": [
+      "BRATS_005",
+      "BRATS_282"
+    ],
+    "sg_155b562e5b5b19e2": [
+      "BRATS_302"
+    ],
+    "sg_157e19a710ae093a": [
+      "BRATS_217",
+      "BRATS_456"
+    ],
+    "sg_15efb95b06ebf56b": [
+      "BRATS_341"
+    ],
+    "sg_1669c905c2882ce2": [
+      "BRATS_230"
+    ],
+    "sg_16ab3a8404d78681": [
+      "BRATS_006",
+      "BRATS_283"
+    ],
+    "sg_189c183ed5f23717": [
+      "BRATS_031"
+    ],
+    "sg_1a87ec0bf10a5bd4": [
+      "BRATS_417"
+    ],
+    "sg_1aebfcdb85ddeaf3": [
+      "BRATS_002",
+      "BRATS_293"
+    ],
+    "sg_1b675fb9b7284a16": [
+      "BRATS_117"
+    ],
+    "sg_1d4ba8532d91fcf2": [
+      "BRATS_200",
+      "BRATS_201",
+      "BRATS_202",
+      "BRATS_203",
+      "BRATS_204",
+      "BRATS_205",
+      "BRATS_206",
+      "BRATS_455"
+    ],
+    "sg_1dd2f970abd2e8ef": [
+      "BRATS_335"
+    ],
+    "sg_1dfc2668f188a4c3": [
+      "BRATS_328"
+    ],
+    "sg_1fc7131a16dc5bcb": [
+      "BRATS_164",
+      "BRATS_440"
+    ],
+    "sg_1fd907c1c992eafa": [
+      "BRATS_239",
+      "BRATS_240",
+      "BRATS_241",
+      "BRATS_242"
+    ],
+    "sg_2018a0b2a4c05dc0": [
+      "BRATS_356"
+    ],
+    "sg_208587454a785b38": [
+      "BRATS_116"
+    ],
+    "sg_20a57b6fd840c3eb": [
+      "BRATS_053",
+      "BRATS_054",
+      "BRATS_055",
+      "BRATS_056",
+      "BRATS_057",
+      "BRATS_058"
+    ],
+    "sg_20c2c116a09cd62f": [
+      "BRATS_317"
+    ],
+    "sg_2165b9fa820e45de": [
+      "BRATS_252",
+      "BRATS_468"
+    ],
+    "sg_23302ea7747aa805": [
+      "BRATS_347"
+    ],
+    "sg_25e919048f6b0ef1": [
+      "BRATS_039"
+    ],
+    "sg_2765272d3a548d1a": [
+      "BRATS_143"
+    ],
+    "sg_2779779a15967756": [
+      "BRATS_382"
+    ],
+    "sg_27eb46161d62497b": [
+      "BRATS_308"
+    ],
+    "sg_281030a29bfc9860": [
+      "BRATS_300"
+    ],
+    "sg_28c03a4bd638ed34": [
+      "BRATS_334"
+    ],
+    "sg_294e1273de6f57c3": [
+      "BRATS_082",
+      "BRATS_404"
+    ],
+    "sg_2bdeca7ee175354b": [
+      "BRATS_357"
+    ],
+    "sg_2df5bd388dbf43d8": [
+      "BRATS_085",
+      "BRATS_407"
+    ],
+    "sg_2ef8f232a1cbdcfe": [
+      "BRATS_482"
+    ],
+    "sg_2f3955204a0ca3e9": [
+      "BRATS_024"
+    ],
+    "sg_2fdb521a17699212": [
+      "BRATS_340"
+    ],
+    "sg_307d026dc8f7f6a2": [
+      "BRATS_076"
+    ],
+    "sg_310e9599bf94bf9b": [
+      "BRATS_325"
+    ],
+    "sg_31394ae9ed58d32b": [
+      "BRATS_013",
+      "BRATS_288"
+    ],
+    "sg_33055ac40922cca6": [
+      "BRATS_048",
+      "BRATS_393"
+    ],
+    "sg_332e12d666debe62": [
+      "BRATS_234",
+      "BRATS_463"
+    ],
+    "sg_341113092c77300c": [
+      "BRATS_243"
+    ],
+    "sg_34c2f77cb50c5ada": [
+      "BRATS_110",
+      "BRATS_420"
+    ],
+    "sg_36967d40e970b54e": [
+      "BRATS_296"
+    ],
+    "sg_3715d8b5ee3942a2": [
+      "BRATS_225",
+      "BRATS_460"
+    ],
+    "sg_372033df948883ea": [
+      "BRATS_003",
+      "BRATS_281"
+    ],
+    "sg_372ceb713f6a522a": [
+      "BRATS_084",
+      "BRATS_406"
+    ],
+    "sg_3732b6749d2fecf0": [
+      "BRATS_333"
+    ],
+    "sg_3844f6c00019a9f6": [
+      "BRATS_226"
+    ],
+    "sg_395d89f0808b30ba": [
+      "BRATS_191",
+      "BRATS_192",
+      "BRATS_451"
+    ],
+    "sg_39f58dc75d701b45": [
+      "BRATS_017",
+      "BRATS_291"
+    ],
+    "sg_3aff73a604680c9f": [
+      "BRATS_118",
+      "BRATS_424"
+    ],
+    "sg_3b44f65ab67602cc": [
+      "BRATS_095",
+      "BRATS_413"
+    ],
+    "sg_3b49ab0f8e14a0a6": [
+      "BRATS_199",
+      "BRATS_454"
+    ],
+    "sg_3bad852b8c53dadc": [
+      "BRATS_032"
+    ],
+    "sg_3bff8d566fff0d5e": [
+      "BRATS_087",
+      "BRATS_088",
+      "BRATS_408"
+    ],
+    "sg_3deae33bd61113ad": [
+      "BRATS_221"
+    ],
+    "sg_3dfb23840d2f3673": [
+      "BRATS_030"
+    ],
+    "sg_3e3be46d07dde9ba": [
+      "BRATS_322"
+    ],
+    "sg_3ffd0110fd8c70a1": [
+      "BRATS_020",
+      "BRATS_285"
+    ],
+    "sg_4151cfd07ac3e1b0": [
+      "BRATS_306"
+    ],
+    "sg_4267e6ff34e2e7aa": [
+      "BRATS_027"
+    ],
+    "sg_4271128070862d7b": [
+      "BRATS_129",
+      "BRATS_426"
+    ],
+    "sg_434918dd907220ca": [
+      "BRATS_311"
+    ],
+    "sg_43d9a5f241762075": [
+      "BRATS_272"
+    ],
+    "sg_443e8f71f1279bfc": [
+      "BRATS_042"
+    ],
+    "sg_444c950e61a18f08": [
+      "BRATS_342"
+    ],
+    "sg_44cd921b83ca0288": [
+      "BRATS_207",
+      "BRATS_208",
+      "BRATS_209",
+      "BRATS_210",
+      "BRATS_211",
+      "BRATS_212",
+      "BRATS_213",
+      "BRATS_214",
+      "BRATS_215",
+      "BRATS_216"
+    ],
+    "sg_45320f7d608d2099": [
+      "BRATS_128"
+    ],
+    "sg_455084cc52da07da": [
+      "BRATS_326"
+    ],
+    "sg_45c8e659e61218ad": [
+      "BRATS_233"
+    ],
+    "sg_4634c4d061d30852": [
+      "BRATS_219"
+    ],
+    "sg_46b6c66765483f24": [
+      "BRATS_369"
+    ],
+    "sg_47ad4a78768d946f": [
+      "BRATS_266",
+      "BRATS_475"
+    ],
+    "sg_482440ccbb01f4b6": [
+      "BRATS_193",
+      "BRATS_269",
+      "BRATS_452",
+      "BRATS_484"
+    ],
+    "sg_4c38c49cc72ad103": [
+      "BRATS_273",
+      "BRATS_478"
+    ],
+    "sg_4f51bee88ad1bdc1": [
+      "BRATS_190",
+      "BRATS_450"
+    ],
+    "sg_52e71086b9ca9a74": [
+      "BRATS_224",
+      "BRATS_459"
+    ],
+    "sg_56143f5cb2b81628": [
+      "BRATS_268"
+    ],
+    "sg_563246d474bad972": [
+      "BRATS_255",
+      "BRATS_469"
+    ],
+    "sg_56808505899f20c6": [
+      "BRATS_104",
+      "BRATS_105",
+      "BRATS_106",
+      "BRATS_107",
+      "BRATS_108"
+    ],
+    "sg_573aa66b02bed579": [
+      "BRATS_318"
+    ],
+    "sg_589ca4f634c24754": [
+      "BRATS_323"
+    ],
+    "sg_594dc703d793c25d": [
+      "BRATS_127",
+      "BRATS_425"
+    ],
+    "sg_59b0ddbe83debbeb": [
+      "BRATS_229",
+      "BRATS_461"
+    ],
+    "sg_5a1ac60f33875cd1": [
+      "BRATS_354"
+    ],
+    "sg_5c0779fb48082fce": [
+      "BRATS_010",
+      "BRATS_278"
+    ],
+    "sg_602726c0ba192496": [
+      "BRATS_338"
+    ],
+    "sg_60f2b2abbb8756cc": [
+      "BRATS_358"
+    ],
+    "sg_60f675257a2fbca7": [
+      "BRATS_008",
+      "BRATS_279"
+    ],
+    "sg_61f02cea8bc187eb": [
+      "BRATS_168",
+      "BRATS_444"
+    ],
+    "sg_61fdb4475538a1f5": [
+      "BRATS_376"
+    ],
+    "sg_6308de8e20c045c2": [
+      "BRATS_012",
+      "BRATS_287"
+    ],
+    "sg_6660017c84caaaca": [
+      "BRATS_351"
+    ],
+    "sg_66af1ccd3d1c543e": [
+      "BRATS_026"
+    ],
+    "sg_6798b5ca712b6625": [
+      "BRATS_309"
+    ],
+    "sg_68bdb7a39259fbb9": [
+      "BRATS_063",
+      "BRATS_398"
+    ],
+    "sg_6980cc12eb6c16ca": [
+      "BRATS_197"
+    ],
+    "sg_6bce249910355141": [
+      "BRATS_350"
+    ],
+    "sg_6c3b7da86323c267": [
+      "BRATS_035",
+      "BRATS_384"
+    ],
+    "sg_6df161932716264b": [
+      "BRATS_297"
+    ],
+    "sg_6e037dcf2717c090": [
+      "BRATS_481"
+    ],
+    "sg_6e3514450d79f1fa": [
+      "BRATS_015",
+      "BRATS_280"
+    ],
+    "sg_706077fe05e0b892": [
+      "BRATS_231"
+    ],
+    "sg_71401aa668fe6743": [
+      "BRATS_161"
+    ],
+    "sg_7154701b6246d4f8": [
+      "BRATS_052",
+      "BRATS_222",
+      "BRATS_458"
+    ],
+    "sg_71d6e06c4bb9b39f": [
+      "BRATS_019",
+      "BRATS_145",
+      "BRATS_253",
+      "BRATS_271",
+      "BRATS_292",
+      "BRATS_301",
+      "BRATS_313",
+      "BRATS_346",
+      "BRATS_359",
+      "BRATS_433",
+      "BRATS_477"
+    ],
+    "sg_7388a0c070338c97": [
+      "BRATS_029"
+    ],
+    "sg_746c61eaf9fad2e3": [
+      "BRATS_170"
+    ],
+    "sg_74969a1c98337c11": [
+      "BRATS_111",
+      "BRATS_421"
+    ],
+    "sg_76c55b2034ec06a9": [
+      "BRATS_051",
+      "BRATS_396"
+    ],
+    "sg_79abc987bd58058f": [
+      "BRATS_047"
+    ],
+    "sg_79dc27baca42dfd8": [
+      "BRATS_022"
+    ],
+    "sg_7d25c05c3a56bc54": [
+      "BRATS_036",
+      "BRATS_385"
+    ],
+    "sg_7f58a5b7e76f4fe0": [
+      "BRATS_044",
+      "BRATS_390"
+    ],
+    "sg_7f5e5ea0a85929e0": [
+      "BRATS_332",
+      "BRATS_336"
+    ],
+    "sg_815d90b3485eec4b": [
+      "BRATS_158",
+      "BRATS_436"
+    ],
+    "sg_83955b8dafa684ca": [
+      "BRATS_375"
+    ],
+    "sg_842c966e8309604f": [
+      "BRATS_364"
+    ],
+    "sg_84ae84ccca6f9989": [
+      "BRATS_344"
+    ],
+    "sg_8564c7b4b8bd716c": [
+      "BRATS_298"
+    ],
+    "sg_85c10b3b6ba1a11a": [
+      "BRATS_366"
+    ],
+    "sg_85c6aa90dd01ad18": [
+      "BRATS_361"
+    ],
+    "sg_868310d40b36b081": [
+      "BRATS_254"
+    ],
+    "sg_86a3e925b76e2d12": [
+      "BRATS_235",
+      "BRATS_464"
+    ],
+    "sg_87354867eebd374d": [
+      "BRATS_081"
+    ],
+    "sg_882c38c24944028a": [
+      "BRATS_198"
+    ],
+    "sg_8837602acc6e8195": [
+      "BRATS_223"
+    ],
+    "sg_88f23206744866ac": [
+      "BRATS_337"
+    ],
+    "sg_89275a9e1734ba37": [
+      "BRATS_109",
+      "BRATS_419"
+    ],
+    "sg_8937151c38cb28ed": [
+      "BRATS_227",
+      "BRATS_228"
+    ],
+    "sg_8a56096263e207fc": [
+      "BRATS_021"
+    ],
+    "sg_8b399fcd141dcfdf": [
+      "BRATS_100",
+      "BRATS_101"
+    ],
+    "sg_8bdcf986f2953952": [
+      "BRATS_130",
+      "BRATS_260",
+      "BRATS_352",
+      "BRATS_372",
+      "BRATS_373"
+    ],
+    "sg_8fafb32a9081c1ab": [
+      "BRATS_089",
+      "BRATS_409"
+    ],
+    "sg_91a8860282e2edae": [
+      "BRATS_195",
+      "BRATS_453"
+    ],
+    "sg_91c0f97012b3ce95": [
+      "BRATS_194"
+    ],
+    "sg_9256242e6dfa617a": [
+      "BRATS_009",
+      "BRATS_277"
+    ],
+    "sg_92729da34b3a3b76": [
+      "BRATS_368"
+    ],
+    "sg_93ffbaebe6916cd4": [
+      "BRATS_016",
+      "BRATS_289"
+    ],
+    "sg_942299b74a876c25": [
+      "BRATS_370"
+    ],
+    "sg_9568e8757c7f7a03": [
+      "BRATS_258"
+    ],
+    "sg_95a201f987a173c4": [
+      "BRATS_360"
+    ],
+    "sg_9674d4325e4c8c8d": [
+      "BRATS_132",
+      "BRATS_428"
+    ],
+    "sg_9919c4404ced0d9e": [
+      "BRATS_265",
+      "BRATS_474"
+    ],
+    "sg_994f503ff2896f58": [
+      "BRATS_312"
+    ],
+    "sg_9b5fafbe5cd26ac2": [
+      "BRATS_142",
+      "BRATS_432"
+    ],
+    "sg_9c65d63b0dd50533": [
+      "BRATS_065",
+      "BRATS_400"
+    ],
+    "sg_9d9491b35b219f3e": [
+      "BRATS_034"
+    ],
+    "sg_9e585e9feb448fcf": [
+      "BRATS_319"
+    ],
+    "sg_9e8efd497a898fe7": [
+      "BRATS_348"
+    ],
+    "sg_9ed06c4832c0b7f7": [
+      "BRATS_196"
+    ],
+    "sg_9f35beac1ad53ce7": [
+      "BRATS_321"
+    ],
+    "sg_a17c8025f2884526": [
+      "BRATS_135"
+    ],
+    "sg_a28e1930bc2ca04e": [
+      "BRATS_305"
+    ],
+    "sg_a3acd7dc983af57d": [
+      "BRATS_181",
+      "BRATS_448"
+    ],
+    "sg_a3e30e935d603843": [
+      "BRATS_004",
+      "BRATS_284"
+    ],
+    "sg_a46b5f5bbd1aae60": [
+      "BRATS_367"
+    ],
+    "sg_a4981b8b123d95c4": [
+      "BRATS_136",
+      "BRATS_430"
+    ],
+    "sg_a61588d82ba0c832": [
+      "BRATS_146"
+    ],
+    "sg_a640b5e039eb2ad4": [
+      "BRATS_007",
+      "BRATS_290"
+    ],
+    "sg_a707a1d218f0d2b5": [
+      "BRATS_362"
+    ],
+    "sg_a79c24b2ab681a89": [
+      "BRATS_023"
+    ],
+    "sg_a7e452cafde4e77a": [
+      "BRATS_220",
+      "BRATS_457"
+    ],
+    "sg_a85271745ce8f675": [
+      "BRATS_091",
+      "BRATS_410"
+    ],
+    "sg_a8bfb2d5cd119d15": [
+      "BRATS_153"
+    ],
+    "sg_ac2ad219782acb6d": [
+      "BRATS_163"
+    ],
+    "sg_ae740208d8b992c6": [
+      "BRATS_365"
+    ],
+    "sg_aeec632eb4d4ccdf": [
+      "BRATS_050",
+      "BRATS_395"
+    ],
+    "sg_b20994f29ab3cb6a": [
+      "BRATS_345"
+    ],
+    "sg_b20e85806c40821b": [
+      "BRATS_038",
+      "BRATS_387"
+    ],
+    "sg_b22b67d112cc5d1a": [
+      "BRATS_066"
+    ],
+    "sg_b333f0a091b03441": [
+      "BRATS_137",
+      "BRATS_138",
+      "BRATS_139",
+      "BRATS_140",
+      "BRATS_141",
+      "BRATS_431"
+    ],
+    "sg_b53b2277b123cf34": [
+      "BRATS_018",
+      "BRATS_276"
+    ],
+    "sg_b543b07cad6610ab": [
+      "BRATS_112"
+    ],
+    "sg_b631751e1743212d": [
+      "BRATS_307"
+    ],
+    "sg_b8270589d730933f": [
+      "BRATS_097"
+    ],
+    "sg_b9f24f8d2199c5c9": [
+      "BRATS_363"
+    ],
+    "sg_ba3a8080940b073a": [
+      "BRATS_059"
+    ],
+    "sg_ba929e2158a74152": [
+      "BRATS_379"
+    ],
+    "sg_ba92e4f1c3218b3e": [
+      "BRATS_092"
+    ],
+    "sg_baba356c1735c37c": [
+      "BRATS_165",
+      "BRATS_441"
+    ],
+    "sg_bb8c876d95d6fc23": [
+      "BRATS_343"
+    ],
+    "sg_bb9168abf0fd30fa": [
+      "BRATS_339"
+    ],
+    "sg_bd01d84da787f1fc": [
+      "BRATS_060"
+    ],
+    "sg_be32ae41203caa3e": [
+      "BRATS_331"
+    ],
+    "sg_be394b3a8c352f22": [
+      "BRATS_159",
+      "BRATS_437"
+    ],
+    "sg_bf1d347214959802": [
+      "BRATS_169"
+    ],
+    "sg_c12d4b1240c5accb": [
+      "BRATS_259"
+    ],
+    "sg_c2e66908a213fa06": [
+      "BRATS_315"
+    ],
+    "sg_c382e7bd94fcd373": [
+      "BRATS_086"
+    ],
+    "sg_c54fbd647c000b4d": [
+      "BRATS_249",
+      "BRATS_250",
+      "BRATS_251"
+    ],
+    "sg_c581881a08851b71": [
+      "BRATS_320"
+    ],
+    "sg_c5f178908de8ba36": [
+      "BRATS_173",
+      "BRATS_446"
+    ],
+    "sg_c993c44c7820708f": [
+      "BRATS_094",
+      "BRATS_412"
+    ],
+    "sg_cb857fb98a0abf51": [
+      "BRATS_172",
+      "BRATS_445"
+    ],
+    "sg_cd113dc69362bb3b": [
+      "BRATS_099",
+      "BRATS_416"
+    ],
+    "sg_cd7b3022a8e71488": [
+      "BRATS_049",
+      "BRATS_394"
+    ],
+    "sg_cf33245fcb420c9d": [
+      "BRATS_166",
+      "BRATS_442"
+    ],
+    "sg_cfb4d1384f4ae4f8": [
+      "BRATS_067",
+      "BRATS_068",
+      "BRATS_069",
+      "BRATS_070",
+      "BRATS_071",
+      "BRATS_072",
+      "BRATS_073",
+      "BRATS_074",
+      "BRATS_401"
+    ],
+    "sg_d069d50ba16a1524": [
+      "BRATS_314"
+    ],
+    "sg_d0debeeb954cde51": [
+      "BRATS_218"
+    ],
+    "sg_d159c1f79967aad4": [
+      "BRATS_330"
+    ],
+    "sg_d38d332c3ea636b3": [
+      "BRATS_093",
+      "BRATS_411"
+    ],
+    "sg_d422d07b12bc4ca1": [
+      "BRATS_011",
+      "BRATS_294"
+    ],
+    "sg_d569c6a46ca60284": [
+      "BRATS_028"
+    ],
+    "sg_d72cc5be6db7b3ed": [
+      "BRATS_374"
+    ],
+    "sg_d7a346c20f448204": [
+      "BRATS_274",
+      "BRATS_479"
+    ],
+    "sg_d7b9b04ec447b240": [
+      "BRATS_304"
+    ],
+    "sg_d8348b61c46d8290": [
+      "BRATS_256",
+      "BRATS_470"
+    ],
+    "sg_d94777b27d97ed81": [
+      "BRATS_062"
+    ],
+    "sg_db687a7640e419d2": [
+      "BRATS_310"
+    ],
+    "sg_dbb5dd7d7605593e": [
+      "BRATS_324",
+      "BRATS_355",
+      "BRATS_480"
+    ],
+    "sg_dbc360cbc169c4ae": [
+      "BRATS_098",
+      "BRATS_120",
+      "BRATS_121",
+      "BRATS_122",
+      "BRATS_123",
+      "BRATS_124",
+      "BRATS_125",
+      "BRATS_133",
+      "BRATS_134",
+      "BRATS_162",
+      "BRATS_171",
+      "BRATS_174",
+      "BRATS_175",
+      "BRATS_176",
+      "BRATS_177",
+      "BRATS_178",
+      "BRATS_179",
+      "BRATS_180",
+      "BRATS_182",
+      "BRATS_183",
+      "BRATS_184",
+      "BRATS_185",
+      "BRATS_186",
+      "BRATS_187",
+      "BRATS_188",
+      "BRATS_189",
+      "BRATS_236",
+      "BRATS_238",
+      "BRATS_267",
+      "BRATS_415",
+      "BRATS_429",
+      "BRATS_439",
+      "BRATS_447",
+      "BRATS_449",
+      "BRATS_466",
+      "BRATS_476"
+    ],
+    "sg_de235d174b32b18b": [
+      "BRATS_079",
+      "BRATS_402"
+    ],
+    "sg_e24c74818098107b": [
+      "BRATS_147",
+      "BRATS_148",
+      "BRATS_149",
+      "BRATS_150",
+      "BRATS_151",
+      "BRATS_152",
+      "BRATS_434"
+    ],
+    "sg_e2bd1528b58fbe2e": [
+      "BRATS_329"
+    ],
+    "sg_e5e87ec0b47ef065": [
+      "BRATS_061",
+      "BRATS_397"
+    ],
+    "sg_e97108e972df71d6": [
+      "BRATS_126"
+    ],
+    "sg_eac2be0178572a9e": [
+      "BRATS_043",
+      "BRATS_389"
+    ],
+    "sg_eba0e4eedce19b2a": [
+      "BRATS_144"
+    ],
+    "sg_ec3b079acfd543b4": [
+      "BRATS_090"
+    ],
+    "sg_edd8bce225d29352": [
+      "BRATS_327"
+    ],
+    "sg_f05f74ccf0cb9cd0": [
+      "BRATS_096",
+      "BRATS_414"
+    ],
+    "sg_f0dec3098c35e293": [
+      "BRATS_119"
+    ],
+    "sg_f1ad88ec1c75d9a7": [
+      "BRATS_102",
+      "BRATS_103",
+      "BRATS_418"
+    ],
+    "sg_f2ae1107a9ed4b17": [
+      "BRATS_075"
+    ],
+    "sg_f31bf9fee7c35a6f": [
+      "BRATS_167",
+      "BRATS_443"
+    ],
+    "sg_f34fbe3fa2cc0d13": [
+      "BRATS_381"
+    ],
+    "sg_f38fa455e91aace1": [
+      "BRATS_014",
+      "BRATS_286"
+    ],
+    "sg_f3aad28bbacec93e": [
+      "BRATS_299"
+    ],
+    "sg_f4a4f31c95489c20": [
+      "BRATS_378"
+    ],
+    "sg_f679da4cd7747b1e": [
+      "BRATS_353"
+    ],
+    "sg_f68c66cac443ae9a": [
+      "BRATS_045",
+      "BRATS_391"
+    ],
+    "sg_f6cbb23990816fa4": [
+      "BRATS_377"
+    ],
+    "sg_f6e39e95ad5fd3ad": [
+      "BRATS_115"
+    ],
+    "sg_f86c3662747f3044": [
+      "BRATS_237",
+      "BRATS_465"
+    ],
+    "sg_f91ae8dcdf264769": [
+      "BRATS_077"
+    ],
+    "sg_f93b0ed09e4e1fd3": [
+      "BRATS_483"
+    ],
+    "sg_f97d65d782868e9a": [
+      "BRATS_270"
+    ],
+    "sg_f9883bdeacb6a7e0": [
+      "BRATS_263",
+      "BRATS_472"
+    ],
+    "sg_fbdefc7b01b339f6": [
+      "BRATS_040",
+      "BRATS_388"
+    ],
+    "sg_ffc17c53ddef8289": [
+      "BRATS_380"
+    ]
+  },
+  "interpretation": "conservative image-similarity groups, not verified patient identifiers",
+  "rule": "connected components of all coarse Hamming <= 4 candidates plus all four-modality Pearson >= .995 and support Dice >= .995 pairs"
+}

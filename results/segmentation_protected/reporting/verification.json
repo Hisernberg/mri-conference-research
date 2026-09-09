@@ -1,0 +1,45 @@
+{
+  "recorded_utc": "2026-09-09T11:13:24.821536+00:00",
+  "report_complete": true,
+  "models": [
+    "qmmf",
+    "hemis",
+    "no_quality",
+    "unet25d"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "input_hashes": {
+    "verification.json": "5055ade1cacb1994c725698240264918c8bbf86255a24ece720a89497c68425b",
+    "splits.json": "b8852dd1203f1933d343cfa91a82bee8fcd8c6a8c0482d645786fc0ac4b9a855",
+    "frozen_protocol.json": "f249258c606e9e456010c0a6b70d7ce8d6a09d0c43a9392013ab472200b52a2b",
+    "session_status.json": "c0a3eddbd6276070a1554a9fb7b522580afd75f3ae8050c8b0c7c0387407b818",
+    "all_full_case_metrics.csv": "97bf686151eb8ba746dd64763c6b0b12fc4169a06aab2bfb287c7aaf5672d52c",
+    "region_and_empty_case_metrics.csv": "de557913186dd50ea5c3e941b184a8f8876b3f74e471291b6258cfb58d106d4b",
+    "all_subset_case_metrics.csv": "65ea791189d97fdf325f513edcd029282fccb6511576d224533b786d947a610e",
+    "shapley_by_case_seed.csv": "0f2062d8b163ee4f04bca79fadee3e9116767a921d37042fa4171d1f815ad4c3",
+    "all_evaluation_runs.csv": "10c2d41e160c8fad95381b75378554e7125f9e6ba2d2c292c640d5dba7727d11"
+  },
+  "output_hashes": {
+    "regional_results_by_seed.csv": "f13fa2eb8b5c5b9755d31b7a309d66a94facce9939e2d5ba7707f87783da8933",
+    "regional_summary.csv": "297e6cb53ed831772bcd27589f4ac751a24caef36d33522b9577f91eb328d397",
+    "modality_subset_by_seed.csv": "70a3745fb6f9be3c8cb4f865d44342126f37ccae0b91cf35ad0f07f6729ff116",
+    "modality_subset_summary.csv": "f11088648c463771856790282ba6f0f74d8162393af597844c4b18a904e76f3e",
+    "modality_shapley_by_seed.csv": "465221631026c6013a494c31316e539bc27b11d512def56a24d7765b41e637a8",
+    "modality_shapley_summary.csv": "b70055f462d361353615ef3ce229bc6a2e78e38554d00880e9e102d4acb70f89",
+    "resource_summary.csv": "1c739fe9b950caafdfc0674efc4c28b110cc07c87baf157c1348e21b2edb2827"
+  },
+  "report_source_sha256": "42b50d5df7d1a215008ec1848150fe4def559ced8a4747aab8d50701332fc536",
+  "regional_helper_sha256": "d87e502fc9015f09016d006c675fac534bc5969607484ba45c1e9cdf480a175e",
+  "session_wall_seconds": 12220.512740683,
+  "regional_scope": "Nonempty-reference equal-group Dice; primary case macro uses different denominators.",
+  "subset_scope": "Each of all 15 fixed subsets on 51 representatives; mean and sample SD across three fixed seeds.",
+  "shapley_scope": "Macro-Dice attribution across all subsets with a declared zero empty-set value; not causal scanner utility or patient-level validation.",
+  "cost_scope": "Attempt timers include quantitative and qualitative inference; workers overlap. Excludes setup before timers and does not measure isolated latency or GPU busy time.",
+  "raw_images_read": false,
+  "new_training_or_inference": false,
+  "new_hypothesis_tests": false
+}

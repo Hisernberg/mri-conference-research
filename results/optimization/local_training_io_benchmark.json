@@ -1,0 +1,30 @@
+{
+  "scope": "single local exposed training case; warm OS cache; not a Kaggle GPU benchmark",
+  "case_id": "BRATS_275",
+  "rows": [
+    {
+      "depth": 8,
+      "build_seconds": 0.4345557269989513,
+      "bytes": 8861601,
+      "median_window_read_seconds": 0.007477672508684918,
+      "pixel_equality_checks": 50
+    },
+    {
+      "depth": 16,
+      "build_seconds": 0.4315709399525076,
+      "bytes": 8826883,
+      "median_window_read_seconds": 0.01251480300561525,
+      "pixel_equality_checks": 50
+    },
+    {
+      "depth": 32,
+      "build_seconds": 0.43482371198479086,
+      "bytes": 8867059,
+      "median_window_read_seconds": 0.021924459491856396,
+      "pixel_equality_checks": 50
+    }
+  ],
+  "baseline_full_read_median_seconds": 0.0960188609897159,
+  "baseline_compressed_mb": 8.797605514526367,
+  "baseline_array_mb": 49.429847717285156
+}

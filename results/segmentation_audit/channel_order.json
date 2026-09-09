@@ -1,0 +1,20 @@
+{
+  "canonical": [
+    "t1",
+    "t1ce",
+    "t2",
+    "flair"
+  ],
+  "permutation": [
+    1,
+    2,
+    3,
+    0
+  ],
+  "source": {
+    "0": "FLAIR",
+    "1": "T1w",
+    "2": "t1gd",
+    "3": "T2w"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "case_id": "BRATS_275",
+  "augmented_samples_checked": 40,
+  "exact_tensor_equality": true,
+  "source_and_download_hashes_verified": true,
+  "scope": "single local previously exposed case; augmented training sample read only",
+  "median_original_read_and_augmentation_seconds": 0.10551389097236097,
+  "median_slab_read_and_augmentation_seconds": 0.016160063998540863
+}

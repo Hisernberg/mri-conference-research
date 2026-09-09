@@ -1,0 +1,16 @@
+{
+  "completed": true,
+  "n_cases": 484,
+  "n_groups": 262,
+  "n_coarse_candidate_pairs": 610,
+  "n_high_similarity_pairs": 114,
+  "n_added_high_similarity_pairs": 0,
+  "largest_group": 36,
+  "manifest_hash": "2553ba21125ecb05",
+  "sampling_stride_voxels": 4,
+  "correlation_cutoff_all_four": 0.995,
+  "support_dice_cutoff": 0.995,
+  "wall_seconds": 62.01993494300001,
+  "correlation_dtype": "float64",
+  "model_outcomes_used": false
+}

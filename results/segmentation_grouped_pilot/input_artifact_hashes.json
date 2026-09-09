@@ -1,0 +1,130 @@
+[
+  {
+    "path": "configs/hemis.json",
+    "sha256": "9e5e8bb7d9e7b5e0fbf1b739427bde73d1b5d92af071f4e31bffa030858a44af"
+  },
+  {
+    "path": "configs/no_quality.json",
+    "sha256": "77d4b734eefebce0e4f2733c5efc28ac2e4dafd44124ea9efc9b0b2ca831a2a8"
+  },
+  {
+    "path": "configs/qmmf.json",
+    "sha256": "f70b94b9153e6e3c5b011a35f126772fc19299636febc51b783c7d64ccc041ad"
+  },
+  {
+    "path": "dataset_fingerprint.json",
+    "sha256": "01ebf28c43d4200f3f946bd654830742010d24e418da44a809521350be26f03c"
+  },
+  {
+    "path": "development_cohorts.json",
+    "sha256": "bfa70d0de5f9314433df9b173536a5fe61b508bc6de2bfba8853f49a8bc5cb8a"
+  },
+  {
+    "path": "environment.json",
+    "sha256": "6b65a2877e5507dd544a200276acb2680685a3b07b8ee7279e360a0b4994a253"
+  },
+  {
+    "path": "grouping_provenance.json",
+    "sha256": "09e81efc59820f49161c3395476d2ee09de18eebf2a2e42053beb03b38507cd8"
+  },
+  {
+    "path": "model_comparison.csv",
+    "sha256": "a34043c4b61af47abd8a345b913d31c9848b2eefb307c2254364d6ccb8aecfd8"
+  },
+  {
+    "path": "protocol_lock.json",
+    "sha256": "e539ff5e4c0bdfd76b7a042919f1dbbc6a55c4762dc9cad2605229d8532ad894"
+  },
+  {
+    "path": "qmmf_runs/hemis25d_A0_f0_s42_lf100_c4f985b5/completed.json",
+    "sha256": "194ac99e17cdeaa86f24d66b1e30a8ec470ad26aeefbfa74ce17c119ca4d5766"
+  },
+  {
+    "path": "qmmf_runs/hemis25d_A0_f0_s42_lf100_c4f985b5/history.csv",
+    "sha256": "abfae397f553a61a43401c40f7cbb437ba09776d1db0a767bcbe3fdf7b4ab29e"
+  },
+  {
+    "path": "qmmf_runs/hemis25d_A0_f0_s42_lf100_c4f985b5/modality_subsets.json",
+    "sha256": "e62e0d0339c346eeeb109b28fe924ce1256321182b288321539fc5c487dc29de"
+  },
+  {
+    "path": "qmmf_runs/hemis25d_A0_f0_s42_lf100_c4f985b5/outer_case_metrics.csv",
+    "sha256": "d54643f49270a49e5546ea236b1fabfa448f862833ef92d257d97e76ece7ae6b"
+  },
+  {
+    "path": "qmmf_runs/hemis25d_A0_f0_s42_lf100_c4f985b5/outer_summary.json",
+    "sha256": "8883526a267597c477d47d8604d151f484663649da8fa650cda1f88d13667ce8"
+  },
+  {
+    "path": "qmmf_runs/hemis25d_A0_f0_s42_lf100_c4f985b5/quality_normalizer.json",
+    "sha256": "87bcf1f7e9c90cd3517e68ea4533229894627f9d5e562ec42ce5c6259a19e67e"
+  },
+  {
+    "path": "qmmf_runs/hemis25d_A0_f0_s42_lf100_c4f985b5/training_sampling.json",
+    "sha256": "7634096649f01f0ec663bf0f60d16c5e02aff28d3d98661c8dd2421e2d9a5a5d"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A0_f0_s42_lf100_ee5a9cf4/completed.json",
+    "sha256": "7f9e4c05ae345ffc0e9c9bd3ce589c1ca3def9c8569a9b0baf49e7b0a335948e"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A0_f0_s42_lf100_ee5a9cf4/history.csv",
+    "sha256": "f200c0bf3e500b831230beaf1179cfcd505bfe02fd4cd037397e321067cdd6a7"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A0_f0_s42_lf100_ee5a9cf4/modality_subsets.json",
+    "sha256": "169c7ccd5b3cac48e9154c29ae9f24b8a55fc299c5349f657193e13196231671"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A0_f0_s42_lf100_ee5a9cf4/outer_case_metrics.csv",
+    "sha256": "eec38ef2d14806496dc3c2a6b7aac4ec6054e5b54adf44b5dc7501f307fe7b93"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A0_f0_s42_lf100_ee5a9cf4/outer_summary.json",
+    "sha256": "3e71283f26286b505fef50144ba889770669e05861593cbddb52bba61843dedc"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A0_f0_s42_lf100_ee5a9cf4/quality_normalizer.json",
+    "sha256": "87bcf1f7e9c90cd3517e68ea4533229894627f9d5e562ec42ce5c6259a19e67e"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A0_f0_s42_lf100_ee5a9cf4/training_sampling.json",
+    "sha256": "7634096649f01f0ec663bf0f60d16c5e02aff28d3d98661c8dd2421e2d9a5a5d"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A5_f0_s42_lf100_b8c88422/completed.json",
+    "sha256": "80ec80bf955d336b120c4a3ef85c6fbc746b68df6327afd268b74b7e38fb6377"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A5_f0_s42_lf100_b8c88422/history.csv",
+    "sha256": "4dd36d5781b4d06b36a3089379869bf390085d9439aa9f8c523fa4abcc088f1c"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A5_f0_s42_lf100_b8c88422/modality_subsets.json",
+    "sha256": "0e6953d34c330e216b052e3799b301df6bdd25a3637b104981bc51e0e61af0cc"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A5_f0_s42_lf100_b8c88422/outer_case_metrics.csv",
+    "sha256": "1c8d07360218d9af4b7c42528c3caba37d4266897f2ad6cd82de2a155b119473"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A5_f0_s42_lf100_b8c88422/outer_summary.json",
+    "sha256": "e58986a27367d3abc9530fb8091bb9e5d539a01edffff4767ff3a95275c0dea8"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A5_f0_s42_lf100_b8c88422/quality_normalizer.json",
+    "sha256": "87bcf1f7e9c90cd3517e68ea4533229894627f9d5e562ec42ce5c6259a19e67e"
+  },
+  {
+    "path": "qmmf_runs/qmmf_net_A5_f0_s42_lf100_b8c88422/training_sampling.json",
+    "sha256": "7634096649f01f0ec663bf0f60d16c5e02aff28d3d98661c8dd2421e2d9a5a5d"
+  },
+  {
+    "path": "session_status.json",
+    "sha256": "9f95d73a71e9dacfb103d7dfb0e5eb9fc43c2e7c233d3a30f17d1447ff85ba55"
+  },
+  {
+    "path": "splits.json",
+    "sha256": "b8852dd1203f1933d343cfa91a82bee8fcd8c6a8c0482d645786fc0ac4b9a855"
+  }
+]

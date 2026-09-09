@@ -1,0 +1,19 @@
+{
+  "id": "dasshovon/mri-segmentation-protected-evaluation",
+  "title": "MRI Segmentation Protected Evaluation",
+  "code_file": "protected_evaluation.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "dasshovon/mri-segmentation-preparation-v2",
+    "dasshovon/mri-segmentation-study-s42",
+    "dasshovon/mri-segmentation-study-s43",
+    "dasshovon/mri-segmentation-study-s44"
+  ]
+}

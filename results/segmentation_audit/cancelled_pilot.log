@@ -1,0 +1,18 @@
+[{"stream_name":"stderr","time":7.110006029,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.110071237,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.110075168,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.11007763,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.69478837,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.69481645,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.694821283,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.694824833,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":8.901802666,"data":"Source SHA256: d358550c7b35873e4c50f09dce0af0fbdbf98beb216fc105214c03ed366fe80b\n"}
+,{"stream_name":"stdout","time":17.427635029,"data":"START qmmf GPU 0\n"}
+,{"stream_name":"stdout","time":17.428046733,"data":"START hemis GPU 1\n"}
+,{"stream_name":"stdout","time":17.634138721,"data":"START qmmf GPU 0\n"}
+,{"stream_name":"stdout","time":17.634176985,"data":"START hemis GPU 1\n"}
+,{"stream_name":"stdout","time":68.127633607,"data":"[qmmf] epoch   0 loss 1.4286 score nan best -inf @ -1 (39.9s)\n"}
+,{"stream_name":"stdout","time":68.24795115,"data":"[hemis] epoch   0 loss 0.8998 score nan best -inf @ -1 (40.0s)\n"}
+,{"stream_name":"stdout","time":68.338369219,"data":"[qmmf] epoch   0 loss 1.4286 score nan best -inf @ -1 (39.9s)\n"}
+,{"stream_name":"stdout","time":68.338391618,"data":"[hemis] epoch   0 loss 0.8998 score nan best -inf @ -1 (40.0s)\n"}
+]

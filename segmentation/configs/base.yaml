@@ -1,0 +1,98 @@
+# QMMF-Net base experiment configuration (Appendix A of the master plan).
+#
+# Values marked "pilot" are ranges to resolve on the pre-specified development
+# fold during the Week-2 pilot, then FREEZE for the whole study. Nothing here
+# is a claimed result; the accuracy figures in the plan are planning targets.
+
+experiment:
+  protocol_version: "qmmf-v1.0"
+  seed: 42
+  fold: 0
+  label_fraction: 1.0
+  model: "qmmf_net"
+  ablation: "A0"
+  stage: "development"
+  out_dir: "/kaggle/working/qmmf_runs"
+
+  data:
+    crop_size: [192, 192]
+    context_slices: 5
+    modalities: ["t1", "t1ce", "t2", "flair"]
+    outputs: ["wt", "tc", "et"]
+    normalization: "robust_zscore_nonzero_brain"
+    clip_sigma: 5.0
+    # Slice sampling policy (plan 6.3)
+    p_tumor_window: 0.50
+    p_boundary_window: 0.25
+    p_random_window: 0.25
+    # Augmentation (plan 6.4). Elastic stays off until a pilot confirms that it
+    # preserves label fidelity.
+    aug_flip_lr: true
+    aug_rotation_deg: 10.0
+    aug_scale: 0.1
+    aug_elastic: false
+    aug_intensity: true
+    label_fraction: 1.0
+    # Filled in by Notebook 01; Notebooks 02 and 03 refuse to run without them.
+    manifest_hash: ""
+    split_hash: ""
+    root: ""
+
+  net:
+    name: "qmmf_net"
+    widths: [24, 48, 96, 160]
+    moment_fusion: ["mean", "variance", "max"]
+    quality_dim: 7
+    modality_embed_dim: 16
+    context_block: "factorized_large_kernel"
+    context_depth: 2
+    context_kernel: 7
+    deep_supervision: true
+    gate_hidden: 32
+    use_quality: true
+    use_availability_gate: true
+    dropout: 0.0
+    use_film: true
+
+  loss:
+    dice: 0.60
+    bce: 0.40
+    seg: 1.00
+    boundary: 0.10
+    nested: 0.05
+    consistency: 0.20
+    calibration: 0.00        # optional locked ablation, not assumed beneficial
+    deep_supervision_weights: [0.5, 0.25]
+    consistency_warmup_frac: 0.15
+    consistency_conf_threshold: 0.90
+
+  train:
+    optimizer: "adamw"
+    lr: 0.0003               # pilot: 2e-4 to 5e-4
+    weight_decay: 0.001      # pilot: 1e-4 to 1e-2
+    amp: true
+    batch_size: 4            # per T4; set from the VRAM pilot
+    accumulation_steps: 4    # effective 16 central slices
+    max_epochs: 120
+    warmup_frac: 0.05
+    grad_clip: 1.0
+    early_stopping_patience: 20
+    ema_decay_start: 0.99
+    ema_decay_end: 0.999
+    modality_curriculum: "v1"
+    num_workers: 2
+    persistent_workers: false
+    seed: 42
+    steps_per_epoch: 250
+    val_every: 1
+    grad_checkpointing: false
+
+  evaluation:
+    nsd_tolerance_mm: 1.0
+    empty_reference_rule: "exclude_from_dice_report_separately"
+    bootstrap_replicates: 10000
+    alpha: 0.05
+    non_inferiority_margin_pp: 1.5     # H1 margin, locked before any test result
+    calibration_bins: 20
+    selective_coverages: [1.0, 0.9, 0.8]
+    mc_seeds: [42, 43, 44]

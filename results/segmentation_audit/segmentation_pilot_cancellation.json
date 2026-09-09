@@ -1,0 +1,9 @@
+{
+  "kernel": "dasshovon/mri-segmentation-qmmf-v2",
+  "version": 1,
+  "session_id": 348299981,
+  "action": "cancel",
+  "reason": "Confirmed intensity-rescaled duplicate cases cross case-ID split roles; grouping must be repaired before further training.",
+  "time_unix": 1788888577.266967,
+  "response": {}
+}

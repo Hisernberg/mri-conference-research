@@ -1,0 +1,20 @@
+{
+  "attempt_wall_seconds": 2253.931509645,
+  "checkpoint_sha256": "c0ff31cc3e0d260df36e03b8ed3acfd915a4665da024c47735548bb8267050b1",
+  "completed": true,
+  "full_cases": 66,
+  "full_group_macro_dice": 0.7773980499491105,
+  "full_groups": 51,
+  "locked_test_opened": true,
+  "mean_subset_macro_dice": 0.6319263157085351,
+  "name": "no_quality",
+  "parent_config_hash": "1553e3a0d78499c0",
+  "peak_gpu_gb": 0.5974574089050293,
+  "qualitative_cases": 0,
+  "qualitative_wall_seconds": 0.00021900799947616179,
+  "robustness_groups": 51,
+  "scope": "protected_image_groups",
+  "seed": 43,
+  "subsets_per_group": 15,
+  "worst_subset_macro_dice": 0.37318003926280024
+}

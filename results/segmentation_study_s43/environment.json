@@ -1,0 +1,20 @@
+{
+  "cuda_available": true,
+  "cuda_version": "12.8",
+  "cudnn": 91002,
+  "git_commit": "not-a-git-repo",
+  "gpus": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "monai": "not installed",
+  "nibabel": "5.4.2",
+  "numpy": "2.0.2",
+  "pandas": "2.3.3",
+  "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+  "python": "3.12.13",
+  "scipy": "1.16.3",
+  "sklearn": "1.6.1",
+  "timestamp_utc": "2026-09-08T18:25:22Z",
+  "torch": "2.10.0+cu128"
+}

@@ -1,0 +1,36 @@
+{
+  "all_required_completed": true,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "folds": [
+    0
+  ],
+  "variants": [
+    "qmmf",
+    "hemis",
+    "unet25d",
+    "no_quality",
+    "no_variance",
+    "no_max",
+    "no_consistency",
+    "shuffled_quality",
+    "matched_moment_fusion"
+  ],
+  "completed_model_fits": 27,
+  "split_hash": "b92f9c7c0fb4c116",
+  "bootstrap_draws": 10000,
+  "bootstrap_seed": 20260909,
+  "bootstrap_unit": "conservative image group; all fixed training seeds retained in every draw",
+  "inference": "descriptive conditional on the observed training seeds; no verified patient or external generalization claim",
+  "multiplicity": "Bonferroni percentile intervals across prespecified controls separately for each endpoint",
+  "seed_sd": "sample SD across seed-specific pooled group metrics; seeds are not additional cases",
+  "locked_test_opened": false,
+  "sources": [
+    "/home/urad/Desktop/Mri/conference_work/results/segmentation_study_s42",
+    "/home/urad/Desktop/Mri/conference_work/results/segmentation_study_s43",
+    "/home/urad/Desktop/Mri/conference_work/results/segmentation_study_s44"
+  ]
+}

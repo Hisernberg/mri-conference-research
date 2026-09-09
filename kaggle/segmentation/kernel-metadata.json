@@ -1,0 +1,18 @@
+{
+  "id": "dasshovon/mri-segmentation-study-s42",
+  "title": "Mri Segmentation Study S42",
+  "code_file": "02_segmentation_study.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "dasshovon/mri-segmentation-preparation-v2",
+    "dasshovon/mri-segmentation-training-cache"
+  ],
+  "model_sources": []
+}

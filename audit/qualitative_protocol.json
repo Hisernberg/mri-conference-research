@@ -1,0 +1,61 @@
+{
+  "case_count": 3,
+  "case_ids": [
+    "BRATS_143",
+    "BRATS_119",
+    "BRATS_023"
+  ],
+  "case_selection_salt": "20260909|qualitative|",
+  "checkpoint_reselection": false,
+  "colors_rgb": [
+    [
+      0.1,
+      0.75,
+      0.35
+    ],
+    [
+      0.18,
+      0.47,
+      0.95
+    ],
+    [
+      0.95,
+      0.25,
+      0.25
+    ]
+  ],
+  "data_license": "CC-BY-SA-4.0",
+  "dataset_url": "https://www.kaggle.com/datasets/thisisrick25/medical-segmentation-decathlon-brain-tumour",
+  "display_modality": "flair",
+  "display_window": [
+    -3.0,
+    3.0
+  ],
+  "empty_whole_tumor_rule": "middle axial slice",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "models": [
+    "qmmf",
+    "hemis",
+    "no_quality",
+    "unet25d"
+  ],
+  "normalizer_fitting": false,
+  "orientation": "native RAS axial; right at viewer right, anterior at top",
+  "outcomes_observed_when_frozen": "Corrected pilot outcomes and main inner-validation progress; no main outer-fold metric table or protected outcome reviewed.",
+  "overlay_alpha": 0.45,
+  "purpose": "Illustrate three prespecified cases; population conclusions use the complete quantitative cohorts.",
+  "quantitative_protocol_sha256": "f249258c606e9e456010c0a6b70d7ce8d6a09d0c43a9392013ab472200b52a2b",
+  "recorded_utc": "2026-09-08T20:09:59.830436+00:00",
+  "regions": [
+    "WT outside TC",
+    "TC outside ET",
+    "ET"
+  ],
+  "scientific_source": "https://www.nature.com/articles/s41467-022-30695-9",
+  "scope": "illustrative protected full-modality segmentation panels",
+  "seed": 42,
+  "slice_rule": "maximum reference whole-tumor area across axial slices; lowest slice index breaks ties",
+  "split_hash": "b92f9c7c0fb4c116",
+  "threshold": 0.5,
+  "training_performed": false
+}

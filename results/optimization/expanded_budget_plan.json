@@ -1,0 +1,53 @@
+{
+  "estimates_not_guarantees": true,
+  "basis": "Kaggle 100-step active-consistency benchmark and complete three-model grouped pilot",
+  "per_model": [
+    {
+      "model": "qmmf",
+      "epochs": 120,
+      "microbatches_per_epoch": 100,
+      "training_seconds_estimate": 3041.03976888,
+      "selection_seconds_estimate": 1390.401295812002,
+      "outer_and_16_group_subset_seconds_estimate": 927.2377533209999,
+      "total_per_model_seconds_estimate": 5358.6788180130025
+    },
+    {
+      "model": "hemis",
+      "epochs": 120,
+      "microbatches_per_epoch": 100,
+      "training_seconds_estimate": 3407.950503720007,
+      "selection_seconds_estimate": 1169.8908323759997,
+      "outer_and_16_group_subset_seconds_estimate": 766.7234317949999,
+      "total_per_model_seconds_estimate": 5344.564767891006
+    }
+  ],
+  "conservative_five_wave_seconds_per_seed": 26793.394090065012,
+  "three_seed_fifteen_wave_seconds": 80380.18227019504,
+  "planned_seeds": [
+    42,
+    43,
+    44
+  ],
+  "variants": [
+    "qmmf",
+    "hemis",
+    "unet25d",
+    "no_quality",
+    "no_variance",
+    "no_max",
+    "no_consistency",
+    "shuffled_quality",
+    "matched_moment_fusion"
+  ],
+  "epochs": 120,
+  "microbatches_per_epoch": 100,
+  "validation_every_epochs": 10,
+  "validation_groups": 12,
+  "outer_groups": 55,
+  "outer_cases": 91,
+  "robustness_groups": 16,
+  "runner_budget_seconds_per_seed": 29000,
+  "kaggle_timeout_seconds_per_seed": 30000,
+  "protected_evaluation_reserve_seconds": 14400,
+  "adjustment_policy": "do not change epochs or omit unfavorable runs; preserve and resume any incomplete fit under the same configuration"
+}

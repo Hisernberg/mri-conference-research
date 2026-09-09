@@ -1,0 +1,18 @@
+[
+  {
+    "kernel": "mri-classification-ablation-v2",
+    "version": 2,
+    "dataset_sources": [
+      "navoneel/brain-mri-images-for-brain-tumor-detection"
+    ],
+    "kernel_sources": []
+  },
+  {
+    "kernel": "mri-segmentation-preparation-v2",
+    "version": 1,
+    "dataset_sources": [
+      "thisisrick25/medical-segmentation-decathlon-brain-tumour"
+    ],
+    "kernel_sources": []
+  }
+]

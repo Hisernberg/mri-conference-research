@@ -1,0 +1,64 @@
+[
+  {
+    "a": "BRATS_001",
+    "b": "BRATS_275",
+    "shape_a": [
+      4,
+      152,
+      192,
+      148
+    ],
+    "shape_b": [
+      4,
+      152,
+      192,
+      148
+    ],
+    "same_crop": true,
+    "same_targets": true,
+    "same_brain_mask": true,
+    "foreground_pearson_by_modality": [
+      0.9999990447922604,
+      0.9999992396058038,
+      0.9999990376490441,
+      0.9999990479317464
+    ],
+    "mean_abs_normalized_difference_by_modality": [
+      0.0012101659911196957,
+      0.0010556855913539723,
+      0.0011864959105674622,
+      0.0011743240719899975
+    ]
+  },
+  {
+    "a": "BRATS_002",
+    "b": "BRATS_293",
+    "shape_a": [
+      4,
+      158,
+      192,
+      154
+    ],
+    "shape_b": [
+      4,
+      158,
+      192,
+      154
+    ],
+    "same_crop": true,
+    "same_targets": true,
+    "same_brain_mask": true,
+    "foreground_pearson_by_modality": [
+      0.9999992406986924,
+      0.9999993951804688,
+      0.9999990329436205,
+      0.9999992422794274
+    ],
+    "mean_abs_normalized_difference_by_modality": [
+      0.0010531485400730523,
+      0.000926855562413996,
+      0.0011877715113005158,
+      0.0010479795489273381
+    ]
+  }
+]

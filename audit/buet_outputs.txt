@@ -1,0 +1,507 @@
+CELL 1 OUTPUT
+SCOPE=pilot  reportable=False
+models=['qmmf_net', 'hemis25d', 'unet25d'] folds=[0] epochs=40
+
+This scope produces pipeline evidence, not study results. Every
+output file will carry scope='pilot' and not_reportable=True.
+
+
+CELL 3 OUTPUT
+repo unpacked at /kaggle/working/qmmf_net
+['README.md', 'configs', 'requirements.txt', 'scripts', 'src', 'tests']
+
+
+CELL 3 OUTPUT
+/tmp/ipykernel_23/1253636542.py:11: DeprecationWarning: Python 3.14 will, by default, filter extracted tar archives and reject files or modify their metadata. Use the filter argument to control this behavior.
+  tf.extractall(REPO)
+
+
+CELL 3 OUTPUT
+  nibabel      present
+
+
+CELL 3 OUTPUT
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 23.1 MB/s eta 0:00:00
+
+
+CELL 3 OUTPUT
+  monai        installed
+  statsmodels  present
+  PyYAML       present
+
+
+CELL 4 OUTPUT
+{
+  "python": "3.12.13",
+  "platform": "Linux-6.12.90+-x86_64-with-glibc2.35",
+  "numpy": "2.0.2",
+  "timestamp_utc": "2026-09-07T13:40:35Z",
+  "torch": "2.10.0+cu128",
+  "cuda_available": true,
+  "cuda_version": "12.8",
+  "gpus": [
+    "Tesla T4",
+    "Tesla T4"
+  ]
+}
+CUDA: True | devices: 2
+  GPU 0: Tesla T4, 14.6 GB
+  GPU 1: Tesla T4, 14.6 GB
+CPU count: 4
+
+
+CELL 5 OUTPUT
+........................................................................ [ 62%]
+............................................                             [100%]
+116 passed in 8.86s
+
+
+
+CELL 6 OUTPUT
+DATASET NOT RESOLVED via default candidates: No MSD Task01_BrainTumour root found. Attach the Kaggle dataset 'thisisrick25/medical-segmentation-decathlon-brain-tumour' or run the Hugging Face snapshot download (YongchengYAO/MSD-Lite). Searched: ['/kaggle/input/medical-segmentation-decathlon-brain-tumour', '/kaggle/input/medical-segmentation-decathlon-brain-tumor', '/kaggle/working/msd_lite/MSD-BrainTumour', '/kaggle/input/msd-task01-braintumour']
+Trying your attached dataset paths directly...
+MSD Task01 root (found via fallback search): /kaggle/input/datasets/thisisrick25/medical-segmentation-decathlon-brain-tumour/Task01_BrainTumour
+dataset.json modality block: {'0': 'FLAIR', '1': 'T1w', '2': 't1gd', '3': 'T2w'}
+dataset.json labels block:   {'0': 'background', '1': 'edema', '2': 'non-enhancing tumor', '3': 'enhancing tumour'}
+
+
+CELL 7 OUTPUT
+  audited 25/484 cases
+
+
+CELL 7 OUTPUT
+  audited 50/484 cases
+
+
+CELL 7 OUTPUT
+  audited 75/484 cases
+
+
+CELL 7 OUTPUT
+  audited 100/484 cases
+
+
+CELL 7 OUTPUT
+  audited 125/484 cases
+
+
+CELL 7 OUTPUT
+  audited 150/484 cases
+
+
+CELL 7 OUTPUT
+  audited 175/484 cases
+
+
+CELL 7 OUTPUT
+  audited 200/484 cases
+
+
+CELL 7 OUTPUT
+  audited 225/484 cases
+
+
+CELL 7 OUTPUT
+  audited 250/484 cases
+
+
+CELL 7 OUTPUT
+  audited 275/484 cases
+
+
+CELL 7 OUTPUT
+  audited 300/484 cases
+
+
+CELL 7 OUTPUT
+  audited 325/484 cases
+
+
+CELL 7 OUTPUT
+  audited 350/484 cases
+
+
+CELL 7 OUTPUT
+  audited 375/484 cases
+
+
+CELL 7 OUTPUT
+  audited 400/484 cases
+
+
+CELL 7 OUTPUT
+  audited 425/484 cases
+
+
+CELL 7 OUTPUT
+  audited 450/484 cases
+
+
+CELL 7 OUTPUT
+  audited 475/484 cases
+
+
+CELL 7 OUTPUT
+
+cases                484   (1983s)
+label scheme         from_dataset_json {'background': 0, 'edema': 1, 'non_enhancing': 2, 'enhancing': 3}
+failed cases         0
+exact duplicates     0
+spacing uniform      True
+manifest hash        2553ba21125ecb05
+G0 gate_pass         True
+
+
+CELL 8 OUTPUT
+scheme        from_dataset_json {'background': 0, 'edema': 1, 'non_enhancing': 2, 'enhancing': 3}
+WT = [1, 2, 3] | TC = [2, 3] | ET = [3]
+locked test   96 cases  (untouched until cell 15)
+development   388 cases
+  fold 0: train 244 / inner 44 / outer 100
+  fold 1: train 246 / inner 44 / outer 98
+  fold 2: train 249 / inner 44 / outer 95
+  fold 3: train 249 / inner 44 / outer 95
+split hash    a392d0e39514f976
+
+
+CELL 9 OUTPUT
+  cached 25/484  (5.3s/case, ~40 min left)
+
+
+CELL 9 OUTPUT
+  cached 50/484  (5.2s/case, ~38 min left)
+
+
+CELL 9 OUTPUT
+  cached 75/484  (5.0s/case, ~34 min left)
+
+
+CELL 9 OUTPUT
+  cached 100/484  (4.9s/case, ~31 min left)
+
+
+CELL 9 OUTPUT
+  cached 125/484  (4.9s/case, ~29 min left)
+
+
+CELL 9 OUTPUT
+  cached 150/484  (4.9s/case, ~27 min left)
+
+
+CELL 9 OUTPUT
+  cached 175/484  (4.9s/case, ~25 min left)
+
+
+CELL 9 OUTPUT
+  cached 200/484  (4.9s/case, ~23 min left)
+
+
+CELL 9 OUTPUT
+  cached 225/484  (4.9s/case, ~21 min left)
+
+
+CELL 9 OUTPUT
+  cached 250/484  (4.9s/case, ~19 min left)
+
+
+CELL 9 OUTPUT
+  cached 275/484  (4.9s/case, ~17 min left)
+
+
+CELL 9 OUTPUT
+  cached 300/484  (5.0s/case, ~15 min left)
+
+
+CELL 9 OUTPUT
+  cached 325/484  (5.0s/case, ~13 min left)
+
+
+CELL 9 OUTPUT
+  cached 350/484  (4.9s/case, ~11 min left)
+
+
+CELL 9 OUTPUT
+  cached 375/484  (4.7s/case, ~9 min left)
+
+
+CELL 9 OUTPUT
+  cached 400/484  (4.6s/case, ~7 min left)
+
+
+CELL 9 OUTPUT
+  cached 425/484  (4.6s/case, ~4 min left)
+
+
+CELL 9 OUTPUT
+  cached 450/484  (4.5s/case, ~3 min left)
+
+
+CELL 9 OUTPUT
+  cached 475/484  (4.4s/case, ~1 min left)
+
+
+CELL 9 OUTPUT
+cache: 484 files, 3.81 GB, 484 built this session (2118s)
+
+
+CELL 10 OUTPUT
+config hash: 8dbcf5c2b805afe2
+quality normalisers fitted for folds: ['0', '1', '2', '3']
+
+
+CELL 10 OUTPUT
+raw quality matrix [M, Q]:
+ [[4.0168416e+05 8.7501999e+01 8.8200003e-01 8.1370001e+00 0.0000000e+00
+  9.4800001e-01 3.3000000e-02]
+ [5.1473356e+05 6.4022003e+01 8.8800001e-01 6.6360002e+00 0.0000000e+00
+  6.5799999e-01 8.2000002e-02]
+ [4.9166650e+05 8.3872002e+01 8.6400002e-01 6.6970000e+00 0.0000000e+00
+  8.4600002e-01 3.3000000e-02]
+ [4.4514803e+05 9.2092003e+01 8.9200002e-01 8.5430002e+00 0.0000000e+00
+  8.3899999e-01 2.8000001e-02]]
+
+
+CELL 11 OUTPUT
+{
+  "hemis25d": 0.881395,
+  "qmmf_net": 1.221465,
+  "unet25d": 0.884299
+}
+
+QMMF-Net 1.22M parameters (gate: < 8M) -> PASS
+
+
+CELL 11 OUTPUT
+masking + nesting checks passed (50-sigma perturbation of an absent modality)
+
+
+CELL 12 OUTPUT
+qmmf_net      1.22M  VRAM  1.37 GB   0.75 steps/s  vram_pass=True
+
+
+CELL 12 OUTPUT
+hemis25d      0.88M  VRAM  0.79 GB   0.79 steps/s  vram_pass=True
+
+
+CELL 12 OUTPUT
+unet25d       0.88M  VRAM  0.47 GB   0.81 steps/s  vram_pass=True
+
+
+CELL 13 OUTPUT
+queued: 3 | queue state: {'pending': 3, 'running': 0, 'completed': 0, 'failed': 0, 'resource_rejected': 0, 'total': 3}
+
+
+CELL 13 OUTPUT
+two workers launched; this cell blocks until they finish.
+
+
+CELL 13 OUTPUT
+[gpu0] start qmmf_net_A0_f0_s42_lf100_8dbcf5c2
+[gpu0] start hemis25d_A0_f0_s42_lf100_2df7e1dc
+
+
+CELL 13 OUTPUT
+epoch   0 loss 1.4696 score 0.0000 best 0.0000 @ 0 (136.3s)
+
+
+CELL 13 OUTPUT
+epoch   1 loss 1.2815 score 0.0000 best 0.0000 @ 0 (117.9s)
+
+
+CELL 13 OUTPUT
+epoch   2 loss 1.2235 score 0.0000 best 0.0000 @ 0 (110.2s)
+
+
+CELL 13 OUTPUT
+epoch   3 loss 1.1659 score 0.0000 best 0.0000 @ 0 (114.9s)
+
+
+CELL 13 OUTPUT
+epoch   4 loss 1.1419 score 0.0000 best 0.0000 @ 0 (112.5s)
+
+
+CELL 13 OUTPUT
+epoch   5 loss 1.1038 score 0.0000 best 0.0000 @ 0 (117.8s)
+
+
+CELL 13 OUTPUT
+epoch   6 loss 1.1048 score 0.0000 best 0.0000 @ 0 (114.1s)
+
+
+CELL 13 OUTPUT
+epoch   7 loss 1.0770 score 0.0000 best 0.0000 @ 0 (116.4s)
+
+
+CELL 13 OUTPUT
+epoch   8 loss 1.0516 score 0.0000 best 0.0000 @ 0 (115.7s)
+
+
+CELL 13 OUTPUT
+epoch   9 loss 1.0422 score 0.0000 best 0.0000 @ 0 (115.0s)
+
+
+CELL 13 OUTPUT
+epoch  10 loss 1.0388 score 0.0000 best 0.0000 @ 0 (117.2s)
+
+
+CELL 13 OUTPUT
+epoch  11 loss 1.0093 score 0.0000 best 0.0000 @ 0 (114.7s)
+
+
+CELL 13 OUTPUT
+epoch  12 loss 1.0065 score 0.0000 best 0.0000 @ 0 (122.7s)
+
+
+CELL 13 OUTPUT
+epoch  13 loss 0.9891 score 0.0000 best 0.0000 @ 0 (115.9s)
+
+
+CELL 13 OUTPUT
+epoch  14 loss 0.9848 score 0.0000 best 0.0000 @ 0 (119.7s)
+
+
+CELL 13 OUTPUT
+epoch  15 loss 0.9558 score 0.0000 best 0.0000 @ 0 (121.0s)
+
+
+CELL 13 OUTPUT
+epoch   0 loss 0.9176 score 0.1998 best 0.1998 @ 0 (136.3s)
+
+
+CELL 13 OUTPUT
+epoch  16 loss 0.9565 score 0.0000 best 0.0000 @ 0 (117.7s)
+
+
+CELL 13 OUTPUT
+epoch  17 loss 0.9616 score 0.0000 best 0.0000 @ 0 (122.3s)
+
+
+CELL 13 OUTPUT
+epoch  18 loss 0.9509 score 0.0000 best 0.0000 @ 0 (118.5s)
+
+
+CELL 13 OUTPUT
+epoch  19 loss 0.9338 score 0.0000 best 0.0000 @ 0 (119.3s)
+
+
+CELL 13 OUTPUT
+epoch   1 loss 0.8355 score 0.3078 best 0.3078 @ 1 (117.4s)
+
+
+CELL 13 OUTPUT
+epoch  20 loss 0.9522 score 0.0000 best 0.0000 @ 0 (117.6s)
+early stopping at epoch 20: no improvement for 20 validations
+[gpu0] done qmmf_net_A0_f0_s42_lf100_8dbcf5c2 in 11950s
+[gpu0] start unet25d_A0_f0_s42_lf100_ca8004be
+
+
+CELL 13 OUTPUT
+epoch   2 loss 0.8041 score 0.3279 best 0.3279 @ 2 (112.0s)
+
+
+CELL 13 OUTPUT
+epoch   0 loss 0.8675 score 0.2130 best 0.2130 @ 0 (115.7s)
+
+
+CELL 13 OUTPUT
+epoch   3 loss 0.7743 score 0.3385 best 0.3385 @ 3 (112.8s)
+
+
+CELL 13 OUTPUT
+epoch   1 loss 0.7840 score 0.3833 best 0.3833 @ 1 (117.2s)
+
+
+CELL 13 OUTPUT
+epoch   4 loss 0.7588 score 0.3596 best 0.3596 @ 4 (112.6s)
+
+
+CELL 13 OUTPUT
+epoch   2 loss 0.7542 score 0.4431 best 0.4431 @ 2 (122.3s)
+
+
+CELL 13 OUTPUT
+epoch   5 loss 0.7388 score 0.3533 best 0.3596 @ 4 (120.9s)
+
+
+CELL 13 OUTPUT
+epoch   3 loss 0.7252 score 0.4607 best 0.4607 @ 3 (114.6s)
+
+
+CELL 13 OUTPUT
+epoch   6 loss 0.7389 score 0.3509 best 0.3596 @ 4 (113.6s)
+
+
+CELL 13 OUTPUT
+epoch   4 loss 0.7128 score 0.4949 best 0.4949 @ 4 (115.0s)
+
+
+CELL 13 OUTPUT
+epoch   7 loss 0.7202 score 0.3631 best 0.3631 @ 7 (112.6s)
+
+
+CELL 13 OUTPUT
+epoch   5 loss 0.6970 score 0.5105 best 0.5105 @ 5 (118.0s)
+
+
+CELL 13 OUTPUT
+epoch   8 loss 0.7033 score 0.3668 best 0.3668 @ 8 (111.0s)
+
+
+CELL 13 OUTPUT
+epoch   6 loss 0.6940 score 0.4944 best 0.5105 @ 5 (109.8s)
+
+
+CELL 13 OUTPUT
+epoch   9 loss 0.6927 score 0.3831 best 0.3831 @ 9 (103.6s)
+
+
+CELL 13 OUTPUT
+epoch   7 loss 0.6809 score 0.4852 best 0.5105 @ 5 (115.3s)
+
+
+CELL 13 OUTPUT
+epoch  10 loss 0.6860 score 0.3616 best 0.3831 @ 9 (114.1s)
+
+
+CELL 13 OUTPUT
+epoch   8 loss 0.6656 score 0.5216 best 0.5216 @ 8 (114.8s)
+
+
+CELL 13 OUTPUT
+epoch  11 loss 0.6702 score 0.3767 best 0.3831 @ 9 (110.7s)
+
+
+CELL 13 OUTPUT
+epoch   9 loss 0.6568 score 0.5098 best 0.5216 @ 8 (108.7s)
+
+
+CELL 13 OUTPUT
+epoch  12 loss 0.6653 score 0.4089 best 0.4089 @ 12 (114.8s)
+
+
+CELL 13 OUTPUT
+epoch  10 loss 0.6540 score 0.5370 best 0.5370 @ 10 (113.8s)
+
+
+CELL 13 OUTPUT
+epoch  13 loss 0.6531 score 0.4221 best 0.4221 @ 13 (114.7s)
+
+
+CELL 13 OUTPUT
+epoch  11 loss 0.6371 score 0.5321 best 0.5370 @ 10 (107.9s)
+
+
+CELL 13 OUTPUT
+epoch  14 loss 0.6508 score 0.3909 best 0.4221 @ 13 (106.3s)
+
+
+CELL 13 OUTPUT
+epoch  12 loss 0.6345 score 0.5732 best 0.5732 @ 12 (109.3s)
+
+
+CELL 13 OUTPUT
+epoch  15 loss 0.6365 score 0.4047 best 0.4221 @ 13 (106.1s)
+
+
+CELL 13 OUTPUT
+epoch  13 loss 0.6227 score 0.5279 best 0.5732 @ 12 (104.1s)

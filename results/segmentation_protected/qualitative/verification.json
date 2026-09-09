@@ -1,0 +1,29 @@
+{
+  "cases": [
+    "BRATS_143",
+    "BRATS_119",
+    "BRATS_023"
+  ],
+  "checks": [
+    "frozen case/seed rule",
+    "checkpoint identity",
+    "reference-area slice rule",
+    "common input/reference",
+    "whole-volume Dice captions",
+    "PNG geometry and checksums",
+    "rendered region areas"
+  ],
+  "groups": 3,
+  "interpretation": "Three prespecified examples; whole-cohort quantitative results determine population conclusions.",
+  "models": [
+    "qmmf",
+    "hemis",
+    "no_quality",
+    "unet25d"
+  ],
+  "prediction_panels": 12,
+  "qualitative_protocol_sha256": "b145f47c7cffa19e77e54fb2545449e4d19fe2a6e172af566826d38bee72d7b5",
+  "seed": 42,
+  "synthetic_fixture": false,
+  "verified": true
+}

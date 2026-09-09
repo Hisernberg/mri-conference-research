@@ -1,0 +1,6 @@
+contrast,macro_f1_delta,ci_low,ci_high,analysis_scope
+attention_with_multiscale,0.039910934643821006,0.006185197535814163,0.07382291248579774,exploratory factorial follow-up of Kaggle OOF predictions
+attention_without_multiscale,-0.0018374327128294343,-0.037468981569158906,0.03514547378302214,exploratory factorial follow-up of Kaggle OOF predictions
+multiscale_with_attention,0.037164489986507676,0.004380265208617918,0.06947507660961645,exploratory factorial follow-up of Kaggle OOF predictions
+multiscale_without_attention,-0.004583877370142764,-0.03174885350320665,0.021607083567225023,exploratory factorial follow-up of Kaggle OOF predictions
+factorial_interaction,0.04174836735665044,0.0025370109076209846,0.07878078956562724,exploratory factorial follow-up of Kaggle OOF predictions

@@ -1,0 +1,18 @@
+{
+  "all_planned_completed": true,
+  "completed_variants": [
+    "qmmf",
+    "hemis",
+    "no_quality"
+  ],
+  "failures": {},
+  "locked_test_opened": false,
+  "pending": [],
+  "planned_variants": [
+    "qmmf",
+    "hemis",
+    "no_quality"
+  ],
+  "scope": "pilot",
+  "wall_seconds": 1830.068152777
+}

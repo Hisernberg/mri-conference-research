@@ -1,0 +1,24 @@
+# Kaggle executions and deployment bundles
+
+All reported runs below completed and passed the artifact checks described in [the results report](../docs/RESULTS.md). The jobs are private under `dasshovon`; GitHub access does not automatically grant access to that Kaggle account. Select the stated version in Kaggle's version history.
+
+| Job | Version | Verified output | Repository entry |
+|---|---|---|---|
+| [Classification ablations](https://www.kaggle.com/code/dasshovon/mri-classification-ablation-v2) | 2 | 105 fits, 4,788 OOF rows | [Notebook](../notebooks/01_classification_ablation.ipynb), [bundle](classification/), [results](../results/classification/) |
+| [MRI preparation](https://www.kaggle.com/code/dasshovon/mri-segmentation-preparation-v2) | 1 | Structural checks and 484 canonical caches | [Bundle](preparation/), [audit](../results/segmentation_audit/) |
+| [Similarity audit](https://www.kaggle.com/code/dasshovon/mri-segmentation-similarity-audit) | 2 | Float64 audit, 262 conservative image groups | [Bundle](similarity/), [frozen group metadata](../segmentation/configs/grouped_v2/) |
+| [Corrected segmentation pilot](https://www.kaggle.com/code/dasshovon/mri-segmentation-qmmf-v2) | 2 | Three fresh pilot fits | [Exact source](../audit/source_snapshots/segmentation_grouped_pilot_v2.json), [results](../results/segmentation_grouped_pilot/) |
+| [Lossless training cache](https://www.kaggle.com/code/dasshovon/mri-segmentation-training-cache) | 1 | 484 voxel-exact conversions | [Bundle](training_cache/), [optimization evidence](../results/optimization/) |
+| [Training I/O benchmark](https://www.kaggle.com/code/dasshovon/mri-segmentation-io-benchmark) | 1 | QMMF 4.02× and HeMIS-style 3.51× bounded-segment speedups | [Bundle](io_benchmark/), [exact source](../audit/source_snapshots/io_benchmark_v1.json) |
+| [Main segmentation, seed 42](https://www.kaggle.com/code/dasshovon/mri-segmentation-study-s42) | 1 | Nine completed fits | [Notebook](../notebooks/02_segmentation_study.ipynb), [bundle](segmentation/), [results](../results/segmentation_study_s42/) |
+| [Main segmentation, seed 43](https://www.kaggle.com/code/dasshovon/mri-segmentation-study-s43) | 1 | Nine completed fits | [Exact source and execution cell](../audit/source_snapshots/segmentation_study_s43_v1.json), [results](../results/segmentation_study_s43/) |
+| [Main segmentation, seed 44](https://www.kaggle.com/code/dasshovon/mri-segmentation-study-s44) | 1 | Nine completed fits | [Exact source and execution cell](../audit/source_snapshots/segmentation_study_s44_v1.json), [results](../results/segmentation_study_s44/) |
+| [Reserved-cohort evaluation](https://www.kaggle.com/code/dasshovon/mri-segmentation-protected-evaluation) | 1 | 12 selected checkpoints, 66 cases/51 groups, all 15 modality subsets and 12 real prediction panels | [Bundle](protected_evaluation/), [exact source](../audit/source_snapshots/protected_evaluation_v1.json), [results](../results/segmentation_protected/) |
+
+The historical-exposure sensitivity is a local analysis of verified reserved metric tables; it has no additional Kaggle training run. See [its results](../results/segmentation_historical_sensitivity/) and [frozen protocol](../audit/historical_exposure_sensitivity_protocol.json).
+
+Each deployment directory contains private kernel metadata and its portable notebook or script. Main seeds 43 and 44 can be regenerated using the documented seed/slug options; preserve their submitted snapshots when reproducing the reported version. All three main seeds used source SHA-256 `037bc0a99fab8f294bc710274b67b96b190ef4c4dbab6303fa64238040ec4d0a`.
+
+Dataset mirrors, terms and required attachments are documented in [DATASETS.md](../docs/DATASETS.md). Full MRI arrays, derived caches and large checkpoint files remain in the corresponding Kaggle outputs or local runtime storage. The repository includes the configurations, source hashes, checkpoint provenance, metric tables and file checksums needed to identify the reported evidence. Derived qualitative figures retain [their attribution and license](../results/segmentation_protected/qualitative/ATTRIBUTION.md).
+
+The initial classification version 1, cancelled segmentation pilot version 1 and superseded float32 audit are preserved as failed or superseded provenance in the results report. Their outputs are not substituted for the completed versions listed above. Use [the notebook operation guide](../docs/NOTEBOOKS.md) for execution and verification commands.

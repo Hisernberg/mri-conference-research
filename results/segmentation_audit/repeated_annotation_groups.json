@@ -1,0 +1,80 @@
+{
+  "groups": [
+    [
+      "BRATS_007",
+      "BRATS_290"
+    ],
+    [
+      "BRATS_015",
+      "BRATS_280"
+    ],
+    [
+      "BRATS_013",
+      "BRATS_288"
+    ],
+    [
+      "BRATS_010",
+      "BRATS_278"
+    ],
+    [
+      "BRATS_002",
+      "BRATS_293"
+    ],
+    [
+      "BRATS_001",
+      "BRATS_275"
+    ]
+  ],
+  "crossing_fold0": [
+    {
+      "case_ids": [
+        "BRATS_007",
+        "BRATS_290"
+      ],
+      "roles": [
+        "train",
+        "outer_val"
+      ]
+    },
+    {
+      "case_ids": [
+        "BRATS_015",
+        "BRATS_280"
+      ],
+      "roles": [
+        "outer_val",
+        "train"
+      ]
+    },
+    {
+      "case_ids": [
+        "BRATS_013",
+        "BRATS_288"
+      ],
+      "roles": [
+        "locked_test",
+        "train"
+      ]
+    },
+    {
+      "case_ids": [
+        "BRATS_002",
+        "BRATS_293"
+      ],
+      "roles": [
+        "train",
+        "outer_val"
+      ]
+    },
+    {
+      "case_ids": [
+        "BRATS_001",
+        "BRATS_275"
+      ],
+      "roles": [
+        "locked_test",
+        "train"
+      ]
+    }
+  ]
+}

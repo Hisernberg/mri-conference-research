@@ -1,0 +1,16 @@
+{
+  "id": "dasshovon/mri-segmentation-similarity-audit",
+  "title": "MRI Segmentation Similarity Audit",
+  "code_file": "audit_similarity.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": false,
+  "machine_shape": "None",
+  "dataset_sources": [],
+  "kernel_sources": [
+    "dasshovon/mri-segmentation-preparation-v2"
+  ],
+  "competition_sources": []
+}

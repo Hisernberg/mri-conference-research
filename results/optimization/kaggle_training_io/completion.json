@@ -1,0 +1,10 @@
+{
+  "completed": true,
+  "models": [
+    "qmmf_net",
+    "hemis25d"
+  ],
+  "scope": "training throughput only; no reusable model fit or validation/test result",
+  "timed_steps_per_model_and_format": 100,
+  "warmup_steps_per_model_and_format": 10
+}

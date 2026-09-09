@@ -1,0 +1,17 @@
+{
+  "id": "dasshovon/mri-segmentation-io-benchmark",
+  "title": "MRI Segmentation IO Benchmark",
+  "code_file": "io_benchmark.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [],
+  "kernel_sources": [
+    "dasshovon/mri-segmentation-preparation-v2",
+    "dasshovon/mri-segmentation-training-cache"
+  ],
+  "competition_sources": []
+}

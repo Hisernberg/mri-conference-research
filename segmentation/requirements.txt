@@ -1,0 +1,23 @@
+# Core (required)
+torch>=2.1
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+nibabel>=5.0
+scikit-learn>=1.3
+PyYAML>=6.0
+matplotlib>=3.7
+
+# Baselines B4 (SegResNet) and B6 (SwinUNETR). B4 is the H1 non-inferiority
+# comparator, so this is not optional for the full protocol.
+monai>=1.3
+
+# Exploratory regression in shapley.mismatch_predicts_error only.
+statsmodels>=0.14
+
+# Hugging Face fallback dataset route (plan 5.4); not needed when the Kaggle
+# dataset is attached.
+huggingface_hub>=0.20
+
+# Development
+pytest>=7.4

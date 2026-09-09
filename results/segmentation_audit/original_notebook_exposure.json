@@ -1,0 +1,160 @@
+{
+  "recorded_utc": "2026-09-09T07:03:11.873305+00:00",
+  "source_evidence": {
+    "original_notebook_sha256_recorded_later": "a8908f3191b2e35f5b773fe91dc70b028fcb2f0f58b8d60154047fd2de141b5f",
+    "original_source_sha256": "7072db7caadf600028044500f5c226b274e320c284689ca2f53e4c9f923e115a",
+    "original_text_outputs_sha256": "8b228702dd331b46e77af8389a5fbbf1dbc63e9b92f583531888db699e30f253",
+    "original_evaluate_member_sha256": "9f82445007dd6c7bb22fada8e9241c0e991fa4ea19bc579e251d7f67c7778188",
+    "original_worker_member_sha256": "82b9736fe092a004cb466a932b173ccf76b5a603cea928b8f1527e2c127f1ac8",
+    "logged_split_hash": "a392d0e39514f976",
+    "logged_manifest_hash": "2553ba21125ecb05",
+    "scope": "pilot",
+    "active_training_folds": [
+      0
+    ],
+    "validation_case_limit": 16,
+    "validation_selection_rule": "first max_val_cases entries in the ordered inner_val list",
+    "normalizer_folds_prepared_or_loaded": [
+      0,
+      1,
+      2,
+      3
+    ]
+  },
+  "current_split_hash": "b92f9c7c0fb4c116",
+  "current_reserved_cases": 66,
+  "current_reserved_groups": 51,
+  "overlap": {
+    "original_active_fold_training": {
+      "historical_case_count": 244,
+      "direct_reserved_case_overlap": 0,
+      "reserved_group_overlap": 0,
+      "reserved_cases_in_overlapping_groups": 0
+    },
+    "original_validation_subset": {
+      "historical_case_count": 16,
+      "direct_reserved_case_overlap": 7,
+      "reserved_group_overlap": 7,
+      "reserved_cases_in_overlapping_groups": 9
+    },
+    "original_all_fold_normalizer_pool": {
+      "historical_case_count": 387,
+      "direct_reserved_case_overlap": 40,
+      "reserved_group_overlap": 36,
+      "reserved_cases_in_overlapping_groups": 48
+    },
+    "original_development": {
+      "historical_case_count": 388,
+      "direct_reserved_case_overlap": 40,
+      "reserved_group_overlap": 36,
+      "reserved_cases_in_overlapping_groups": 48
+    }
+  },
+  "historical_validation_case_ids": [
+    "BRATS_045",
+    "BRATS_048",
+    "BRATS_056",
+    "BRATS_062",
+    "BRATS_067",
+    "BRATS_073",
+    "BRATS_076",
+    "BRATS_093",
+    "BRATS_126",
+    "BRATS_135",
+    "BRATS_139",
+    "BRATS_143",
+    "BRATS_151",
+    "BRATS_162",
+    "BRATS_170",
+    "BRATS_187"
+  ],
+  "sensitivity_group_ids": [
+    "sg_208587454a785b38",
+    "sg_310e9599bf94bf9b",
+    "sg_332e12d666debe62",
+    "sg_4151cfd07ac3e1b0",
+    "sg_444c950e61a18f08",
+    "sg_455084cc52da07da",
+    "sg_4c38c49cc72ad103",
+    "sg_56143f5cb2b81628",
+    "sg_5c0779fb48082fce",
+    "sg_8564c7b4b8bd716c",
+    "sg_a79c24b2ab681a89",
+    "sg_b22b67d112cc5d1a",
+    "sg_b8270589d730933f",
+    "sg_d72cc5be6db7b3ed",
+    "sg_edd8bce225d29352"
+  ],
+  "sensitivity_full_case_ids": [
+    "BRATS_010",
+    "BRATS_023",
+    "BRATS_066",
+    "BRATS_097",
+    "BRATS_116",
+    "BRATS_234",
+    "BRATS_268",
+    "BRATS_273",
+    "BRATS_278",
+    "BRATS_298",
+    "BRATS_306",
+    "BRATS_325",
+    "BRATS_326",
+    "BRATS_327",
+    "BRATS_342",
+    "BRATS_374",
+    "BRATS_463",
+    "BRATS_478"
+  ],
+  "qualitative_case_history": [
+    {
+      "case_id": "BRATS_143",
+      "group_id": "sg_2765272d3a548d1a",
+      "original_fold0_role": "inner_val",
+      "original_active_fold_training_direct": false,
+      "original_active_fold_training_group": false,
+      "original_validation_subset_direct": true,
+      "original_validation_subset_group": true,
+      "original_all_fold_normalizer_pool_direct": true,
+      "original_all_fold_normalizer_pool_group": true,
+      "original_development_direct": true,
+      "original_development_group": true,
+      "old_locked_only_sensitivity": false
+    },
+    {
+      "case_id": "BRATS_119",
+      "group_id": "sg_f0dec3098c35e293",
+      "original_fold0_role": "outer_val",
+      "original_active_fold_training_direct": false,
+      "original_active_fold_training_group": false,
+      "original_validation_subset_direct": false,
+      "original_validation_subset_group": false,
+      "original_all_fold_normalizer_pool_direct": true,
+      "original_all_fold_normalizer_pool_group": true,
+      "original_development_direct": true,
+      "original_development_group": true,
+      "old_locked_only_sensitivity": false
+    },
+    {
+      "case_id": "BRATS_023",
+      "group_id": "sg_a79c24b2ab681a89",
+      "original_fold0_role": "locked_test",
+      "original_active_fold_training_direct": false,
+      "original_active_fold_training_group": false,
+      "original_validation_subset_direct": false,
+      "original_validation_subset_group": false,
+      "original_all_fold_normalizer_pool_direct": false,
+      "original_all_fold_normalizer_pool_group": false,
+      "original_development_direct": false,
+      "original_development_group": false,
+      "old_locked_only_sensitivity": true
+    }
+  ],
+  "interpretation": [
+    "Protected means reserved from fitting and selection in the revised experiment.",
+    "The supplied original notebook contains earlier validation involving some reserved groups.",
+    "Only fold 0 trained original models; the other fold normalizers were prepared or loaded but their model fits are not recorded.",
+    "Revised fits do not reuse the original weights or normalizers; this is historical development exposure, not demonstrated leakage within the revised fits.",
+    "Old-locked-only groups are defined from recorded partitions; undocumented earlier use and patient identity remain unknown."
+  ],
+  "raw_images_or_revised_reserved_performance_read": false
+}

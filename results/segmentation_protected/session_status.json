@@ -1,0 +1,107 @@
+{
+  "all_planned_completed": true,
+  "completed": [
+    {
+      "name": "hemis",
+      "seed": 42
+    },
+    {
+      "name": "unet25d",
+      "seed": 43
+    },
+    {
+      "name": "qmmf",
+      "seed": 43
+    },
+    {
+      "name": "hemis",
+      "seed": 44
+    },
+    {
+      "name": "unet25d",
+      "seed": 44
+    },
+    {
+      "name": "hemis",
+      "seed": 43
+    },
+    {
+      "name": "no_quality",
+      "seed": 44
+    },
+    {
+      "name": "no_quality",
+      "seed": 43
+    },
+    {
+      "name": "unet25d",
+      "seed": 42
+    },
+    {
+      "name": "qmmf",
+      "seed": 42
+    },
+    {
+      "name": "qmmf",
+      "seed": 44
+    },
+    {
+      "name": "no_quality",
+      "seed": 42
+    }
+  ],
+  "failures": {},
+  "locked_test_opened": true,
+  "pending": [],
+  "planned": [
+    {
+      "name": "qmmf",
+      "seed": 42
+    },
+    {
+      "name": "hemis",
+      "seed": 42
+    },
+    {
+      "name": "no_quality",
+      "seed": 42
+    },
+    {
+      "name": "unet25d",
+      "seed": 42
+    },
+    {
+      "name": "qmmf",
+      "seed": 43
+    },
+    {
+      "name": "hemis",
+      "seed": 43
+    },
+    {
+      "name": "no_quality",
+      "seed": 43
+    },
+    {
+      "name": "unet25d",
+      "seed": 43
+    },
+    {
+      "name": "qmmf",
+      "seed": 44
+    },
+    {
+      "name": "hemis",
+      "seed": 44
+    },
+    {
+      "name": "no_quality",
+      "seed": 44
+    },
+    {
+      "name": "unet25d",
+      "seed": 44
+    }
+  ],
+  "wall_seconds": 12220.512740683
+}
