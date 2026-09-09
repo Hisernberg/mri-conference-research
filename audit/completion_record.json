@@ -152,9 +152,13 @@
     "Cross-family auxiliary-objective differences",
     "No external-cohort or unreproduced modern-method superiority claim"
   ],
-  "github_publication_performed": false,
-  "github_status": "Authorized private publication; prepared for initial push.",
+  "github_publication_performed": true,
+  "github_status": "Published to the private GitHub repository. Initial uploaded commit and all 855 file blob identities verified against GitHub; see audit/github_publication.json.",
   "documentation_finalized_utc": "2026-09-09T13:03:27.964913+00:00",
   "github_publication_requested": true,
-  "github_repository": "https://github.com/Hisernberg/mri-conference-research"
+  "github_repository": "https://github.com/Hisernberg/mri-conference-research",
+  "github_visibility": "private",
+  "github_published_utc": "2026-09-09T13:07:44.284400+00:00",
+  "github_initial_verified_commit": "f859d6ad93e79151a7feaf9554c533c3b747503d",
+  "github_publication_receipt": "audit/github_publication.json"
 }

@@ -1,0 +1,32 @@
+{
+  "recorded_utc": "2026-09-09T13:07:44.284400+00:00",
+  "repository": "https://github.com/Hisernberg/mri-conference-research",
+  "visibility": "private",
+  "initial_publication": {
+    "verified_utc": "2026-09-09T13:07:16.686254+00:00",
+    "repository": "https://github.com/Hisernberg/mri-conference-research",
+    "private": true,
+    "branch": "main",
+    "commit": "f859d6ad93e79151a7feaf9554c533c3b747503d",
+    "tree": "75ee3feec07b70bda244c8c7773ca1dc0ab2b8d9",
+    "verified_files": 855,
+    "all_remote_blob_ids_match_local_bytes": true
+  },
+  "prepublication_checks": {
+    "checked_utc": "2026-09-09T13:06:17.890718+00:00",
+    "staged_files": 855,
+    "source_and_staged_bytes_equal": true,
+    "known_credentials_and_patterns_absent": true,
+    "docx_members_and_pdf_text_scanned": true,
+    "original_hashes_verified": true,
+    "completion_document_hashes_verified": true,
+    "whitespace_check": "Passed excluding immutable audit/brain_mri_outputs.txt; one original trailing space preserved at line 738."
+  },
+  "publication_validation": {
+    "synthetic_tests_passed": 186,
+    "synthetic_suite_wall_seconds": 7.53,
+    "clean_checkout_release_build": "passed; runtime directory created automatically",
+    "science_artifacts": "Original inputs, frozen source snapshots and reported experiment values preserved."
+  },
+  "scope_note": "This receipt verifies the initial uploaded commit. The versioned GitHub release identifies its final tagged commit and asset checksums; this receipt is added in a subsequent metadata commit."
+}
