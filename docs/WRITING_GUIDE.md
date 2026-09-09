@@ -1,6 +1,6 @@
 # Conference writing guide
 
-The repository supports writing a paper about the completed evaluation of quality conditioning for MRI segmentation with simulated missing modalities. Start with the [manuscript draft](MANUSCRIPT_DRAFT.md), [20-figure catalog](FIGURE_CATALOG.md), [editable tables](../paper/tables/) and [BibTeX references](../paper/references.bib). The classification notebook is a separate supporting benchmark. A venue and page limit have not been supplied, so this package uses a venue-neutral structure.
+The repository supports writing a paper about the completed evaluation of quality conditioning for MRI segmentation with simulated missing modalities. Start with the [manuscript draft](MANUSCRIPT_DRAFT.md), [research questions and contributions](../README.md#novelty-and-contributions), [architecture guide](ARCHITECTURE.md), [20-figure catalog](FIGURE_CATALOG.md), [editable tables](../paper/tables/) and [BibTeX references](../paper/references.bib). The classification notebook is a separate supporting benchmark. A venue and page limit have not been supplied, so this package uses a venue-neutral structure.
 
 The main conclusion is a negative finding for the implemented quality descriptors and training schedule. In the complete reserved evaluation, the no-quality control has higher full, mean-subset and worst-subset Dice than QMMF under the declared paired comparisons. Do not rewrite the contribution as a successful quality module or a state-of-the-art claim.
 
@@ -11,7 +11,7 @@ The main conclusion is a negative finding for the implemented quality descriptor
 | Abstract | Research question, audit, executed scope, primary difference, limitations | Tables: reserved segmentation and contrasts |
 | Introduction | Why incomplete-modality evaluation needs controlled evidence; specific quality-conditioning question | Related-work report and verified references |
 | Data and audit | Source dataset, channel semantics, rescaled copies, grouping, historical use | Figures 01–02; dataset and notebook audit reports |
-| Methods | Implemented fusion, same-family controls, shared training and differences in auxiliary objectives | Frozen source snapshots, resolved configurations, objective audit |
+| Methods | Implemented fusion, same-family controls, shared training and differences in auxiliary objectives | Architecture plates A/B, source snapshots, resolved configurations, objective audit |
 | Evaluation | Role boundaries, selected checkpoints, metric reductions, subset representatives, intervals | Frozen protocols, verification files |
 | Main results | All nine development variants and all four reserved families | Figures 07–08 and 11–12; main/reserved tables |
 | Robustness and failures | Every modality subset, regional denominators, empty-reference failures, fixed examples | Figures 13–14, 17 and 19 |
@@ -48,6 +48,10 @@ The local HeMIS-style and U-Net implementations lack the two auxiliary heads use
 Missingness is simulated after four-channel preprocessing and support/crop construction. The results do not validate an acquisition process that never obtained the missing sequence. Shapley attribution uses a declared zero empty-subset utility, not a measured empty-input prediction. Its values are descriptive under that game and are not causal clinical importance estimates.
 
 ## Files for writing
+
+The [architecture plate](figures/architecture_plate.pdf) adds an original network overview and enlarged fusion view, with editable SVG, vector PDF and 400-dpi PNG exports. The [architecture report](ARCHITECTURE.md) supplies captions, equations, tensor shapes, training/inference distinctions and direct source links. Place the overview in Methods and retain the fusion detail in a supplement when column width makes the full plate difficult to read. These two explanatory drawings are separate from the stable 20-figure Kaggle result catalog; numbering can be adapted to the venue.
+
+Use the README's five research questions as an editorial outline, with the dated plan and frozen protocols establishing the actual timing of the comparisons. The question wording was added after the experiments. Define novelty narrowly as the contribution of the completed controlled evaluation; the architecture is a tested hypothesis whose advantage over quality omission was not supported. Retain the positive main mean-subset consistency contrast and the QMMF-versus-shuffled-quality worst-subset contrast, alongside uncertain and negative comparisons. Degrading performance by misaligning descriptors does not demonstrate an advantage over leaving descriptors out.
 
 The [figure catalog](FIGURE_CATALOG.md) contains full captions, source links and interpretation boundaries. Each figure has PNG, PDF, SVG and plotted-data CSV files. Figures 01–18 and 20 have vector chart elements; Figure 19 preserves the original raster montage in PNG/PDF and uses a raster wrapper for SVG. Its [attribution](../results/conference_figures/ATTRIBUTION.md) must travel with the figure.
 

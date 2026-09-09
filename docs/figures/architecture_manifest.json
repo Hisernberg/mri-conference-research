@@ -1,0 +1,216 @@
+{
+  "artifact_type": "Original explanatory vector schematics, separate from the 20 Kaggle result figures",
+  "version": "1.2.0",
+  "renderer": "scripts/build_architecture_diagrams.py",
+  "renderer_sha256": "2fbe67308df976d8e1a11489b3b083a16957797a631a9fd1ab1b1afdf105cf4c",
+  "trace": {
+    "submitted_source_sha256": "037bc0a99fab8f294bc710274b67b96b190ef4c4dbab6303fa64238040ec4d0a",
+    "source_files_verified": 45,
+    "protocol": "results/segmentation_study_s42/protocol_lock.json",
+    "protocol_sha256": "aa960974ba88d667b8c624eb73756a8c3a167cd2fe6dec4524ddc03355113ec7",
+    "snapshot": "audit/source_snapshots/segmentation_study_s42_v1.json",
+    "snapshot_sha256": "318d4a6eb6b9d488e21a1850d780ec65d6ce2104495abd4ff976ab74a6614888",
+    "method": "Untrained synthetic CPU forward pass; no MRI, optimization or performance scores.",
+    "synthetic_input": [
+      1,
+      4,
+      5,
+      192,
+      192
+    ],
+    "parameters": 1221465,
+    "tensor_trace_training": {
+      "shared_stem": [
+        4,
+        24,
+        192,
+        192
+      ],
+      "encoder_0": [
+        4,
+        48,
+        96,
+        96
+      ],
+      "encoder_1": [
+        4,
+        96,
+        48,
+        48
+      ],
+      "encoder_2": [
+        4,
+        160,
+        24,
+        24
+      ],
+      "fusion_0": [
+        1,
+        24,
+        192,
+        192
+      ],
+      "fusion_1": [
+        1,
+        48,
+        96,
+        96
+      ],
+      "fusion_2": [
+        1,
+        96,
+        48,
+        48
+      ],
+      "fusion_3": [
+        1,
+        160,
+        24,
+        24
+      ],
+      "context": [
+        1,
+        160,
+        24,
+        24
+      ],
+      "decoder_0": [
+        1,
+        96,
+        48,
+        48
+      ],
+      "aux_0": [
+        1,
+        3,
+        48,
+        48
+      ],
+      "decoder_1": [
+        1,
+        48,
+        96,
+        96
+      ],
+      "aux_1": [
+        1,
+        3,
+        96,
+        96
+      ],
+      "decoder_2": [
+        1,
+        24,
+        192,
+        192
+      ],
+      "head": [
+        1,
+        3,
+        192,
+        192
+      ]
+    },
+    "inference_auxiliary_heads": 0,
+    "resolved_model_config": {
+      "context_block": "factorized_large_kernel",
+      "context_depth": 2,
+      "context_kernel": 7,
+      "deep_supervision": true,
+      "dropout": 0.0,
+      "gate_hidden": 32,
+      "modality_embed_dim": 16,
+      "moment_fusion": [
+        "mean",
+        "variance",
+        "max"
+      ],
+      "name": "qmmf_net",
+      "quality_dim": 7,
+      "use_availability_gate": true,
+      "use_film": true,
+      "use_quality": true,
+      "widths": [
+        24,
+        48,
+        96,
+        160
+      ]
+    },
+    "resolved_loss_config": {
+      "bce": 0.4,
+      "boundary": 0.1,
+      "calibration": 0.0,
+      "consistency": 0.2,
+      "consistency_conf_threshold": 0.9,
+      "consistency_warmup_frac": 0.15,
+      "deep_supervision_weights": [
+        0.5,
+        0.25
+      ],
+      "dice": 0.6,
+      "nested": 0.05,
+      "seg": 1.0
+    },
+    "important_scope": "192 x 192 sizes describe training crops; inference preserves the full brain field of view."
+  },
+  "design_references": [
+    {
+      "title": "U-Net: Convolutional Networks for Biomedical Image Segmentation",
+      "url": "https://arxiv.org/pdf/1505.04597",
+      "figure": "Figure 1, PDF page 2",
+      "use": "Scale annotations and explicit encoder-decoder skip connections; original artwork not reused."
+    },
+    {
+      "title": "HeMIS: Hetero-Modal Image Segmentation",
+      "url": "https://arxiv.org/pdf/1607.05194",
+      "figure": "Figure 1, PDF page 3",
+      "use": "Separate modality-feature and statistical-aggregation stages; original artwork not reused."
+    },
+    {
+      "title": "Sebastian Raschka: The Big LLM Architecture Comparison",
+      "url": "https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison",
+      "figure": "Figure 1 and annotated component diagrams",
+      "use": "Consistent module colors and annotated component detail; visual reference only, no LLM components or artwork reused."
+    }
+  ],
+  "artwork": "Original geometry; schematic anatomy; no published artwork, MRI raster or prediction image reused.",
+  "exports": [
+    {
+      "file": "qmmf_architecture.png",
+      "bytes": 1037592,
+      "sha256": "69bbdd1cb669631bde9bcb4d51e0f652a616d994f8ecff7987d8350fa8be1ef5"
+    },
+    {
+      "file": "qmmf_architecture.pdf",
+      "bytes": 53176,
+      "sha256": "009e197c325155ee42f7d0157d4e057b322a5a0681e3b6d19c8d3ad04bb648eb"
+    },
+    {
+      "file": "qmmf_architecture.svg",
+      "bytes": 89878,
+      "sha256": "e2c66e64511d8e192ff3cf803d13abd3824f69fb61197920771c13bde05bb06c"
+    },
+    {
+      "file": "qmmf_fusion_detail.png",
+      "bytes": 399476,
+      "sha256": "5f1d2b47d27d2ac3ebef1d17042acec22390e9dfdfe6982d32e82a35f7a6ba98"
+    },
+    {
+      "file": "qmmf_fusion_detail.pdf",
+      "bytes": 39172,
+      "sha256": "39746f25e9555a3a5e7777833ae826629163b068436ed1064c32361f48d86d81"
+    },
+    {
+      "file": "qmmf_fusion_detail.svg",
+      "bytes": 39238,
+      "sha256": "e319f3f3e7be915514a78a3a8b75741e3a8d83d8e679994dcc295e7d28e7a331"
+    },
+    {
+      "file": "architecture_plate.pdf",
+      "bytes": 60246,
+      "sha256": "4162a943ec12db5eb71fdb04381b197cbce304b95b575754d792202e4ca9bd62"
+    }
+  ],
+  "text_canvas_bounds": "passed"
+}

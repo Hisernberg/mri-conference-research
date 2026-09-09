@@ -1,0 +1,304 @@
+{
+  "recorded_utc": "2026-09-09T14:55:06.137004+00:00",
+  "stage": "Prepared and locally verified before publication; the GitHub tag and release checksums identify the published version.",
+  "intended_release": "v1.2.0",
+  "base_commit": "977e11df62504df83493cdfac66a8fedc9268378",
+  "scope": "README research narrative, original architecture plates, methods guide and manuscript/writing updates. No new MRI training or inference.",
+  "architecture_manifest": "docs/figures/architecture_manifest.json",
+  "architecture_manifest_sha256": "d5279a86bfb77c1fbba58c25b317c8ac8e3f1838c4a71908d2111e5174a698f0",
+  "source_trace": {
+    "submitted_source_sha256": "037bc0a99fab8f294bc710274b67b96b190ef4c4dbab6303fa64238040ec4d0a",
+    "source_files_verified": 45,
+    "protocol": "results/segmentation_study_s42/protocol_lock.json",
+    "protocol_sha256": "aa960974ba88d667b8c624eb73756a8c3a167cd2fe6dec4524ddc03355113ec7",
+    "snapshot": "audit/source_snapshots/segmentation_study_s42_v1.json",
+    "snapshot_sha256": "318d4a6eb6b9d488e21a1850d780ec65d6ce2104495abd4ff976ab74a6614888",
+    "method": "Untrained synthetic CPU forward pass; no MRI, optimization or performance scores.",
+    "synthetic_input": [
+      1,
+      4,
+      5,
+      192,
+      192
+    ],
+    "parameters": 1221465,
+    "tensor_trace_training": {
+      "shared_stem": [
+        4,
+        24,
+        192,
+        192
+      ],
+      "encoder_0": [
+        4,
+        48,
+        96,
+        96
+      ],
+      "encoder_1": [
+        4,
+        96,
+        48,
+        48
+      ],
+      "encoder_2": [
+        4,
+        160,
+        24,
+        24
+      ],
+      "fusion_0": [
+        1,
+        24,
+        192,
+        192
+      ],
+      "fusion_1": [
+        1,
+        48,
+        96,
+        96
+      ],
+      "fusion_2": [
+        1,
+        96,
+        48,
+        48
+      ],
+      "fusion_3": [
+        1,
+        160,
+        24,
+        24
+      ],
+      "context": [
+        1,
+        160,
+        24,
+        24
+      ],
+      "decoder_0": [
+        1,
+        96,
+        48,
+        48
+      ],
+      "aux_0": [
+        1,
+        3,
+        48,
+        48
+      ],
+      "decoder_1": [
+        1,
+        48,
+        96,
+        96
+      ],
+      "aux_1": [
+        1,
+        3,
+        96,
+        96
+      ],
+      "decoder_2": [
+        1,
+        24,
+        192,
+        192
+      ],
+      "head": [
+        1,
+        3,
+        192,
+        192
+      ]
+    },
+    "inference_auxiliary_heads": 0,
+    "resolved_model_config": {
+      "context_block": "factorized_large_kernel",
+      "context_depth": 2,
+      "context_kernel": 7,
+      "deep_supervision": true,
+      "dropout": 0.0,
+      "gate_hidden": 32,
+      "modality_embed_dim": 16,
+      "moment_fusion": [
+        "mean",
+        "variance",
+        "max"
+      ],
+      "name": "qmmf_net",
+      "quality_dim": 7,
+      "use_availability_gate": true,
+      "use_film": true,
+      "use_quality": true,
+      "widths": [
+        24,
+        48,
+        96,
+        160
+      ]
+    },
+    "resolved_loss_config": {
+      "bce": 0.4,
+      "boundary": 0.1,
+      "calibration": 0.0,
+      "consistency": 0.2,
+      "consistency_conf_threshold": 0.9,
+      "consistency_warmup_frac": 0.15,
+      "deep_supervision_weights": [
+        0.5,
+        0.25
+      ],
+      "dice": 0.6,
+      "nested": 0.05,
+      "seg": 1.0
+    },
+    "important_scope": "192 x 192 sizes describe training crops; inference preserves the full brain field of view."
+  },
+  "preservation": {
+    "base": "v1.1.0",
+    "scientific_files_compared": 876,
+    "all_scientific_bytes_unchanged": true,
+    "original_notebooks_unchanged": 2,
+    "kaggle_result_figures_unchanged": 20
+  },
+  "checks": {
+    "regression_suite": {
+      "command": "PYTHONPATH=segmentation/src python -m pytest tests segmentation/tests -q",
+      "passed": 186,
+      "elapsed_seconds": 7.15
+    },
+    "readme_github_render": {
+      "images": 21,
+      "details": 3,
+      "tables": 8
+    },
+    "main_ablation_rows_match_source": 9,
+    "selected_adjusted_contrasts": [
+      {
+        "control": "shuffled_quality",
+        "endpoint": "worst_subset_macro_dice",
+        "difference": 0.0160754354365608,
+        "adjusted_interval": [
+          0.0008554529891283,
+          0.0325628197860759
+        ]
+      },
+      {
+        "control": "no_consistency",
+        "endpoint": "mean_subset_macro_dice",
+        "difference": 0.0050140429367623,
+        "adjusted_interval": [
+          0.0014794935894576,
+          0.010219985922598
+        ]
+      },
+      {
+        "control": "matched_moment_fusion",
+        "endpoint": "worst_subset_macro_dice",
+        "difference": -0.0184244635537795,
+        "adjusted_interval": [
+          -0.0334785620567042,
+          -0.0034844809614322
+        ]
+      }
+    ],
+    "svg": [
+      {
+        "file": "docs/figures/qmmf_fusion_detail.svg",
+        "editable_text_elements": 22,
+        "embedded_images": 0
+      },
+      {
+        "file": "docs/figures/qmmf_architecture.svg",
+        "editable_text_elements": 99,
+        "embedded_images": 0
+      }
+    ],
+    "document_exports": [
+      {
+        "name": "ARCHITECTURE",
+        "pages": 5,
+        "images_drawn": 2,
+        "artifacts": [
+          {
+            "path": "docs/ARCHITECTURE.md",
+            "sha256": "8f77f92a4eb3e95d5c09e70cb8e7a389887ea935e370ff77776cccfbe55fde61"
+          },
+          {
+            "path": "docs/docx/ARCHITECTURE.docx",
+            "sha256": "54146996b1ce0251c81abe55bda363f3c064cfdf46fff1ec75bdbcfbaa066a02"
+          },
+          {
+            "path": "docs/pdf/ARCHITECTURE.pdf",
+            "sha256": "643d793d3b5233737615fbc128fce0c31d3fdabfffeef8720628ec0d09ada9e6"
+          }
+        ]
+      },
+      {
+        "name": "MANUSCRIPT_DRAFT",
+        "pages": 8,
+        "images_drawn": 7,
+        "artifacts": [
+          {
+            "path": "docs/MANUSCRIPT_DRAFT.md",
+            "sha256": "402a56c86d8e8fc52283476198bbe1991c03cb8bdee698ac1fb0602aca871a29"
+          },
+          {
+            "path": "docs/docx/MANUSCRIPT_DRAFT.docx",
+            "sha256": "511712558b726763d62c5e0aae416036882e85e43f78b7945867f55b29f9cebe"
+          },
+          {
+            "path": "docs/pdf/MANUSCRIPT_DRAFT.pdf",
+            "sha256": "88c609c05856fc195d3419b28dbd6a93c55d81bd9df0d271a872752475a02fe8"
+          }
+        ]
+      },
+      {
+        "name": "WRITING_GUIDE",
+        "pages": 3,
+        "images_drawn": 0,
+        "artifacts": [
+          {
+            "path": "docs/WRITING_GUIDE.md",
+            "sha256": "d54d1b9cdc09fa583c8a5071627516dd9bc41b23b6e757c3dc3a4477e6c319b6"
+          },
+          {
+            "path": "docs/docx/WRITING_GUIDE.docx",
+            "sha256": "ddc10cc0e0701299006a53d639cb465b9ab23c573517326498c13344b2be6010"
+          },
+          {
+            "path": "docs/pdf/WRITING_GUIDE.pdf",
+            "sha256": "ec06e0af68ff923968db34f3eee7c98f1ed21a17cea130f61d424a653b61671f"
+          }
+        ]
+      },
+      {
+        "name": "GITHUB_RELEASE",
+        "pages": 3,
+        "images_drawn": 0,
+        "artifacts": [
+          {
+            "path": "docs/GITHUB_RELEASE.md",
+            "sha256": "2ecb986dd3e0d3c90aa56e8faaab42abe28a0e7d24419efad68f9751c1ae7691"
+          },
+          {
+            "path": "docs/docx/GITHUB_RELEASE.docx",
+            "sha256": "6b6c0643476609f95e003dad9ec308e58be6c1f29c44f1e55291c4203787ebe4"
+          },
+          {
+            "path": "docs/pdf/GITHUB_RELEASE.pdf",
+            "sha256": "0067257d0ad6d34199da68174fca928045309cf6a5accf25ec318eab52083e02"
+          }
+        ]
+      }
+    ],
+    "relative_markdown_links_checked": 515,
+    "credential_scan": "All release-file bytes, decompressed DOCX members and extracted PDF text passed; credentials remain outside the repository."
+  },
+  "visual_review": "Both vector diagrams and the architecture/manuscript PDF layout were inspected. Arrows distinguish encoder descent, independent fusion, decoder skips, maximum availability and teacher/student paths.",
+  "research_positioning": "An empirical contribution and tested hypothesis; no established architectural novelty. Reserved comparisons favor quality omission; positive main shuffled-quality and consistency contrasts are retained.",
+  "timing": "Research-question wording was added after experiments. Historical frozen protocols and prior-release documentation receipts retain their original meaning."
+}

@@ -1,6 +1,6 @@
 # GitHub release guide
 
-Project repository: [Hisernberg/mri-conference-research](https://github.com/Hisernberg/mri-conference-research), with private visibility. The [v1.1.0 writing release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.1.0) adds 20 verified Kaggle visualizations, a supporting CPU notebook and its executed gallery, a manuscript draft, eight editable table sets, bibliography and writing guide. The original [v1.0.0 experiment release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.0.0) is preserved. Each release identifies its tagged source and downloadable asset checksums. Repository access requires the owner's GitHub account or an explicit collaborator invitation.
+Project repository: [Hisernberg/mri-conference-research](https://github.com/Hisernberg/mri-conference-research), with private visibility. The [v1.2.0 architecture and research release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.2.0) adds explicit novelty/contribution positioning, research questions, complete README ablation/evaluation tables, original architecture plates and a methods guide. The manuscript incorporates the same architecture and component findings. The [v1.1.0 writing release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.1.0), with its 20 verified Kaggle visualizations and executed gallery, and the original [v1.0.0 experiment release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.0.0) are preserved. Each release identifies its tagged source and downloadable asset checksums. Repository access requires the owner's GitHub account or an explicit collaborator invitation.
 
 Start with the root README, [notebook index](../notebooks/README.md), [Kaggle run index](../kaggle/README.md) and [results index](../results/README.md). Kaggle runs remain private under `dasshovon`; their access is separate from GitHub repository access. The publication preserves the reported experiments and frozen source snapshots.
 
@@ -10,7 +10,8 @@ Start with the root README, [notebook index](../notebooks/README.md), [Kaggle ru
 |---|---|
 | `README.md` | Entry point and honest current result status |
 | `EXPERIMENT_PLAN.md` | Protocol and dated amendments |
-| `docs/` | Dataset card, notebook audit, operation guide, results and PDF copies |
+| `docs/` | Dataset card, notebook audit, operation guide, results, architecture methods and PDF copies |
+| `docs/figures/` | Original architecture plates, editable vector exports and source/shape manifest |
 | `notebooks/` | Two research sources and one supporting CPU visualization source |
 | `paper/` | Editable tables, references and claim-evidence map |
 | `classification/` | Readable classification models and grouped experiment runner |
@@ -44,7 +45,7 @@ With Git and the GitHub CLI installed, authenticate using your own account and c
 gh auth login
 gh repo clone Hisernberg/mri-conference-research
 cd mri-conference-research
-git checkout v1.1.0
+git checkout v1.2.0
 ```
 
 Install `requirements-dev.txt` in a suitable local Python environment, then run the verification suite, regenerate the notebooks from the reviewed source, regenerate the document PDFs, and inspect the release-file inventory. PDF conversion also requires the LibreOffice command-line application. Keep original notebook provenance, but use cleared generated notebooks for source publication; separately release executed artifacts that were inspected for credentials and private paths. Rebuilding after source changes can produce a new source hash; preserve the submitted snapshots that support the reported results.
@@ -85,6 +86,8 @@ git push -u origin docs/update-research-record
 Before running the broad `git add` commands, ensure the generated release inventory and secret check have passed. No credential file, raw dataset, derived volume cache or large model file belongs in the staging area.
 
 The release builder writes `../mri_conference_release.zip` with an embedded file inventory and scans for Kaggle and GitHub credential patterns. Keep the downloadable archive as a release asset rather than duplicating it in Git history. GitHub releases also provide source archives for the tagged commit.
+
+The v1.2.0 architecture update performs a synthetic CPU shape trace and document generation, without new MRI training or inference. Its source/configuration checks and export hashes are in `docs/figures/architecture_manifest.json`; the update record is `audit/architecture_publication_record.json`. Dated v1.0/v1.1 documentation receipts describe those historical releases, not the hashes of subsequently revised writing files. Frozen experimental records and all 20 Kaggle figure bytes retain their original identities.
 
 ## Suggested repository description and paper positioning
 
