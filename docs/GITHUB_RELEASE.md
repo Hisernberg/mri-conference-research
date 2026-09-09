@@ -1,6 +1,6 @@
 # GitHub release guide
 
-Project repository: [Hisernberg/mri-conference-research](https://github.com/Hisernberg/mri-conference-research), with private visibility for the initial research release. The versioned [v1.0.0 release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.0.0) provides the complete archive, both research notebooks, the seven report PDFs and SHA-256 checksums. Repository access requires the owner's GitHub account or an explicit collaborator invitation.
+Project repository: [Hisernberg/mri-conference-research](https://github.com/Hisernberg/mri-conference-research), with private visibility. The [v1.1.0 writing release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.1.0) adds 20 verified Kaggle visualizations, a supporting CPU notebook and its executed gallery, a manuscript draft, eight editable table sets, bibliography and writing guide. The original [v1.0.0 experiment release](https://github.com/Hisernberg/mri-conference-research/releases/tag/v1.0.0) is preserved. Each release identifies its tagged source and downloadable asset checksums. Repository access requires the owner's GitHub account or an explicit collaborator invitation.
 
 Start with the root README, [notebook index](../notebooks/README.md), [Kaggle run index](../kaggle/README.md) and [results index](../results/README.md). Kaggle runs remain private under `dasshovon`; their access is separate from GitHub repository access. The publication preserves the reported experiments and frozen source snapshots.
 
@@ -11,7 +11,8 @@ Start with the root README, [notebook index](../notebooks/README.md), [Kaggle ru
 | `README.md` | Entry point and honest current result status |
 | `EXPERIMENT_PLAN.md` | Protocol and dated amendments |
 | `docs/` | Dataset card, notebook audit, operation guide, results and PDF copies |
-| `notebooks/` | Two generated research notebooks |
+| `notebooks/` | Two research sources and one supporting CPU visualization source |
+| `paper/` | Editable tables, references and claim-evidence map |
 | `classification/` | Readable classification models and grouped experiment runner |
 | `segmentation/src/qmmf/` | Reviewed segmentation library |
 | `segmentation/scripts/conference_run.py` | CPU preparation and private GPU development workflow |
@@ -43,7 +44,7 @@ With Git and the GitHub CLI installed, authenticate using your own account and c
 gh auth login
 gh repo clone Hisernberg/mri-conference-research
 cd mri-conference-research
-git checkout v1.0.0
+git checkout v1.1.0
 ```
 
 Install `requirements-dev.txt` in a suitable local Python environment, then run the verification suite, regenerate the notebooks from the reviewed source, regenerate the document PDFs, and inspect the release-file inventory. PDF conversion also requires the LibreOffice command-line application. Keep original notebook provenance, but use cleared generated notebooks for source publication; separately release executed artifacts that were inspected for credentials and private paths. Rebuilding after source changes can produce a new source hash; preserve the submitted snapshots that support the reported results.
@@ -74,7 +75,7 @@ git switch main
 git switch -c docs/update-research-record
 git add README.md EXPERIMENT_PLAN.md .gitignore .gitattributes \
   requirements.txt requirements-dev.txt
-git add docs notebooks classification segmentation scripts tests results audit kaggle
+git add docs notebooks classification segmentation scripts tests results audit kaggle paper
 git diff --cached --stat
 git diff --cached --check
 git commit -m "Update MRI research documentation and evidence"
@@ -92,3 +93,9 @@ Suggested description: “Audited MRI classification and missing-modality segmen
 The main research direction is reliable incomplete-modality segmentation. The completed three-seed ablations and reserved evaluation do not support a quality-conditioning benefit; the no-quality control performs better on the reserved endpoints. The small image-classification benchmark is separate supporting work. A broader conference claim still needs strong current comparator implementations, independent cohort validation or a carefully limited claim, and an author-led assessment of novelty. Do not combine the two datasets into one headline performance number.
 
 Add author names, affiliations, contact information, chosen code license and paper citation when those details exist. Avoid invented authors or a placeholder DOI presented as a real citation. A release tag should identify a frozen protocol and actual completed artifacts, with subsequent amendments recorded separately.
+
+## Conference writing extension
+
+The 20-figure outputs were downloaded from completed Kaggle notebook version 1 and independently checked. The executed gallery preserves every image output; it is retained under `results/conference_figures/`. Individual charts, plotted data, the atlas and caption catalog are indexed by the root README. The eight table sets are generated from frozen evidence with source/output hashes. The manuscript remains a venue-neutral draft requiring real author and institutional declarations.
+
+The experiment completion record and original publication receipt describe their dated snapshots. The new visualization verification and Git history identify the subsequent writing extension. Documentation may evolve without rewriting the frozen scientific source, metrics, protocols or v1.0.0 tag.

@@ -30,3 +30,8 @@ __pycache__/
 
 # Private notebook runtime outputs; curated aggregate results live in results/
 kaggle_outputs/
+
+# Curated plotted values are evidence, not raw MRI data.
+!results/conference_figures/data/
+results/conference_figures/data/*
+!results/conference_figures/data/*.csv

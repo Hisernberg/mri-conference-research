@@ -1,0 +1,11 @@
+{
+  "id": "dasshovon/mri-conference-figure-evidence",
+  "title": "MRI Conference Figure Evidence",
+  "subtitle": "Frozen inputs for 20 audited MRI research visualizations",
+  "description": "Private reproducibility bundle for the MRI conference visualization notebook. Contains frozen metric/audit tables, the plotting source and an attributed derived montage, not raw MRI volumes or checkpoints. The derived MSD montage retains CC BY-SA 4.0 terms in ATTRIBUTION.md. Source code has no new license grant; rights and terms remain those of the original sources. The Other license selection records these separate terms and does not apply an open license to the complete bundle.",
+  "licenses": [
+    {
+      "name": "other"
+    }
+  ]
+}

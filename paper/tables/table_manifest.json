@@ -1,0 +1,111 @@
+{
+  "tables": [
+    {
+      "table": "main_segmentation",
+      "rows": 9,
+      "note": "Entries are means +/- sample SD over three fixed training seeds. Group-bootstrap intervals and cohort denominators are in the source CSV and results report.",
+      "sources": {
+        "results/segmentation_main/repeated_seed_metrics.csv": "b4f9580a5ec183c78853b8098b7ffd716bbbdc72c03dde7d44a1b65ae3bfa54b"
+      },
+      "outputs": {
+        "main_segmentation.csv": "30211ec6b341215aabd7f8d3249bc4363cbaaa0173bc30b406dc1654ad2ee79c",
+        "main_segmentation.md": "d3f4b310ad4bc3a7237b0f0bd345f5843adf05d715504710cab44961dec3d5f7",
+        "main_segmentation.tex": "a48ff0d26e45cb40a64d6d9bbf3f931bf599991fe7907a218f65c263d630d349"
+      }
+    },
+    {
+      "table": "reserved_segmentation",
+      "rows": 4,
+      "note": "Entries are means +/- sample SD over three fixed training seeds. Group-bootstrap intervals and cohort denominators are in the source CSV and results report.",
+      "sources": {
+        "results/segmentation_protected/repeated_seed_metrics.csv": "0129b8e859f8c1184db02b8ababa358d55b89a5da1a47bec4c0d2a24d69d6aa8"
+      },
+      "outputs": {
+        "reserved_segmentation.csv": "a9baf90c6abd2ea9a420dc25af7d7bcc29d23681efc63ce6cd982b9d04859b23",
+        "reserved_segmentation.md": "59f5272ceef562c6652f80b01f2524d3ac37ca2fef487564d62c207782876cd7",
+        "reserved_segmentation.tex": "ad50716b86e5607a2f9aa20c9e953be4b3a7c82fcc4b13c2f29b28b4bab23c3a"
+      }
+    },
+    {
+      "table": "historical_sensitivity",
+      "rows": 4,
+      "note": "Entries are means +/- sample SD over three fixed training seeds. Group-bootstrap intervals and cohort denominators are in the source CSV and results report.",
+      "sources": {
+        "results/segmentation_historical_sensitivity/repeated_seed_metrics.csv": "cd0263e24ab63d6306994847b2bb897ab237e5ce2f84bb9c289e0265f531e4df"
+      },
+      "outputs": {
+        "historical_sensitivity.csv": "ee874bf760eaab11a9976ce1a6def3c8fee4d6c253c34d86de4eecac0f81a49f",
+        "historical_sensitivity.md": "eb07eba2159db558e99dd07fbd33d518a58aa5aa10a3d3cdc6390c897282499e",
+        "historical_sensitivity.tex": "70c3e81a808479e8a6fc7280a494210f395d0fb9cfed1fd1cdc099268866b70f"
+      }
+    },
+    {
+      "table": "reserved_contrasts",
+      "rows": 9,
+      "note": "10,000 paired group-bootstrap draws retain all three training seeds. Bonferroni adjustment uses three controls separately per endpoint; negative values favor the control.",
+      "sources": {
+        "results/segmentation_protected/paired_repeated_seed_deltas.csv": "16b79041b3b97e1d5013352797e14178a02d551f22251b196466baa07d4c9cb3"
+      },
+      "outputs": {
+        "reserved_contrasts.csv": "87cb2a6991f7f1d2faa5fa6a77ffa87a3a4722e20d5accfedafd366fb8ef575d",
+        "reserved_contrasts.md": "85cbb8b4939deafc9a74dd98b24aab2b7385cafce6d20973bfcff60e9e8f514a",
+        "reserved_contrasts.tex": "8db6dba06ed76c6621c67291aeb639d0d31cd541b4c2dca3b623bddc013a3344"
+      }
+    },
+    {
+      "table": "classification",
+      "rows": 7,
+      "note": "Separate image-classification benchmark: 228 unique images, 209 similarity groups, five grouped folds and three seeds. Not a patient-level diagnostic estimate.",
+      "sources": {
+        "results/classification/model_summary.csv": "25a07d1f6424eb6f3f52eaeb80271e93a4fc879ff8418b8cccbba5fbc859c8f5"
+      },
+      "outputs": {
+        "classification.csv": "acea653f590432d91bb945abb9cd6e87583a711a15c89f02bc6c6d7d9f15b2c5",
+        "classification.md": "5780a883c0c1c559370b92a7e131824c4611d228a3cc51a1d36c1812bf0ae466",
+        "classification.tex": "eb581f2967e4d32561bf756e72f8263407a25d72319ccd0180be5bc49b863336"
+      }
+    },
+    {
+      "table": "reserved_regions",
+      "rows": 4,
+      "note": "Nonempty reference only: WT/TC use 66 cases in 51 groups; ET uses 64 cases in 49 groups. Regional means must not be averaged to reconstruct the case-first headline macro.",
+      "sources": {
+        "results/segmentation_protected/reporting/regional_summary.csv": "297e6cb53ed831772bcd27589f4ac751a24caef36d33522b9577f91eb328d397"
+      },
+      "outputs": {
+        "reserved_regions.csv": "06722b7f0c95d278654739aa7117396c5c7e6acdf4f07784b83b53f7aaf78a6d",
+        "reserved_regions.md": "fecd9ce73570e7cf9d3b8516e4f9c6a8b92a4879ba9e3344134add04438fe4b9",
+        "reserved_regions.tex": "c82696df1f294f7f40774c9727ef719a77b43885bb7d9f86b3840673a0df5c9d"
+      }
+    },
+    {
+      "table": "resources",
+      "rows": 9,
+      "note": "Observed implementation costs on Kaggle T4. Peak is the maximum across seeds; runtime is the median fit/inner-validation component. Cross-family auxiliary objectives differ.",
+      "sources": {
+        "results/segmentation_main/resource_summary.csv": "67c5cd5398201066e6a216d96cab6376c5dd3c689014cafbd372958653ec9639"
+      },
+      "outputs": {
+        "resources.csv": "9e98bae713e5aea8a244df7895bd4c86c83acbd35902f49c5925f2139cb89394",
+        "resources.md": "0ea5da54b742acccbdcc3a313ea797358ea6fa61606222a985a45c9823639227",
+        "resources.tex": "82badcb291beed33188e937ddc793fb3305428d87d9eafa12ca6c3718f6745f8"
+      }
+    },
+    {
+      "table": "segmentation_cohorts",
+      "rows": 4,
+      "note": "Only fold 0 was executed in the main study. The 15-group historical sensitivity is a nested subset of the reserved cohort.",
+      "sources": {
+        "results/segmentation_audit/grouped_v2/split_counts.csv": "45e284ceb52d17dd61b1379e213d24c41e64e5b4ead18301abf5d18684510ae8",
+        "results/segmentation_protected/verification.json": "5055ade1cacb1994c725698240264918c8bbf86255a24ece720a89497c68425b"
+      },
+      "outputs": {
+        "segmentation_cohorts.csv": "0652d15a6be9afd522c00f2d0f05776c428c199aab7a2af9e2f9baf52fbc8fc6",
+        "segmentation_cohorts.md": "7946cb50766ccf9fddd61a4a798f925bd1bcb2457315aa31dfa4144256e5d6aa",
+        "segmentation_cohorts.tex": "1f9e1f8010cbe9792e6bd81758d16ac2d9689cfca3f4f3fbcd9b9871c38691e0"
+      }
+    }
+  ],
+  "table_count": 8,
+  "generator_sha256": "a01be71ef14c04b90ae4465f43339efda0d1f65ac65327acaa6bce5288178f49"
+}

@@ -1,0 +1,5 @@
+fold,role,cases,groups
+0,train,294,132
+0,inner_val,33,24
+0,outer_val,91,55
+0,reserved,66,51

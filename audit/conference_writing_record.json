@@ -1,0 +1,105 @@
+{
+  "recorded_utc": "2026-09-09T14:12:30.310054+00:00",
+  "record_scope": "Writing extension prepared and checked before GitHub release publication. Final GitHub tag and release assets identify the published commit.",
+  "planned_release": "v1.1.0",
+  "repository": "https://github.com/Hisernberg/mri-conference-research",
+  "visibility": "private",
+  "base_experiment_release": "v1.0.0",
+  "figures": 20,
+  "table_sets": 8,
+  "report_pdf_count": 11,
+  "research_notebook_sources": 2,
+  "additional_cpu_visualization_source": 1,
+  "actually_executed_visualization_notebook": 1,
+  "synthetic_tests": {
+    "passed": 186,
+    "wall_seconds": 7.0
+  },
+  "scientific_preservation": {
+    "base_release": "v1.0.0",
+    "files_checked": 764,
+    "all_scientific_files_unchanged": true,
+    "original_research_notebooks_and_protocols_unchanged": true
+  },
+  "document_validation": {
+    "relative_links_checked": 440,
+    "all_relative_targets_exist": true,
+    "github_rendered_readme_images": 20,
+    "kaggle_run_table_rows": 11,
+    "kaggle_png_pixels_identical_to_reviewed_local_figures": 20,
+    "pdfs": {
+      "CONFERENCE_PLAN": {
+        "pages": 2,
+        "bytes": 63608,
+        "image_draws": 0
+      },
+      "WRITING_GUIDE": {
+        "pages": 3,
+        "bytes": 74949,
+        "image_draws": 0
+      },
+      "MANUSCRIPT_DRAFT": {
+        "pages": 7,
+        "bytes": 835357,
+        "image_draws": 6
+      },
+      "FIGURE_CATALOG": {
+        "pages": 21,
+        "bytes": 3086657,
+        "image_draws": 20
+      },
+      "GITHUB_RELEASE": {
+        "pages": 3,
+        "bytes": 75709,
+        "image_draws": 0
+      },
+      "DATASETS": {
+        "pages": 4,
+        "bytes": 100794,
+        "image_draws": 0
+      }
+    },
+    "atlas_pages": 20,
+    "figure_catalog_one_figure_per_page": true
+  },
+  "kaggle_verification": "audit/conference_visualizations_verification.json",
+  "evidence_dataset_record": "audit/conference_evidence_dataset.json",
+  "source_and_document_hashes": {
+    "README.md": "c4a71417cf2e8dbcc7c97d8f260207dc3857a62e4293bd7b2ffc2a9ed3f1b365",
+    "docs/DATASETS.md": "1b2377c55ab31e12235e554eee8ca429c766453f5f8411e691f3b8541ab05917",
+    "docs/NOTEBOOK_AUDIT.md": "6eb02765fc7f79ee06d0aa7eb9713f0c291352b9a33ea70684f563eafb8d207d",
+    "docs/GITHUB_RELEASE.md": "ae6d18dce46ac85ebc0d612d264cd10745395e5e210e1451223235ff43ecb2bb",
+    "docs/MANUSCRIPT_DRAFT.md": "4a9e7848acc870672835e6aed9b0093a026b577e0102b3b66ee86378b18b3cd8",
+    "docs/WRITING_GUIDE.md": "0a9f6a66a2db9283241504246ddfc63dc1614782a5210965ca6eeec464eb69ca",
+    "docs/CONFERENCE_PLAN.md": "07329b80d612c49b20a22a0556ae5b7841106b9d1739e51d64a7a653e723d1ae",
+    "docs/RESULTS.md": "985d8a9d5675ba6af4fbb4bb41e8b3ea1c5fc74ba9064223433a574ac395d943",
+    "docs/NOTEBOOKS.md": "8469b917dbec57413f2abd6ebf9ab4a30bf8645042c01e4aabb894999f14aae1",
+    "docs/RELATED_WORK.md": "ebaad4752c67620dbbc7d678c069350908071126d73cccaa6e519f83d406afb3",
+    "docs/FIGURE_CATALOG.md": "ac3f99ef9d014a382433159470b6beaa81016550bb3438b054735f506b28b3fd",
+    "docs/pdf/RESULTS.pdf": "05721171e30940b743158203936f8470d9f52b307cd7000c7622e9bcb88be068",
+    "docs/pdf/NOTEBOOK_AUDIT.pdf": "44f09fe9817cf40b122150eb4b0260136d2bb2677cb8d50f4ff6da3a28620ae7",
+    "docs/pdf/WRITING_GUIDE.pdf": "69a1a04516e299ee847651742713c177384877d28fa0c5ec14f4e3a91825a1b8",
+    "docs/pdf/EXPERIMENT_PLAN.pdf": "d4bd8e78401f026d906e7ec4e457d9cc3d9f3a1daf7abb42826beac7082ba455",
+    "docs/pdf/RELATED_WORK.pdf": "08c40cdcb60b6ddd032fcb85e9f80734d2a2f4a607e33e3c401040c347c926d8",
+    "docs/pdf/FIGURE_CATALOG.pdf": "3c26f30a7c3d60c5a6567c10b094757a6c215e4f44ed6ba5d5f4bb8ea03955a6",
+    "docs/pdf/MANUSCRIPT_DRAFT.pdf": "072d5dd7d01b8ab6e69694bc927232e4046202cc2527050e1e6dfc8b378481db",
+    "docs/pdf/GITHUB_RELEASE.pdf": "fc73946465db6ab9a04d216b77d307354a84ab9d86c0276e6202107eb0f4befd",
+    "docs/pdf/DATASETS.pdf": "8526abb23555c060fcbd1ba3037c489ee8c406eb07ff93163e04f8d069a0866d",
+    "docs/pdf/NOTEBOOKS.pdf": "258d571d81607916585737e17d9bd10f29fb7229bbc54177740b62b0d51142ab",
+    "docs/pdf/CONFERENCE_PLAN.pdf": "3659f613226a8832a4e1e8328292ad52246c1f9798cf9b22ac0bfdee1b214404",
+    "paper/references.bib": "7842bf81a2b69076673e379d4e11a2032050dd8f2652c4b779caea1b0fcb3b99",
+    "paper/claim_evidence.csv": "092bebd7697222aad3c7a6ecddfc415e4b1f9a34452e5c0af7430defdabbb18a",
+    "paper/tables/table_manifest.json": "5990da8e12e4b5ab4548e873a208f3717426754dabbbfdc8076d06efd90e5302",
+    ".gitignore": "04419cd0e60b8ef69f2a8765270e110ccc57d57875a4a74ff32cb5f0dc1b90e9",
+    ".gitattributes": "3d14916d34693b1c48fcfa99a34899bf0fa6185c430e7143f5f0cfa0cf20458b"
+  },
+  "remaining_author_inputs": [
+    "venue and page limit",
+    "authors and affiliations",
+    "institutional secondary-data determination",
+    "funding, conflicts and contributions",
+    "source-code rights and license"
+  ],
+  "science_claim": "No quality-conditioning benefit established; negative results and exploratory historical sensitivity retained.",
+  "packaging_note": "Downloaded Matplotlib SVG path whitespace is preserved and exempt from source whitespace checks. Only results/conference_figures/data/*.csv is exempted from the raw-data directory ignore rule."
+}

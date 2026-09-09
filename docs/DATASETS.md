@@ -94,3 +94,9 @@ The completed protected-evaluation figures include small, annotated single-slice
 The Kaggle metadata endpoint used here did not return an explicit dataset version number. Content hashes and the attached notebook source/output version provide the immediate reproducibility record. Do not invent a version number. Store the exact dataset version from Kaggle's attachment metadata when available.
 
 The project does not have prospective consent, site-level provenance or external clinical validation information beyond the supplied public dataset records. This documentation concerns research benchmarking and does not establish clinical utility.
+
+## Derived conference figure evidence
+
+The private [MRI Conference Figure Evidence](https://www.kaggle.com/datasets/dasshovon/mri-conference-figure-evidence) dataset, version 1, is a small reproducibility attachment for the completed 20-figure CPU notebook. It packages the already verified result/audit tables, plotting source and attributed qualitative montage. It adds no cases, labels, patient information, raw MRI arrays or checkpoints to the scientific study.
+
+The attachment uses Kaggle's “Other (specified in description)” license category to retain separate source terms. The derived montage remains CC BY-SA 4.0 with its bundled attribution. No new source-code license or whole-bundle open license is assigned. File hashes and the originating experiment-release revision are recorded in the evidence manifest; the notebook checks every input before rendering.

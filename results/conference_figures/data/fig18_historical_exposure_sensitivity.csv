@@ -1,0 +1,7 @@
+reference,control,metric,difference,ci_low,ci_high,bonferroni_ci_low,bonferroni_ci_high,comparison_family_size,family_definition,n_groups,n_training_seeds,cohort
+qmmf,no_quality,full_group_macro_dice,-0.0079765242247693,-0.0122624709914649,-0.0037400472614613,-0.013313998800036,-0.0028185094637776,3,all prespecified controls versus QMMF for this endpoint,51,3,All 51 reserved groups
+qmmf,no_quality,mean_subset_macro_dice,-0.0083034556702963,-0.0117508641528573,-0.0048292154856987,-0.0124424067203259,-0.0041883347730094,3,all prespecified controls versus QMMF for this endpoint,51,3,All 51 reserved groups
+qmmf,no_quality,worst_subset_macro_dice,-0.0214483718977793,-0.0298853839280229,-0.0135434910120908,-0.0321782345027166,-0.0118637351498338,3,all prespecified controls versus QMMF for this endpoint,51,3,All 51 reserved groups
+qmmf,no_quality,full_group_macro_dice,-0.0024451282212033,-0.0093915307755878,0.0058089681756644,-0.01072554014641,0.0079685861633824,3,all prespecified controls versus QMMF for this endpoint,15,3,15-group historical sensitivity
+qmmf,no_quality,mean_subset_macro_dice,-0.0066868642592935,-0.0149073369139187,0.0004762928082175,-0.0168082191934291,0.0018225652906204,3,all prespecified controls versus QMMF for this endpoint,15,3,15-group historical sensitivity
+qmmf,no_quality,worst_subset_macro_dice,-0.0178331806641385,-0.0381865485902148,-0.0032365409807945,-0.043739902198236,-0.001581885938611,3,all prespecified controls versus QMMF for this endpoint,15,3,15-group historical sensitivity

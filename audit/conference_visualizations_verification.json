@@ -1,0 +1,30 @@
+{
+  "verified_utc": "2026-09-09T14:03:46.054455+00:00",
+  "kernel": "dasshovon/mri-conference-20-visualizations",
+  "version": 1,
+  "status": "COMPLETE",
+  "private": true,
+  "accelerator": "CPU",
+  "figure_count": 20,
+  "executed_gallery_code_cells": 21,
+  "executed_gallery_image_outputs": 20,
+  "input_source_hashes_match": true,
+  "downloaded_output_hashes_match": true,
+  "plotted_csv_values_match_local_review": true,
+  "executed_image_bytes_match_figure_files": true,
+  "remote_notebook_source_matches_submission": true,
+  "original_montage_png_pdf_unchanged": true,
+  "bundle_sha256": "4f57aaddf44a6564d52145ffcd2cc73d1e06ecdbf832b7f6eaec67747d4d60d1",
+  "downloaded_archive_sha256": "85fa7aa3a5e2bdd8f191f8ad2e29800185b586b9837195980449b29ac294f687",
+  "render_seconds": 30.957802328999946,
+  "evidence_dataset": "dasshovon/mri-conference-figure-evidence",
+  "evidence_dataset_version": 1,
+  "training_or_inference_performed": false,
+  "environment": {
+    "python": "3.12.13",
+    "matplotlib": "3.10.0",
+    "pandas": "2.3.3",
+    "numpy": "2.0.2",
+    "kaggle_working_directory": true
+  }
+}

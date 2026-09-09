@@ -11,3 +11,5 @@
 kaggle/** linguist-generated=true
 audit/source_snapshots/** linguist-generated=true
 results/** linguist-generated=true
+# Preserve the exact downloaded Matplotlib SVG bytes, including path whitespace.
+results/conference_figures/*.svg -whitespace

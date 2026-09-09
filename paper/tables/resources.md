@@ -1,0 +1,13 @@
+| Model | Parameters | Median fit + val (min) | Peak allocated (GiB) |
+| --- | --- | --- | --- |
+| QMMF | 1221465 | 69.92 | 1.347 |
+| No quality | 1220569 | 69.15 | 1.347 |
+| Shuffled quality | 1221465 | 70.18 | 1.347 |
+| Matched moment fusion | 1227977 | 60.41 | 1.188 |
+| No variance | 1183769 | 68.22 | 1.088 |
+| No max | 1183769 | 69.10 | 1.283 |
+| No consistency | 1221465 | 69.49 | 1.332 |
+| HeMIS-style | 881395 | 65.68 | 0.746 |
+| U-Net 2.5D | 884299 | 62.64 | 0.421 |
+
+Observed implementation costs on Kaggle T4. Peak is the maximum across seeds; runtime is the median fit/inner-validation component. Cross-family auxiliary objectives differ.

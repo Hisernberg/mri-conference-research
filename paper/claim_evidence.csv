@@ -1,0 +1,13 @@
+claim_id,supported_statement,evidence_file,figure_ids,limitation
+C01,The audit found 484 segmentation case IDs in 262 conservative groups.,results/segmentation_audit/grouped_v2/case_groups.json,01,Groups are not verified patients.
+C02,The main study completed nine variants across three fixed seeds on development fold 0.,results/segmentation_main/combination_verification.json,"07,09",Not four-fold cross-validation or three independent cohorts.
+C03,Reserved comparisons favor no quality over QMMF on the three declared endpoints.,results/segmentation_protected/paired_repeated_seed_deltas.csv,"11,12",Adjustment: three controls separately per endpoint; fixed-seed group resampling.
+C04,No quality has a higher descriptive mean in all 15 modality subsets.,results/segmentation_protected/reporting/modality_subset_summary.csv,14,No new per-subset significance tests; complete-modality preprocessing precedes masking.
+C05,Both ET-empty cases have false-positive ET for every model and seed.,results/segmentation_protected/all_full_case_metrics.csv,17,24 observations across two cases; not an estimated population specificity.
+C06,The smaller historical sensitivity leaves full and mean-subset comparisons uncertain.,results/segmentation_historical_sensitivity/paired_repeated_seed_deltas.csv,18,"Exploratory, overlapping cohort; frozen before reserved outcomes after some development results."
+C07,The qualitative montage contains three prespecified cases and all four models at seed 42.,results/segmentation_protected/qualitative/verification.json,19,BRATS_143 has historical validation exposure; montage is illustrative and retains attribution.
+C08,Cache optimization measured approximately 4.02x QMMF and 3.51x HeMIS-style throughput.,results/optimization/kaggle_training_io/timing_comparison.csv,20,"Bounded segment only; one timed measurement per model/format, no end-to-end speedup claim."
+C09,The full classifier has mean OOF macro F1 0.7745.,results/classification/model_summary.csv,"03,04,05","Separate image-level benchmark; 228 unique images, 209 groups."
+C10,The classifier advantage over the narrow ResNet is uncertain.,results/classification/paired_ablation_deltas.csv,06,Descriptive unadjusted group intervals; no patient-level diagnostic inference.
+C11,Cross-family comparisons confound architecture with auxiliary objectives.,results/implementation_audit/effective_objectives.csv,"08,10,12",Same-family controls are closer tests of the quality module.
+C12,There is no evaluated independent external clinical cohort or reproduced modern-comparator result.,docs/RELATED_WORK.md,,"No novelty, clinical validation, state-of-the-art or conference-acceptance claim is established."

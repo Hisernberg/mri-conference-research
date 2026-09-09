@@ -4,6 +4,7 @@ Start with the [complete report](../docs/RESULTS.md) or [results PDF](../docs/pd
 
 | Folder | Contents |
 |---|---|
+| [conference_figures](conference_figures/) | 20 Kaggle PNG/PDF/SVG exports, plotted CSVs, executed notebook, complete captions and PDF atlas |
 | [classification](classification/) | 105 fits, OOF probabilities, seed metrics, paired intervals, error analysis and figures |
 | [classification_audit](classification_audit/) | Image manifests, duplicate/similarity groups and frozen partitions |
 | [segmentation_audit](segmentation_audit/) | Structural and similarity audits, historical exposure, failed split provenance and repaired group metadata |

@@ -1,0 +1,10 @@
+reference,control,metric,difference,ci_low,ci_high,bonferroni_ci_low,bonferroni_ci_high,comparison_family_size,family_definition,n_groups,n_training_seeds
+qmmf,hemis,full_group_macro_dice,0.0852624437369047,0.0738756702028252,0.0970906604096029,0.0712109210218686,0.0992854290108888,3,all prespecified controls versus QMMF for this endpoint,51,3
+qmmf,no_quality,full_group_macro_dice,-0.0079765242247693,-0.0122624709914649,-0.0037400472614613,-0.013313998800036,-0.0028185094637776,3,all prespecified controls versus QMMF for this endpoint,51,3
+qmmf,unet25d,full_group_macro_dice,0.0067971123612001,-0.0024908318606702,0.0166020920824151,-0.0044648335836475,0.0188514954387988,3,all prespecified controls versus QMMF for this endpoint,51,3
+qmmf,hemis,mean_subset_macro_dice,0.0860521805953844,0.0754799773168586,0.0974607319393787,0.0734448947284013,0.1002743362073868,3,all prespecified controls versus QMMF for this endpoint,51,3
+qmmf,no_quality,mean_subset_macro_dice,-0.0083034556702963,-0.0117508641528573,-0.0048292154856987,-0.0124424067203259,-0.0041883347730094,3,all prespecified controls versus QMMF for this endpoint,51,3
+qmmf,unet25d,mean_subset_macro_dice,0.0288691382924037,0.0224234187247928,0.0358894647396379,0.0209965879684368,0.0375228873312522,3,all prespecified controls versus QMMF for this endpoint,51,3
+qmmf,hemis,worst_subset_macro_dice,0.0923444676541076,0.0668693605499513,0.1190524293542073,0.061745331698686,0.1257558575010326,3,all prespecified controls versus QMMF for this endpoint,51,3
+qmmf,no_quality,worst_subset_macro_dice,-0.0214483718977793,-0.0298853839280229,-0.0135434910120908,-0.0321782345027166,-0.0118637351498338,3,all prespecified controls versus QMMF for this endpoint,51,3
+qmmf,unet25d,worst_subset_macro_dice,0.0531516127501927,0.0385879301173834,0.0698976391631105,0.0354606529216963,0.0738308065561108,3,all prespecified controls versus QMMF for this endpoint,51,3

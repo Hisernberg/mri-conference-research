@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 TOP = ["README.md", "EXPERIMENT_PLAN.md", ".gitignore", ".gitattributes",
        "requirements.txt", "requirements-dev.txt"]
 DIRS = ["docs", "notebooks", "classification", "segmentation/src", "segmentation/tests", "segmentation/scripts",
-        "segmentation/configs", "tests", "scripts", "results", "audit", "kaggle"]
+        "segmentation/configs", "tests", "scripts", "results", "audit", "kaggle", "paper"]
 FORBIDDEN_SUFFIXES = {".pt", ".pth", ".npz", ".npy", ".nii", ".pyc", ".key", ".pem"}
 FORBIDDEN_PARTS = {"__pycache__", ".pytest_cache", "cache", "cache_v2", "checkpoints", "qmmf_runs"}
 

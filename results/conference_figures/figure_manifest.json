@@ -1,0 +1,392 @@
+{
+  "created_utc": "2026-09-09T13:58:29.675315+00:00",
+  "figure_count": 20,
+  "generator_sha256": "1a337505bbfa191b23bea7d72df245c20c9e73081959180a75992533f2016e66",
+  "environment": {
+    "python": "3.12.13",
+    "matplotlib": "3.10.0",
+    "pandas": "2.3.3",
+    "numpy": "2.0.2",
+    "kaggle_working_directory": true
+  },
+  "scope": "Visualization of frozen evidence; no training, inference, retuning or new hypothesis tests.",
+  "figures": [
+    {
+      "number": 1,
+      "stem": "fig01_dataset_audit",
+      "title": "Dataset audit",
+      "caption": "Classification auditing reduced 506 files to 228 decoded unique images in 209 conservative similarity groups. The segmentation dataset contains 484 canonical case IDs in 262 conservative groups after the rescaled-copy audit. Counts describe different units and must not be interpreted as patient counts.",
+      "interpretation": "Image grouping addresses observed duplication; it cannot establish patient independence.",
+      "suggested_placement": "Methods / data audit",
+      "sources": {
+        "results/classification/audit/dataset_audit.json": "932b1c61cf63d8690216c0287add025712905a2bd35b4b572026d3e786ee997b",
+        "results/classification/audit/image_manifest.csv": "75d99ae5e0c343289d1148b892441f714fe97a549baa7c44f9dd3afa484e7415",
+        "results/segmentation_audit/grouped_v2/case_groups.json": "a67cf059f7e3d72bbf2f638310e7bde5cb5ad6947f91ddf8d8ac4c1f1a1aca64"
+      },
+      "plotted_rows": 5,
+      "outputs": {
+        "fig01_dataset_audit.png": "306dc137361a4474ca96933fefedcbf619a7283a94ab4af34f484ba6628f50ef",
+        "fig01_dataset_audit.pdf": "0b24c292e105cede82e71c776e3987c08abafb68da8c7a9f5e4f16c3c1404547",
+        "fig01_dataset_audit.svg": "e318d1e0ee4dd92566e1640c8c6382eee30fe3382fe337b7c0024e44f43bfa55",
+        "data/fig01_dataset_audit.csv": "574c065a18db3e0bdf60ae99b4a2fdcade83d8ff4cf56b90d2b94bdbd5d874ca"
+      }
+    },
+    {
+      "number": 2,
+      "stem": "fig02_segmentation_cohorts",
+      "title": "Frozen segmentation cohorts",
+      "caption": "The executed fold-0 partition contains 294 training cases/132 groups, 33 inner-selection cases/24 groups, 91 outer-development cases/55 groups, and 66 reserved cases/51 groups. All 27 main fits share this partition. Missing-modality development evaluation uses 16 fixed group representatives; reserved subset evaluation uses 51 representatives. The 15-group historical sensitivity is nested within the reserved set.",
+      "interpretation": "Four-fold metadata exists, but the reported main experiment is one grouped development fold repeated across three seeds.",
+      "suggested_placement": "Methods / evaluation design",
+      "sources": {
+        "results/segmentation_audit/grouped_v2/split_counts.csv": "45e284ceb52d17dd61b1379e213d24c41e64e5b4ead18301abf5d18684510ae8",
+        "results/segmentation_protected/verification.json": "5055ade1cacb1994c725698240264918c8bbf86255a24ece720a89497c68425b"
+      },
+      "plotted_rows": 4,
+      "outputs": {
+        "fig02_segmentation_cohorts.png": "e69e7d20a845688c2d68f61deae2e56aa5bf3e0965ba543408429b0fbe4ea469",
+        "fig02_segmentation_cohorts.pdf": "8ae31acb5f12913dafcad445aac94e8a3c8b92b4c3001226eaad66d23c749650",
+        "fig02_segmentation_cohorts.svg": "f389bfbd9f93c8c4c193a598a358b70e0004b34e97be1cc6875b033211ba5cc4",
+        "data/fig02_segmentation_cohorts.csv": "0652d15a6be9afd522c00f2d0f05776c428c199aab7a2af9e2f9baf52fbc8fc6"
+      }
+    },
+    {
+      "number": 3,
+      "stem": "fig03_classification_ablations",
+      "title": "Classification ablation summary",
+      "caption": "Out-of-fold macro F1 and AUROC are summarized over the three fixed seeds for every classifier variant. Points show the seed mean and bars show one sample standard deviation across seeds. Each seed contributes one out-of-fold prediction per unique image. These bars are not confidence intervals.",
+      "interpretation": "The full classifier has mean macro F1 0.7745; its paired advantage over the narrow ResNet remains uncertain.",
+      "suggested_placement": "Supplement / separate classification benchmark",
+      "sources": {
+        "results/classification/model_summary.csv": "25a07d1f6424eb6f3f52eaeb80271e93a4fc879ff8418b8cccbba5fbc859c8f5"
+      },
+      "plotted_rows": 7,
+      "outputs": {
+        "fig03_classification_ablations.png": "2af42172f1ca10a2efda6a89eed87e10d5dede0c77c48fa533aafc66beb28cb8",
+        "fig03_classification_ablations.pdf": "83d88e9633adc9a1fdbb0edc9f015bd8a8b1f764db545cd87a585befeb50742a",
+        "fig03_classification_ablations.svg": "850288f60d07bb7e02a273aa77dadb73e6945c3c9363e75515346b9c44e3ba5d",
+        "data/fig03_classification_ablations.csv": "acea653f590432d91bb945abb9cd6e87583a711a15c89f02bc6c6d7d9f15b2c5"
+      }
+    },
+    {
+      "number": 4,
+      "stem": "fig04_classification_roc_pr",
+      "title": "Classification ROC and precision\u2013recall",
+      "caption": "ROC and precision\u2013recall curves use the original out-of-fold probabilities for each of three seeds. Each curve contains 228 unique images; repeated seeds are displayed separately and are not pooled as independent observations. The ROC diagonal and positive-class prevalence are reference lines. Legend values are the saved AUROC and average precision.",
+      "interpretation": "These are internal, descriptive image-level discrimination curves, not calibrated clinical operating points.",
+      "suggested_placement": "Supplement / classifier discrimination",
+      "sources": {
+        "results/classification/oof_predictions.csv": "b8c2a75ee82df0722ec24af995d7b12b07c26c44dcaf9f6ca7f7192f9d1a9637",
+        "results/classification/per_seed_oof_metrics.csv": "433496432637ec8b9a8bfaa1bb787cb2101dccf1beed8d80acfa5ff20f0f5759"
+      },
+      "plotted_rows": 1830,
+      "outputs": {
+        "fig04_classification_roc_pr.png": "fbc8c0132a0df4c58bbf4a40818e328bd5aaf41da374239eb165652adc3f329c",
+        "fig04_classification_roc_pr.pdf": "79fe88cfcb6296f6cb2a8f06e29317d5042c4b6040672647e32bbc283a6480c5",
+        "fig04_classification_roc_pr.svg": "a7cd700e5b940c14860e719b448eb8e4c44ecd8f26652bcf1b55e5dbd8908e64",
+        "data/fig04_classification_roc_pr.csv": "ae5c2e2353132c19d59d73184abc350d1fa38db13e62927fa2842d4f7fc6b3e6"
+      }
+    },
+    {
+      "number": 5,
+      "stem": "fig05_classification_confusion",
+      "title": "Classification confusion matrices",
+      "caption": "Out-of-fold confusion matrices for the full classifier at the prespecified probability threshold of 0.5. Every seed uses the same 228 unique images: 87 negative and 141 positive. The image counts cannot be interpreted as independent patients, and the three matrices must not be summed to inflate sample size.",
+      "interpretation": "Both false negatives and false positives remain visible for all fixed seeds.",
+      "suggested_placement": "Supplement / classifier error analysis",
+      "sources": {
+        "results/classification/oof_predictions.csv": "b8c2a75ee82df0722ec24af995d7b12b07c26c44dcaf9f6ca7f7192f9d1a9637"
+      },
+      "plotted_rows": 12,
+      "outputs": {
+        "fig05_classification_confusion.png": "c0bce637246ea5a764f76a2c6467557543636cd6c858334ee5058bebfb244681",
+        "fig05_classification_confusion.pdf": "005c45e1fe5a04542eb3025c7574c1d781da3e5bbb07cb4046e900cd5f2f7f91",
+        "fig05_classification_confusion.svg": "4b41f26ce8f915a0d0d4a35c993e6c348bb936bcb93c152320736acdc840d2cd",
+        "data/fig05_classification_confusion.csv": "3259438275f1b17d3f8804388dcd1d45166c4da19f735bca02a5efde1f8f8d5a"
+      }
+    },
+    {
+      "number": 6,
+      "stem": "fig06_classification_paired_contrasts",
+      "title": "Paired classification contrasts",
+      "caption": "Saved paired contrasts compare the full classifier with all six controls. Points are the mean seed-level OOF macro-F1 differences; bars are descriptive percentile intervals from group resampling with fixed seeds retained. These follow-up intervals are unadjusted for multiplicity. The narrow-ResNet interval crosses zero.",
+      "interpretation": "Use this as exploratory supporting evidence; do not present all positive intervals as confirmatory discoveries.",
+      "suggested_placement": "Supplement / classifier ablations",
+      "sources": {
+        "results/classification/paired_ablation_deltas.csv": "2e12aa4c03589f033f9e6913e8b59b9a61c29d23f14e2e368971e911eea29c5c"
+      },
+      "plotted_rows": 6,
+      "outputs": {
+        "fig06_classification_paired_contrasts.png": "cf2914d6d7d5360a7f4f865ee585d794ecbd9d0069e136a7a9ce423e5eed744b",
+        "fig06_classification_paired_contrasts.pdf": "9c9efcf0d5f8231ab42594b34f6351c47ac9a4ebfb9ab4864d5f4c24d966ff46",
+        "fig06_classification_paired_contrasts.svg": "c044709edcd313b81057e4cbacf25d58963aab4591309ee58c7564028b0b26b0",
+        "data/fig06_classification_paired_contrasts.csv": "f27b45d5bcb8bbc486f1a77e29fb5376b592933c87fff17eaaa2391ef14c05c2"
+      }
+    },
+    {
+      "number": 7,
+      "stem": "fig07_main_segmentation_endpoints",
+      "title": "Main segmentation: all nine variants",
+      "caption": "Model comparison across full-modality, mean-subset and worst-subset Dice. The cohort comprises 55 outer-development groups (full modalities) and 16 fixed representatives (subsets). Filled points show means across the three fixed seeds; small ticks show individual seed values. Horizontal bars show saved 95% group-bootstrap intervals retaining all three seeds. Interval width is group uncertainty, not seed SD. The mean- and worst-subset endpoints use all 15 nonempty modality subsets.",
+      "interpretation": "Quality conditioning does not establish an advantage over the no-quality control; the paired intervals are the appropriate comparisons.",
+      "suggested_placement": "Main paper / main ablations",
+      "sources": {
+        "results/segmentation_main/repeated_seed_metrics.csv": "b4f9580a5ec183c78853b8098b7ffd716bbbdc72c03dde7d44a1b65ae3bfa54b",
+        "results/segmentation_main/seed_specific_metrics.csv": "8629ee37ea0b99e4b77e08406e52cb33b544af13a786d74d019e8e2dd2ec394a"
+      },
+      "plotted_rows": 27,
+      "outputs": {
+        "fig07_main_segmentation_endpoints.png": "895c2af74afce79d5ef185f3e73e5fd97cc687844340bff8e9ce9bb6540db04e",
+        "fig07_main_segmentation_endpoints.pdf": "6df84ce5c788281f08d1ea5931c325590ab47d809b5b19333c7b296d7cdd580b",
+        "fig07_main_segmentation_endpoints.svg": "b6fda53629a279a45a94f3bf437e508b78310b807f465204b720023897543ff1",
+        "data/fig07_main_segmentation_endpoints.csv": "30211ec6b341215aabd7f8d3249bc4363cbaaa0173bc30b406dc1654ad2ee79c"
+      }
+    },
+    {
+      "number": 8,
+      "stem": "fig08_main_paired_ablations",
+      "title": "Main paired ablation intervals",
+      "caption": "All declared QMMF-control contrasts for the three segmentation endpoints. Bars are the saved Bonferroni-adjusted paired group-bootstrap intervals, using a family of 8 controls separately for each endpoint and retaining three fixed training seeds. Negative values favor the control. The intervals are reproduced from the frozen analysis; no new comparisons were selected for this figure.",
+      "interpretation": "The main development comparisons do not support the quality module; all reserved no-quality contrasts favor removing it.",
+      "suggested_placement": "Main paper / ablation evidence",
+      "sources": {
+        "results/segmentation_main/paired_repeated_seed_deltas.csv": "07a6031c003b56adccd53f3ea7678254947919281bf94cb20f9dc272d76a1bc8"
+      },
+      "plotted_rows": 24,
+      "outputs": {
+        "fig08_main_paired_ablations.png": "9c181c740fda78d3dfaaed3b5fe9d84d206422bbcd0c1008f1b73c58756a785d",
+        "fig08_main_paired_ablations.pdf": "b1d0993d61e2d24fa38058a2dafa22df757fbf072c8d38d969ac87b34f721c4b",
+        "fig08_main_paired_ablations.svg": "e20214142a66b86f95d9e456382b60011a91f7169cb20f1a33abbf52b08879e1",
+        "data/fig08_main_paired_ablations.csv": "bf76736f53551d40e30c33913deabd48b2aad31fbcacfb69a6fb7ae767565d1a"
+      }
+    },
+    {
+      "number": 9,
+      "stem": "fig09_training_selection_curves",
+      "title": "Training selection curves",
+      "caption": "Inner-validation selection scores at all 12 scheduled checks for every model and seed. Each fit ran 120 epochs; dots indicate the checkpoint selected by the original inner-validation rule. Lines connect observed checks without smoothing or extrapolation. The vertical score is the recorded composite selection objective, not the outer or reserved test score.",
+      "interpretation": "The fixed budget and available validation trajectory do not establish convergence for every model.",
+      "suggested_placement": "Supplement / optimization diagnostics",
+      "sources": {
+        "results/segmentation_main/all_training_histories.csv": "4b54f5878333c7e5a2a60ec3011cfa79384aafc090ddbd2a6b6b4893b00d182e",
+        "results/segmentation_main/training_diagnostics.csv": "389f1c850d7adc3b27e5dc1de6efecd40f543d0908ce2f7297911221388f66e1"
+      },
+      "plotted_rows": 324,
+      "outputs": {
+        "fig09_training_selection_curves.png": "f59528da443201aa6f99161701ef3fd7b4f9659481e32e49111d9ec687b6e3c0",
+        "fig09_training_selection_curves.pdf": "923423759c233c3c670792424015e8db69a5407a5d9896aad1149df269350bdf",
+        "fig09_training_selection_curves.svg": "4cdcc3f5a0dea60ae97fd5a18b66b4b23bb709ad1a2594d8fb89e92b1d83fb81",
+        "data/fig09_training_selection_curves.csv": "fdef5ebe5078040865734614e0b1cf555dadf33c1358d9094dc5980f0d2567ab"
+      }
+    },
+    {
+      "number": 10,
+      "stem": "fig10_segmentation_compute",
+      "title": "Segmentation capacity and compute",
+      "caption": "Aligned rows show trainable parameters (left), mean outer-development Dice with one seed SD (center), and component-wise median fit/validation and evaluation durations over three seeds (right). Duration components are stacked for readability; their sum is not the median total runtime. Cross-family objectives differ: QMMF and its controls have auxiliary heads while HeMIS-style and U-Net do not.",
+      "interpretation": "This is an observed implementation trade-off, not a controlled architecture-only efficiency claim or an account billing estimate.",
+      "suggested_placement": "Supplement / resources",
+      "sources": {
+        "results/segmentation_main/repeated_seed_metrics.csv": "b4f9580a5ec183c78853b8098b7ffd716bbbdc72c03dde7d44a1b65ae3bfa54b",
+        "results/segmentation_main/resource_summary.csv": "67c5cd5398201066e6a216d96cab6376c5dd3c689014cafbd372958653ec9639"
+      },
+      "plotted_rows": 9,
+      "outputs": {
+        "fig10_segmentation_compute.png": "f7d627cba0096ce03e4038e0a659110b3385625fe3500df03da147e97633e50e",
+        "fig10_segmentation_compute.pdf": "7326188823fb6009c02e6fc496f6a594265323878c56910eb3b09ea88f49adf8",
+        "fig10_segmentation_compute.svg": "f9d1fe7fc5fd24e2994ed0d4e9002e0d31967cf7afb199a3982ce380326c230f",
+        "data/fig10_segmentation_compute.csv": "f06eb2f0b2234c3d5d072ce26eb563cc992356d39a1d34be65dcf324566cb189"
+      }
+    },
+    {
+      "number": 11,
+      "stem": "fig11_reserved_segmentation_endpoints",
+      "title": "Reserved evaluation: four selected model families",
+      "caption": "Model comparison across full-modality, mean-subset and worst-subset Dice. The cohort comprises 51 reserved groups: 66 cases for full modalities and 51 representatives for subsets. Filled points show means across the three fixed seeds; small ticks show individual seed values. Horizontal bars show saved 95% group-bootstrap intervals retaining all three seeds. Interval width is group uncertainty, not seed SD. The mean- and worst-subset endpoints use all 15 nonempty modality subsets.",
+      "interpretation": "Quality conditioning does not establish an advantage over the no-quality control; the paired intervals are the appropriate comparisons.",
+      "suggested_placement": "Main paper / primary results",
+      "sources": {
+        "results/segmentation_protected/repeated_seed_metrics.csv": "0129b8e859f8c1184db02b8ababa358d55b89a5da1a47bec4c0d2a24d69d6aa8",
+        "results/segmentation_protected/seed_specific_metrics.csv": "85e3d9d204efbcadc2e4a785195b7de2c2a46ed9ddc108e4182989542822e036"
+      },
+      "plotted_rows": 12,
+      "outputs": {
+        "fig11_reserved_segmentation_endpoints.png": "1fa38b8ad1334d245d63c5147aa1d0431ca0f92a4f958b207ae9f230bfa34ee6",
+        "fig11_reserved_segmentation_endpoints.pdf": "363a67c393657dc64268bd759790cad5a5de5aea8aab0c0288878245f2cabdf0",
+        "fig11_reserved_segmentation_endpoints.svg": "6930e27efa3d7d06c2d9d77c56a5b664aa2dd1233f9a63d65f339bfd4563062c",
+        "data/fig11_reserved_segmentation_endpoints.csv": "a9baf90c6abd2ea9a420dc25af7d7bcc29d23681efc63ce6cd982b9d04859b23"
+      }
+    },
+    {
+      "number": 12,
+      "stem": "fig12_reserved_paired_contrasts",
+      "title": "Reserved paired comparisons",
+      "caption": "All declared QMMF-control contrasts for the three segmentation endpoints. Bars are the saved Bonferroni-adjusted paired group-bootstrap intervals, using a family of 3 controls separately for each endpoint and retaining three fixed training seeds. Negative values favor the control. The intervals are reproduced from the frozen analysis; no new comparisons were selected for this figure.",
+      "interpretation": "The main development comparisons do not support the quality module; all reserved no-quality contrasts favor removing it.",
+      "suggested_placement": "Main paper / reserved comparisons",
+      "sources": {
+        "results/segmentation_protected/paired_repeated_seed_deltas.csv": "16b79041b3b97e1d5013352797e14178a02d551f22251b196466baa07d4c9cb3"
+      },
+      "plotted_rows": 9,
+      "outputs": {
+        "fig12_reserved_paired_contrasts.png": "acd909c4c0fed1e3b469618fbf713f88e0bd98741498bbf9166823fe6647701e",
+        "fig12_reserved_paired_contrasts.pdf": "963c684e482d7879742062f223f940655aab4a4b64926b14c38e58ca5e8c36fa",
+        "fig12_reserved_paired_contrasts.svg": "8ef8a97dfcd464150f3b804444ff30931e136795ae4f8bc9913e07fc6b27dd4d",
+        "data/fig12_reserved_paired_contrasts.csv": "87cb2a6991f7f1d2faa5fa6a77ffa87a3a4722e20d5accfedafd366fb8ef575d"
+      }
+    },
+    {
+      "number": 13,
+      "stem": "fig13_reserved_regional_dice",
+      "title": "Reserved regional Dice",
+      "caption": "Group-aggregated Dice for WT, TC and ET in the reserved evaluation. Points show the mean over three seeds and bars show seed SD. The frozen nonempty-reference rule excludes two ET-empty cases from ET Dice; WT and TC have 66 nonempty reference cases, while ET has 64. False-positive ET on the excluded cases is reported separately in Figure 17.",
+      "interpretation": "Regional averages must be read together with the empty-reference failure analysis.",
+      "suggested_placement": "Main paper / regional results",
+      "sources": {
+        "results/segmentation_protected/reporting/regional_summary.csv": "297e6cb53ed831772bcd27589f4ac751a24caef36d33522b9577f91eb328d397"
+      },
+      "plotted_rows": 12,
+      "outputs": {
+        "fig13_reserved_regional_dice.png": "c92dc4940d2c1e3905b87e0ae0f234c538b067674cbbe794a293b27825da80f4",
+        "fig13_reserved_regional_dice.pdf": "c50be8e4065cccbecdc2bcfc5d68da544b9600938933bbe4a065287434827134",
+        "fig13_reserved_regional_dice.svg": "781cacda4a69ac1490ffb3884084b122171a4f47c8bcec6d8ee84b580fa21a1b",
+        "data/fig13_reserved_regional_dice.csv": "06722b7f0c95d278654739aa7117396c5c7e6acdf4f07784b83b53f7aaf78a6d"
+      }
+    },
+    {
+      "number": 14,
+      "stem": "fig14_reserved_modality_subsets",
+      "title": "All reserved modality subsets",
+      "caption": "Heatmap of all 15 nonempty subsets of T1, T1ce, T2 and FLAIR for four models. Values are group-level scores averaged over the three fixed seeds and the 51 reserved representatives. The scale is fixed at 0\u20131 and each value is shown numerically. Complete four-channel preprocessing occurs before channel masking, so the experiment measures simulated missingness.",
+      "interpretation": "No quality has the higher descriptive mean than QMMF in all 15 combinations; individual cells are not new adjusted hypothesis tests.",
+      "suggested_placement": "Main paper / missing-modality robustness",
+      "sources": {
+        "results/segmentation_protected/reporting/modality_subset_summary.csv": "f11088648c463771856790282ba6f0f74d8162393af597844c4b18a904e76f3e"
+      },
+      "plotted_rows": 60,
+      "outputs": {
+        "fig14_reserved_modality_subsets.png": "fc448149f06e1a7ffce4f283096c659f3cf8b79e089ab3723b6c9adae08394e0",
+        "fig14_reserved_modality_subsets.pdf": "18b49e5bc0fff043f80b4397deab3456b7deff1fcd6bace7254a89aef97f4e98",
+        "fig14_reserved_modality_subsets.svg": "504a02d307fff4ed6a622d5b9fd6103a56333a00eba7312105431523e05e6163",
+        "data/fig14_reserved_modality_subsets.csv": "293dd22618dd3681c6dee2a215159d444147fe9d0bdc4f99e69e56b531d60eef"
+      }
+    },
+    {
+      "number": 15,
+      "stem": "fig15_reserved_modality_shapley",
+      "title": "Reserved modality Shapley contributions",
+      "caption": "Shapley values are computed from all 15 observed nonempty subset scores and a declared empty-subset value of zero. Group means are averaged across the three seeds; bars show seed SD. Contributions are conditional on the fitted models, the preprocessing and the chosen utility convention, and are not causal importance estimates.",
+      "interpretation": "T1ce has the largest descriptive contribution in this declared game; no claim about clinical indispensability follows.",
+      "suggested_placement": "Supplement / modality attribution",
+      "sources": {
+        "results/segmentation_protected/reporting/modality_shapley_summary.csv": "b70055f462d361353615ef3ce229bc6a2e78e38554d00880e9e102d4acb70f89"
+      },
+      "plotted_rows": 16,
+      "outputs": {
+        "fig15_reserved_modality_shapley.png": "11c7f36d65a1bca5ce16482d636b4aa80767817676acd5ce9692b3c8cb56aafe",
+        "fig15_reserved_modality_shapley.pdf": "5c899be0c5d9296f6baa2acf04d79ade6df8380f09965620503e471f4a1594c4",
+        "fig15_reserved_modality_shapley.svg": "17de390cfc185907a303a92835fbeb3ac6820b81bc637b7c004e5ebd09a69a40",
+        "data/fig15_reserved_modality_shapley.csv": "a5ad4e61c7518e2257c1aba107e7e2bee6ccbff5ba04ed03bc69dbac7596dd6e"
+      }
+    },
+    {
+      "number": 16,
+      "stem": "fig16_reserved_group_heterogeneity",
+      "title": "Reserved group heterogeneity",
+      "caption": "Each scatter point is one of 51 conservative reserved image groups after averaging the three fixed seeds. The diagonal denotes equal performance. The histogram displays every corresponding paired group difference and its mean, rather than selecting only favorable or unfavorable examples. It adds no hypothesis test.",
+      "interpretation": "The aggregate negative difference coexists with group-specific gains and losses; neither plot establishes patient-level effects.",
+      "suggested_placement": "Supplement / distribution of errors",
+      "sources": {
+        "results/segmentation_protected/full_group_macro_dice_seed42_by_group.csv": "343412daddddb086e3dff3bb02cef87b98fce09fb725f2038905b3477710d7ec",
+        "results/segmentation_protected/full_group_macro_dice_seed43_by_group.csv": "2c3c3cd1082d08be030e4b0b3e04eca157b443f08473fa6042e078e8f23aa374",
+        "results/segmentation_protected/full_group_macro_dice_seed44_by_group.csv": "3e5478e98fd518d0ea7ee7ba460caed1d809c82fbae6e01fc4cf018d71e5c776"
+      },
+      "plotted_rows": 51,
+      "outputs": {
+        "fig16_reserved_group_heterogeneity.png": "6a28a6ad903b563f6553b35ed44169d52e258cf2b017b0e934dff027e961c886",
+        "fig16_reserved_group_heterogeneity.pdf": "9e71a82883ce92bfc1f6be5a9319b3c6369c88f4476caa4c5031a9a5fc9cedf0",
+        "fig16_reserved_group_heterogeneity.svg": "6287ac7b2555fef3e13a284b3ba68f17d1aaa566007b8a70a49d15cff2a31478",
+        "data/fig16_reserved_group_heterogeneity.csv": "93ca0e3ae5b2f877aa926d138be825c69d6ad203a405ea130b7529034d76c927"
+      }
+    },
+    {
+      "number": 17,
+      "stem": "fig17_empty_reference_et_failures",
+      "title": "Empty-reference ET failures",
+      "caption": "False-positive ET volume for both reserved cases whose reference ET volume is zero. All four models and all three seeds are shown (24 observations). Every observation has positive predicted ET volume. These cases are excluded from the primary nonempty-reference ET Dice according to the frozen rule, but their failures remain explicitly reported here.",
+      "interpretation": "The aggregate Dice results do not imply reliable rejection of absent enhancing tumor.",
+      "suggested_placement": "Main paper / failure analysis",
+      "sources": {
+        "results/segmentation_protected/all_full_case_metrics.csv": "97bf686151eb8ba746dd64763c6b0b12fc4169a06aab2bfb287c7aaf5672d52c"
+      },
+      "plotted_rows": 24,
+      "outputs": {
+        "fig17_empty_reference_et_failures.png": "2fa240b476d9cd576d2ab4d309d45d64eaebabf57cd16cc45b21d6c9c5f46c8e",
+        "fig17_empty_reference_et_failures.pdf": "47b81f68220c2d89ba8e42aada0c94372d6d157a3ba94c14f0a93b1fe352a68a",
+        "fig17_empty_reference_et_failures.svg": "41ce5eec331ca3dc62eebce7b19f392372bc8aa2eb7a3011502f23af8a3e1156",
+        "data/fig17_empty_reference_et_failures.csv": "b3d6228f3c24b106dc060520c3b41d78e6042e19351974406f8819400f645b35"
+      }
+    },
+    {
+      "number": 18,
+      "stem": "fig18_historical_exposure_sensitivity",
+      "title": "Historical exposure sensitivity",
+      "caption": "QMMF minus no-quality differences for the complete 51-group reserved cohort and the frozen 15-group/18-case sensitivity whose groups are entirely outside the original notebook's development partition. Bars reproduce adjusted intervals (three controls per endpoint). The sensitivity was frozen before reserved outcomes but after some main development results were available; it remains exploratory.",
+      "interpretation": "The smaller sensitivity leaves full and mean-subset differences uncertain while still favoring no quality on worst-subset Dice. It does not replace the complete reserved report.",
+      "suggested_placement": "Main paper / limitations and sensitivity",
+      "sources": {
+        "results/segmentation_historical_sensitivity/paired_repeated_seed_deltas.csv": "c225f68a9c74fe97cbb2558e42c3ab8f8928bacd65c9bb69ee3a594e423ab864",
+        "results/segmentation_historical_sensitivity/verification.json": "54aef2025cfbec94b4a56e386b5807e91f7dd68c63ae29a0f31c46ad540357e2",
+        "results/segmentation_protected/paired_repeated_seed_deltas.csv": "16b79041b3b97e1d5013352797e14178a02d551f22251b196466baa07d4c9cb3"
+      },
+      "plotted_rows": 6,
+      "outputs": {
+        "fig18_historical_exposure_sensitivity.png": "ebf576b1229a8949762d000acaf7888034f1605b50dc3c79f3ecc51654859e0c",
+        "fig18_historical_exposure_sensitivity.pdf": "772f49393ff49754cd02c55e649ca310fa6f8061c118824a294f46c7e615a4c3",
+        "fig18_historical_exposure_sensitivity.svg": "85fc253a9ad3e73ece20d2e7c4f34b6135fa503170b724b8e67af2d04eed06d7",
+        "data/fig18_historical_exposure_sensitivity.csv": "c8eff517203e82da7dfc76e91971d4bfeea07cc63dd848bbd65bc60d2ecee785"
+      }
+    },
+    {
+      "number": 19,
+      "stem": "fig19_prespecified_qualitative",
+      "title": "Prespecified qualitative predictions",
+      "caption": "Unmodified, verified prediction montage for the three cases fixed before reserved evaluation: BRATS_143 (slice 77), BRATS_119 (slice 87) and BRATS_023 (slice 77), with all four models at seed 42. Titles report whole-volume macro Dice, not slice Dice. BRATS_143 appeared in the original notebook's validation subset. The figure contains real Kaggle predictions and is reused byte-for-byte in PNG and PDF; the SVG is a raster wrapper.",
+      "interpretation": "Illustrative examples are prespecified and retain failures and historical exposure. They do not estimate population performance.",
+      "suggested_placement": "Main paper / qualitative examples",
+      "sources": {
+        "results/segmentation_protected/qualitative/ATTRIBUTION.md": "6d0ca5a4463e138b3162fba1e9a92d0e3d2047513eb326e9877454250563189a",
+        "results/segmentation_protected/qualitative/panel_metrics.json": "abe6e204b1aab6d662b29403a284bda706616b498738a179ea08221166c78516",
+        "results/segmentation_protected/qualitative/prespecified_examples.pdf": "d4a3444cf4a1842036438844773a7d2673f9a49f04ca6c562b53fd3e59f1d151",
+        "results/segmentation_protected/qualitative/prespecified_examples.png": "7bf80735640a714fc9ad4b84453f5dc5fc25211e435d9b1aeaf293f23e79f314",
+        "results/segmentation_protected/qualitative/verification.json": "5e407e40b50db4fc1c1ae65021eadbb9668c579d2e51d9a6df67a2ca36dd6277"
+      },
+      "plotted_rows": 12,
+      "outputs": {
+        "fig19_prespecified_qualitative.png": "7bf80735640a714fc9ad4b84453f5dc5fc25211e435d9b1aeaf293f23e79f314",
+        "fig19_prespecified_qualitative.pdf": "d4a3444cf4a1842036438844773a7d2673f9a49f04ca6c562b53fd3e59f1d151",
+        "fig19_prespecified_qualitative.svg": "a7590bcf5aa46cec50f15d9ed8d904910bebcbf9a2ffd274072c8fe64de13021",
+        "data/fig19_prespecified_qualitative.csv": "88bd7762c80d62a60d029ef452b5932ff821c8271baf6151a8b73d09a58a1244"
+      }
+    },
+    {
+      "number": 20,
+      "stem": "fig20_cache_throughput",
+      "title": "Lossless cache throughput",
+      "caption": "Measured training-segment throughput and latency for original volume caches versus verified voxel-exact slab caches. Each model/format used 10 warmup and 100 timed microbatches with batch size four and accumulation two. The measured throughput ratios are approximately 4.02\u00d7 for QMMF and 3.51\u00d7 for HeMIS-style. These are single bounded measurements, not repeated-run confidence estimates.",
+      "interpretation": "The speedups apply to the timed training segment and must not be described as end-to-end experiment speedups.",
+      "suggested_placement": "Supplement / implementation efficiency",
+      "sources": {
+        "results/optimization/kaggle_training_io/completion.json": "64994ced7e3a1a3ada593430595a623c5cacbddc47f928122a838c883a3eacfc",
+        "results/optimization/kaggle_training_io/timing_comparison.csv": "d2034c54bfd5b5dc25eed8a037383c616a8cb506f5802a3a9f38c9e11727978c"
+      },
+      "plotted_rows": 4,
+      "outputs": {
+        "fig20_cache_throughput.png": "7627f4ba45b6164c9188731ee1b818f0afa8dbfc537810ab0c3dbd21e19ba607",
+        "fig20_cache_throughput.pdf": "633c5e3b126b7ab92fb17585870a1b1a71b649bee4278deb843d98e4628438a1",
+        "fig20_cache_throughput.svg": "44e67d3ac1ab197b654052c7919989d3bb6ed11c662881cb1b44844dd3bf87be",
+        "data/fig20_cache_throughput.csv": "bbcaff7ef3543b68599e72e1c9957c5a14d952df3a6d518e8b8c294a371207fb"
+      }
+    }
+  ]
+}

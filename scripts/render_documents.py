@@ -73,6 +73,8 @@ def convert(path):
         if isinstance(node, NavigableString):
             continue
         if re.fullmatch(r"h[1-6]", node.name or ""):
+            if path.stem == "FIGURE_CATALOG" and node.name == "h2" and node.get_text().startswith("Figure "):
+                doc.add_page_break()
             doc.add_heading(node.get_text(), min(int(node.name[1]), 3))
         elif node.name == "p":
             img = node.find("img")
