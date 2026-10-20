@@ -1,0 +1,16 @@
+% ASGARD/Loki draft (verified numbers, humanized)
+\section{Experimental Setup}
+\label{sec:setup}
+
+\paragraph{Variant matrix.}
+The main matrix comprises nine variants: QMMF; no-quality (the gate loses the descriptor but retains pooled-feature and identity gating; 1{,}220{,}569 parameters); shuffled-quality (descriptors donated by a different training group through a fixed donor mapping, fitted at training time only); matched moment fusion (equal available weights, mean plus dispersion, widened final scale to 168 channels; 1{,}227{,}977 parameters, $+0.53\%$); no-variance; no-max; no-consistency (coefficient zeroed, EMA teacher removed); a HeMIS-style 2.5D model; and a U-Net 2.5D model, named for the encoder--decoder family~\cite{ronneberger2015unet}. The two comparator families are local implementations without auxiliary deep-supervision heads, so their cross-family contrasts change architecture and effective objective together; the same-family controls preserve QMMF's auxiliary heads and provide the closer tests of the fusion and descriptor claims.
+
+\paragraph{Training budget.}
+All 27 main fits use five-slice 2.5D context, $192{\times}192$ crops, seeds 42/43/44, 120 epochs of 100 microbatches, AdamW (learning rate $3{\times}10^{-4}$, weight decay $10^{-3}$), batch size 4 with accumulation 2---6{,}000 scheduled optimizer steps per fit. Inner validation runs every ten epochs; checkpoints are selected by the declared inner-selection score without reference to reserved outcomes, and all fits reached the epoch budget.
+
+\paragraph{Endpoints.}
+WT, TC and ET Dice use a frozen nonempty-reference rule. The headline full-modality score forms each case's regional macro, averages cases within groups, then weights groups equally; regional tables have their own nonempty denominators and do not reconstruct the case-first headline. Missing-modality evaluation masks channels after complete four-channel preprocessing and covers all 15 nonempty subsets. Development subset evaluation uses 16 fixed group representatives; reserved subset evaluation uses 51. Mean-subset Dice averages each representative's subset scores before averaging groups; worst-subset Dice takes each representative's minimum first. The all-four-subset cell is therefore not identical to the headline score computed over all 66 reserved cases.
+
+\paragraph{Uncertainty.}
+Paired uncertainty uses 10{,}000 bootstrap draws of conservative groups, retaining all three seeds within each draw; seed SD is reported separately. Main-ablation intervals adjust for eight QMMF--control contrasts per endpoint; reserved intervals adjust for three controls per endpoint. The adjustment is not a global guarantee across all endpoints and exploratory analyses, and neither slices nor repeated seed/group records are treated as independent patients.
+

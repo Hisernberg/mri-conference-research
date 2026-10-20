@@ -1,0 +1,60 @@
+% =====================================================================
+% Evaluating Quality Conditioning for MRI Segmentation with Missing
+% Modalities — venue-neutral conference manuscript (two-column, 10pt).
+% Assembled by ASGARD Research Hub (Thor council + Loki writing pipeline).
+% Compile: tectonic main.tex
+% =====================================================================
+\documentclass[10pt,twocolumn]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=2.0cm,top=2.2cm,bottom=2.4cm,columnsep=0.65cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{enumitem}
+\setlist{itemsep=2pt,topsep=3pt,leftmargin=*}
+\graphicspath{{figures/}}
+% float tuning: let figures and tables land near their references
+\renewcommand{\topfraction}{0.92}
+\renewcommand{\bottomfraction}{0.85}
+\renewcommand{\textfraction}{0.06}
+\renewcommand{\floatpagefraction}{0.80}
+\setcounter{topnumber}{4}
+\setcounter{totalnumber}{6}
+
+\title{\textbf{Evaluating Quality Conditioning for MRI Segmentation with Missing Modalities: An Audited, Seed-Repeated Negative Result}}
+\author{Nabid Nur\\[-1pt]
+\small Independent Researcher}
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+\noindent Quality descriptors promise adaptive fusion when MRI sequences are missing, yet their reported gains are seldom tested against controls that preserve the surrounding training system. We test the idea directly. Our target is quality-conditioned moment fusion (QMMF), a 1{,}221{,}465-parameter 2.5D network that gates four MRI modalities with seven intensity-quality proxies, evaluated under an audit-first protocol built to isolate the question. A provenance audit of 484 canonical case IDs exposed rescaled copies crossing the original case-ID splits. We therefore rebuild the study on 262 conservative image-similarity groups; retrain nine variants across three fixed seeds (27 fits)---including a shuffled-quality negative control, capacity-matched moment fusion, and HeMIS-style and U-Net 2.5D comparators---and evaluate four prespecified model families on a 66-case reserved cohort in 51 groups, covering all 15 nonempty modality subsets. The result is negative. On the reserved cohort, removing quality features outperforms QMMF on full-modality group Dice (0.7769$\pm$0.0007 vs.\ 0.7689$\pm$0.0055; adjusted difference $-0.0080$, group-bootstrap CI $[-0.0133,-0.0028]$) and on mean- and worst-subset Dice; the no-quality control also holds the higher descriptive mean in all 15 modality combinations. Main-development ablations agree: no adjusted contrast establishes a QMMF advantage, capacity-matched moment fusion without learned gates is stronger on worst-subset Dice, and a 15-group historical-exposure sensitivity leaves the full-modality comparison uncertain. We release the complete evidence chain---27 development fits, 12 reserved evaluations, 20 executed result figures, and a claim--evidence map---as a reproducibility package for a negative result.
+\end{abstract}
+
+\input{sections/intro}
+\input{sections/related}
+\input{sections/data}
+\input{sections/method}
+\input{sections/setup}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/limits}
+\input{sections/conclusion}
+\input{sections/repro}
+
+\bibliographystyle{unsrtnat}
+\bibliography{refs}
+
+\input{sections/app_class}
+\input{sections/app_assembly}
+\input{sections/app_claims}
+
+\end{document}

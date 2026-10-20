@@ -1,0 +1,41 @@
+% ASGARD/Loki draft (verified numbers, humanized)
+\section{Claim--Evidence Map}
+\label{app:claims}
+
+Table~\ref{tab:claims} maps the repository's seventeen verified claims to the sections and evidence that carry them, retaining each claim's recorded limitation.
+
+\begin{table*}[tp]
+\centering
+\scriptsize
+\caption{Claim--evidence traceability (repository release v1.2.0). Evidence paths are relative to the repository root.}
+\label{tab:claims}
+\begin{tabular}{lp{5.6cm}lp{4.2cm}}
+\toprule
+ID & Supported statement & Evidence & Retained limitation \\
+\midrule
+C01 & Audit found 484 case IDs in 262 conservative groups. & segmentation\_audit/grouped\_v2 & groups $\ne$ verified patients \\
+C02 & Nine variants $\times$ three seeds completed on fold 0. & segmentation\_main/combination\_verification & not four-fold CV \\
+C03 & Reserved comparisons favour no quality on all three endpoints. & segmentation\_protected deltas & 3 controls per endpoint \\
+C04 & No quality higher in all 15 modality subsets. & modality\_subset\_summary & no per-subset tests \\
+C05 & Both ET-empty cases: false-positive ET for every model/seed. & all\_full\_case\_metrics & 24 observations \\
+C06 & Historical sensitivity leaves full/mean uncertain. & historical\_sensitivity deltas & exploratory, overlapping \\
+C07 & Qualitative montage: 3 prespecified cases, seed 42. & qualitative/verification & exposure on BRATS\_143 \\
+C08 & Cache: 4.02$\times$ QMMF, 3.51$\times$ HeMIS throughput. & kaggle\_training\_io timing & bounded segment only \\
+C09 & Full classifier macro F1 0.7745. & classification/model\_summary & separate benchmark \\
+C10 & Classifier advantage over narrow ResNet uncertain. & classification paired deltas & unadjusted intervals \\
+C11 & Cross-family contrasts confound architecture with objectives. & effective\_objectives audit & same-family controls closer \\
+C12 & No external clinical cohort or reproduced modern comparator. & related-work report & no SOTA claim \\
+C13 & QMMF: four fusion scales, 1{,}221{,}465 parameters. & architecture\_manifest & synthetic shape trace \\
+C14 & Consistency favours main mean-subset Dice ($+0.0050$). & segmentation\_main deltas & development only \\
+C15 & Matched moment beats QMMF on main worst-subset Dice. & segmentation\_main deltas & $+0.53\%$ parameters \\
+C16 & RQ wording organises evidence retrospectively. & dated experiment plan & no retrospective preregistration \\
+C17 & QMMF beats shuffled quality on main worst-subset ($+0.0161$). & segmentation\_main deltas & not benefit over omission \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\section{Supplementary Figure Catalogue}
+\label{app:gallery}
+
+The repository gallery ships 20 executed visualisations, each with PNG, PDF and SVG exports, a plotted-data CSV, a full caption and source-file hashes. The main paper uses Figures~2, 8, 11, 12, 14, 17 and 18; Figure~6 appears in Appendix~\ref{app:class}. The remaining plates---dataset audit (01), training and selection curves (09), compute profiles (10), regional Dice (13), modality Shapley values (15), group heterogeneity (16), the prespecified qualitative montage (19, with attribution) and cache throughput (20)---are retained in the repository's figure atlas as the complete supplement.
+

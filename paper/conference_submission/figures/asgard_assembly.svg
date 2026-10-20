@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1356" height="400" viewBox="0 0 1356 400" role="img" aria-labelledby="diagram-title diagram-description">
+<title id="diagram-title">ASGARD manuscript assembly pipeline</title>
+<desc id="diagram-description">Thor council + Loki writing chain — MRI quality-conditioning study. evidence: Evidence audit
++ verified tables ; persona: Loki drafting
+(4,096 personas) ; humanize: Humanizer
+(AI-sign control) ; integrity: Integrity suite
+(overlap, claims) ; council: Thor council
+(gate 8.5 / 8.1) ; compile: Tectonic
+LaTeX compile . evidence to persona:  (data); persona to humanize:  (data); humanize to integrity:  (data); integrity to council:  (data); council to compile:  (data); council to persona: revise (control)</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9" fill="none" stroke="#303030" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<g font-family="Latin Modern Roman, Times New Roman, serif">
+<text x="48" y="50" fill="#141414" font-size="29" font-weight="700" text-anchor="start">ASGARD manuscript assembly pipeline</text>
+<text x="48" y="77" fill="#505050" font-size="13" font-weight="400" text-anchor="start">Thor council + Loki writing chain — MRI quality-conditioning study</text>
+<path d="M 48 104 h 28" stroke="#303030" stroke-width="1.7" fill="none" stroke-dasharray=""/>
+<text x="84" y="108" fill="#505050" font-size="10.5" font-weight="400" text-anchor="start">Data flow</text>
+<path d="M 188 104 h 28" stroke="#303030" stroke-width="1.7" fill="none" stroke-dasharray="7 5"/>
+<text x="224" y="108" fill="#505050" font-size="10.5" font-weight="400" text-anchor="start">Control</text>
+<path d="M 316 104 h 28" stroke="#303030" stroke-width="1.7" fill="none" stroke-dasharray="2 5"/>
+<text x="352" y="108" fill="#505050" font-size="10.5" font-weight="400" text-anchor="start">Feedback</text>
+<path d="M 216 248 L 236 248 L 256 248" stroke="#303030" stroke-width="1.8" fill="none" stroke-dasharray="" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 432 248 L 452 248 L 472 248" stroke="#303030" stroke-width="1.8" fill="none" stroke-dasharray="" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 648 248 L 668 248 L 688 248" stroke="#303030" stroke-width="1.8" fill="none" stroke-dasharray="" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 864 248 L 884 248 L 904 248" stroke="#303030" stroke-width="1.8" fill="none" stroke-dasharray="" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 1080 248 L 1100 248 L 1120 248" stroke="#303030" stroke-width="1.8" fill="none" stroke-dasharray="" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<path d="M 904 248 L 668 248 L 432 248" stroke="#303030" stroke-width="1.8" fill="none" stroke-dasharray="7 5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#arrow)"/>
+<g id="node-evidence" data-role="input"><title>Evidence audit
++ verified tables: </title>
+<rect x="40" y="200" width="176" height="96" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.6"/>
+<path d="M 52 214 v 68" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+<text x="128" y="244" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">Evidence audit</text>
+<text x="128" y="262" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">+ verified tables</text>
+</g>
+<g id="node-persona" data-role="compute"><title>Loki drafting
+(4,096 personas): </title>
+<rect x="256" y="200" width="176" height="96" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.6"/>
+<path d="M 268 214 v 68" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+<text x="344" y="244" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">Loki drafting</text>
+<text x="344" y="262" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">(4,096 personas)</text>
+</g>
+<g id="node-humanize" data-role="compute"><title>Humanizer
+(AI-sign control): </title>
+<rect x="472" y="200" width="176" height="96" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.6"/>
+<path d="M 484 214 v 68" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+<text x="560" y="244" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">Humanizer</text>
+<text x="560" y="262" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">(AI-sign control)</text>
+</g>
+<g id="node-integrity" data-role="compute"><title>Integrity suite
+(overlap, claims): </title>
+<rect x="688" y="200" width="176" height="96" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.6"/>
+<path d="M 700 214 v 68" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+<text x="776" y="244" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">Integrity suite</text>
+<text x="776" y="262" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">(overlap, claims)</text>
+</g>
+<g id="node-council" data-role="model"><title>Thor council
+(gate 8.5 / 8.1): </title>
+<rect x="904" y="200" width="176" height="96" rx="0" fill="#F7F7F7" stroke="#222222" stroke-width="1.6"/>
+<path d="M 916 214 v 68" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+<text x="992" y="244" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">Thor council</text>
+<text x="992" y="262" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">(gate 8.5 / 8.1)</text>
+</g>
+<g id="node-compile" data-role="output"><title>Tectonic
+LaTeX compile: </title>
+<rect x="1120" y="200" width="176" height="96" rx="0" fill="#FFFFFF" stroke="#222222" stroke-width="1.6"/>
+<path d="M 1132 214 v 68" stroke="#222222" stroke-width="3" stroke-linecap="round"/>
+<text x="1208" y="244" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">Tectonic</text>
+<text x="1208" y="262" fill="#141414" font-size="15" font-weight="600" text-anchor="middle">LaTeX compile</text>
+</g>
+<rect x="641.1" y="227" width="53.8" height="20" rx="5" fill="#FFFFFF"/>
+<text x="668" y="241" fill="#505050" font-size="11" font-weight="500" text-anchor="middle">revise</text>
+<text x="48" y="378" fill="#505050" font-size="11" font-weight="400" text-anchor="start">Rendered by ArchDiagram Studio v2.0.0 (vendored) via ASGARD/Loki</text>
+</g></svg>

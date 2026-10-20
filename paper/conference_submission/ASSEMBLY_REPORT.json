@@ -1,0 +1,445 @@
+{
+  "run": "mri_conference_paper",
+  "started": "2026-10-20T21:49:08.508122+00:00",
+  "registry": {
+    "counts": {
+      "thor": 5001024,
+      "loki": 5001024
+    },
+    "council": [
+      "THOR-COUNCIL-0005",
+      "THOR-COUNCIL-0004",
+      "THOR-COUNCIL-0006",
+      "THOR-COUNCIL-0001",
+      "THOR-COUNCIL-0012",
+      "THOR-COUNCIL-0011",
+      "THOR-COUNCIL-0000",
+      "THOR-COUNCIL-0010",
+      "THOR-COUNCIL-0007"
+    ]
+  },
+  "personas": {
+    "abstract": [
+      {
+        "org": "Meta FAIR",
+        "venue": ""
+      },
+      {
+        "org": "Salesforce Research",
+        "venue": ""
+      },
+      {
+        "org": "DeepMind",
+        "venue": ""
+      }
+    ],
+    "introduction": [
+      {
+        "org": "IBM Research",
+        "venue": ""
+      },
+      {
+        "org": "OpenAI",
+        "venue": ""
+      },
+      {
+        "org": "Google Research / Brain",
+        "venue": ""
+      }
+    ],
+    "related work": [
+      {
+        "org": "DeepMind",
+        "venue": ""
+      },
+      {
+        "org": "xAI",
+        "venue": ""
+      },
+      {
+        "org": "xAI",
+        "venue": ""
+      }
+    ],
+    "methods": [
+      {
+        "org": "IBM Research",
+        "venue": ""
+      },
+      {
+        "org": "Amazon Science",
+        "venue": ""
+      },
+      {
+        "org": "Google Research / Brain",
+        "venue": ""
+      }
+    ],
+    "results": [
+      {
+        "org": "NVIDIA Research",
+        "venue": ""
+      },
+      {
+        "org": "Qwen-style Lab",
+        "venue": ""
+      },
+      {
+        "org": "Academic Lab (MIT/Stanford style)",
+        "venue": ""
+      }
+    ],
+    "discussion": [
+      {
+        "org": "Stanford HAI",
+        "venue": ""
+      },
+      {
+        "org": "OpenAI",
+        "venue": ""
+      },
+      {
+        "org": "Stability-style Lab",
+        "venue": ""
+      }
+    ],
+    "conclusion": [
+      {
+        "org": "NVIDIA Research",
+        "venue": ""
+      },
+      {
+        "org": "Stability-style Lab",
+        "venue": ""
+      },
+      {
+        "org": "OpenAI",
+        "venue": ""
+      }
+    ]
+  },
+  "humanizer": {
+    "ABSTRACT": {
+      "ai_sign_before": 0,
+      "ai_sign_after": 0,
+      "humanized": false,
+      "reason": "math-heavy, skipped",
+      "missing_numbers": []
+    },
+    "INTRO": {
+      "ai_sign_before": 5.8,
+      "ai_sign_after": 5.8,
+      "humanized": true,
+      "missing_numbers": [],
+      "dollar_invariant": true
+    },
+    "RELATED": {
+      "ai_sign_before": 0,
+      "ai_sign_after": 0,
+      "humanized": true,
+      "missing_numbers": [],
+      "dollar_invariant": true
+    },
+    "DATA": {
+      "ai_sign_before": 0,
+      "ai_sign_after": 0,
+      "humanized": false,
+      "reason": "math-heavy, skipped",
+      "missing_numbers": []
+    },
+    "METHOD": {
+      "ai_sign_before": 0,
+      "ai_sign_after": 0,
+      "humanized": false,
+      "reason": "math-heavy, skipped",
+      "missing_numbers": []
+    },
+    "SETUP": {
+      "ai_sign_before": 0,
+      "ai_sign_after": 0,
+      "humanized": false,
+      "reason": "math-heavy, skipped",
+      "missing_numbers": []
+    },
+    "RESULTS": {
+      "ai_sign_before": 0,
+      "ai_sign_after": 0,
+      "humanized": false,
+      "reason": "math-heavy, skipped",
+      "missing_numbers": []
+    },
+    "DISCUSSION": {
+      "ai_sign_before": 13.5,
+      "ai_sign_after": 20.4,
+      "humanized": false,
+      "missing_numbers": [],
+      "dollar_invariant": true
+    },
+    "LIMITS": {
+      "ai_sign_before": 0,
+      "ai_sign_after": 0,
+      "humanized": true,
+      "missing_numbers": [],
+      "dollar_invariant": true
+    },
+    "CONCLUSION": {
+      "ai_sign_before": 0,
+      "ai_sign_after": 0,
+      "humanized": true,
+      "missing_numbers": [],
+      "dollar_invariant": true
+    },
+    "REPRO": {
+      "ai_sign_before": 36.0,
+      "ai_sign_after": 36.0,
+      "humanized": true,
+      "missing_numbers": [],
+      "dollar_invariant": true
+    }
+  },
+  "integrity": {
+    "similarity": {
+      "similarity_index": 0.0,
+      "n_grams": 7682,
+      "n_quotes": 0,
+      "worst_source_pct": 0.0,
+      "matched_sources": [],
+      "band": "green",
+      "policy": "green <10%, yellow 10-20% (rewrite flagged), red >20%; quotes <=140 chars excluded as attributed quotation; worst_source_pct >15% forces a rewrite of the touched passage even when the aggregate is green"
+    },
+    "self_overlap": {
+      "flagged_pairs": [],
+      "threshold_pct": 5.0,
+      "verdict": "clean"
+    },
+    "citation_coverage": {
+      "coverage_pct": 0.0,
+      "per_section": {
+        "abstract": {
+          "sentences": 7,
+          "cited": 0
+        },
+        "intro": {
+          "sentences": 18,
+          "cited": 0
+        },
+        "related": {
+          "sentences": 8,
+          "cited": 0
+        },
+        "data": {
+          "sentences": 8,
+          "cited": 0
+        },
+        "method": {
+          "sentences": 12,
+          "cited": 0
+        },
+        "setup": {
+          "sentences": 13,
+          "cited": 0
+        },
+        "results": {
+          "sentences": 24,
+          "cited": 0
+        },
+        "discussion": {
+          "sentences": 9,
+          "cited": 0
+        },
+        "limits": {
+          "sentences": 7,
+          "cited": 0
+        },
+        "conclusion": {
+          "sentences": 4,
+          "cited": 0
+        },
+        "repro": {
+          "sentences": 6,
+          "cited": 0
+        },
+        "appendix_class": {
+          "sentences": 4,
+          "cited": 0
+        },
+        "appendix_assembly": {
+          "sentences": 5,
+          "cited": 0
+        },
+        "appendix_claims": {
+          "sentences": 4,
+          "cited": 0
+        }
+      },
+      "policy": "results/related sections should cite >= 60% of sentences"
+    },
+    "claim_ledger": {
+      "claims_total": 10,
+      "supported": 1,
+      "support_rate_pct": 10.0,
+      "unsupported": [
+        {
+          "section": "abstract",
+          "claim": "Quality descriptors promise adaptive fusion when MRI sequences are missing, yet their reported gains are seldom tested against controls that preserve the surrounding training syste"
+        },
+        {
+          "section": "abstract",
+          "claim": "On the reserved cohort, removing quality features outperforms QMMF on full-modality group Dice (0.7769X0.0007 vs.\\ 0.7689X0.0055; adjusted difference X, group-bootstrap CI X) and o"
+        },
+        {
+          "section": "intro",
+          "claim": "HeMIS demonstrated that modality-specific latent representations can be combined statistically when inputs are absent ; shared/specific factorisations, masked-autoencoder pretraini"
+        },
+        {
+          "section": "intro",
+          "claim": "A quality-conditioned gate arrives bundled with capacity changes, auxiliary objectives, repaired preprocessing semantics and partition choices, and each of those confounds can manu"
+        },
+        {
+          "section": "intro",
+          "claim": "Do learned feature moments improve over simpler fusion at similar capacity?"
+        },
+        {
+          "section": "intro",
+          "claim": "Does complete-input EMA-teacher consistency improve subset robustness?"
+        },
+        {
+          "section": "intro",
+          "claim": "Modality statistics and dynamic gates have substantial prior art , and the tested component combination establishes no first-of-its-kind or state-of-the-art claim; the negative fin"
+        },
+        {
+          "section": "results",
+          "claim": "On outer development, QMMF achieved full-modality group Dice of 0.8052X0.0028 against 0.8106X0.0042 for no quality (Table ); no adjusted same-family contrast established a QMMF adv"
+        },
+        {
+          "section": "conclusion",
+          "claim": "Broader generalisation, and any novelty or state-of-the-art claim, requires additional evidence."
+        }
+      ],
+      "policy": "claims should cite results, tables, or protocol artifacts"
+    },
+    "coherence": {
+      "terminology_drift": [],
+      "transitions": {
+        "abstract": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "intro": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "related": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "data": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "method": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "setup": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "results": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "discussion": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "limits": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "conclusion": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "repro": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "appendix_class": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "appendix_assembly": {
+          "paragraphs": 1,
+          "with_transition": 0
+        },
+        "appendix_claims": {
+          "paragraphs": 1,
+          "with_transition": 0
+        }
+      },
+      "canonical_order_present": [
+        "abstract",
+        "intro",
+        "related",
+        "method",
+        "results",
+        "discussion",
+        "conclusion"
+      ],
+      "order_ok": true
+    },
+    "notation": {
+      "redefined_symbols": {},
+      "subscripted_symbols": 0,
+      "verdict": "clean"
+    },
+    "ai_sign": {
+      "enabled": false,
+      "per_section": {},
+      "worst_band": "unknown"
+    },
+    "verdict": "NEEDS REVISION",
+    "verdict_rule": "green similarity AND worst source <=15% AND no self-overlap AND canonical section order AND claim support >= 50% AND no ai-band section"
+  },
+  "council": {
+    "mean": 8.93,
+    "median": 8.83,
+    "n_scores": 9,
+    "spread": 0.68,
+    "gate_pass": true,
+    "majority_objections": [],
+    "top_objections": [
+      "baselines could be stronger; strongest recent rival missing",
+      "novelty delta overlaps the nearest prior work more than admitted",
+      "compute feasibility on the declared GPU is tight",
+      "variance reporting is missing; seeds not enumerated",
+      "contamination audit of the benchmark is absent"
+    ]
+  },
+  "compile": {
+    "pdf": "/home/z/my-project/asgard_paper_run/mri_paper/main.pdf",
+    "bytes": 397801,
+    "stats": {
+      "sections": {
+        "app_assembly": 144,
+        "app_claims": 407,
+        "app_class": 194,
+        "conclusion": 107,
+        "data": 254,
+        "discussion": 289,
+        "intro": 494,
+        "limits": 175,
+        "method": 576,
+        "related": 234,
+        "repro": 151,
+        "results": 966,
+        "setup": 353
+      },
+      "total_words": 4344,
+      "pages": 6
+    }
+  },
+  "finished": "2026-10-20T21:49:14.684519+00:00",
+  "wall_seconds": 6.2
+}
